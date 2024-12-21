@@ -2,7 +2,7 @@
   "modules": [
     {
       "key": "tryton-community/account_es_facturae",
-      "package_name": "trytond-account_es_facturae",
+      "package_name": "trytoncommunity_account_es_facturae",
       "url": "https://foss.heptapod.net/tryton-community/modules/account_es_facturae",
       "tags": [
         "accounting"
