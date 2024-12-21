@@ -7,6 +7,7 @@
     <nav class="flex gap-4 justify-center py-4">
       <a @click="$router.push('/home')">HOME</a>
       <a @click="$router.push('/modules')">MODULES</a>
+      <a href="https://github.com/tiyujopite/tryton-module-index" target="_blank">CONTRIBUTE</a>
     </nav>
   </header>
 </template>
