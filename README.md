@@ -45,7 +45,9 @@ For example:
 ```
 
 - Make sure to:
+
 -- `python api check new_author/my_module new_author/my_module2 ...` has been executed without any errors.
+
 -- NOT modify `src/assets/modules-lock.json`.
 
 #### Send a request improving the web or process
