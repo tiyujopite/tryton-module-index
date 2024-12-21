@@ -26,7 +26,7 @@ export default {
           </tr>
           <tr class="border-b p-1.5 hover:bg-gray-50">
             <td class="font-bold w-auto border-r p-1.5">Package name:</td>
-            <td class="pl-2 p-1.5">{{ module.package_name }}</td>
+            <td class="pl-2 p-1.5 break-all">{{ module.package_name }}</td>
           </tr>
           <tr class="border-b p-1.5 hover:bg-gray-50">
             <td class="font-bold w-auto border-r p-1.5">URL:</td>

@@ -21,7 +21,7 @@ export default {
   @click="$router.push(`/module?author=${author}&name=${name}`)">
     <h5 class="text-lg pl-1 font-bold break-all">{{ name }}</h5>
     <div class="flex mt-1">
-      <div class="flex gap-1 rounded-lg border border-gray-200 p-1 pr-1.5 h-8 bg-white" title="Author">
+      <div class="flex gap-1 rounded-lg border border-gray-200 p-1 pr-1.5 h-8 break-keep bg-white" title="Author">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>Author</title><path d="M12,4A4,4 0 0,1 16,8A4,4 0 0,1 12,12A4,4 0 0,1 8,8A4,4 0 0,1 12,4M12,14C16.42,14 20,15.79 20,18V20H4V18C4,15.79 7.58,14 12,14Z" /></svg>
         <span>{{ author }}</span>
       </div>
