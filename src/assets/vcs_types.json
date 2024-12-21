@@ -1,0 +1,7 @@
+{
+  "vcs_types": {
+    "foss.heptapod.net": "gitlab",
+    "github.com": "github",
+    "gitlab.com": "gitlab"
+  }
+}

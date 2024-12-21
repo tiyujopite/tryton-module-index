@@ -1,0 +1,47 @@
+name: Run check
+
+on:
+  pull_request:
+    paths:
+      - 'src/assets/modules.json'
+    branches:
+      - main
+
+jobs:
+  run-python-script:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 10
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r api/requirements.txt
+
+      - name: Extract arguments from new commits
+        id: extract_args
+        run: |
+          # Obtener los commits del PR
+          COMMITS=$(curl -s "https://api.github.com/repos/${{ github.repository }}/pulls/${{ github.event.pull_request.number }}/commits" | jq -r '.[].sha')
+
+          ARGS=""
+          for COMMIT in $COMMITS; do
+            DIFF=$(git show $COMMIT -- src/assets/modules.json || true)
+            NEW_KEYS=$(echo "$DIFF" | grep '^+' | grep '"key"' | sed -E 's/.*"key": *"([^"]+)".*/\1/' || true)
+            ARGS="$ARGS $NEW_KEYS"
+          done
+
+          ARGS=$(echo "$ARGS" | tr -s ' ')
+          echo "commit_args=$ARGS" >> $GITHUB_OUTPUT
+
+      - name: Run Python script with arguments
+        run: python api check ${{ steps.extract_args.outputs.commit_args }}
