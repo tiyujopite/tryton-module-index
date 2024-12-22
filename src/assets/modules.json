@@ -7,6 +7,406 @@
       "tags": [
         "accounting"
       ]
+    },
+    {
+      "key": "m9s/nereid_base",
+      "package_name": "m9s_nereid_base",
+      "url": "https://gitlab.com/m9s/nereid_base"
+    },
+    {
+      "key": "m9s/position_numbers",
+      "package_name": "m9s_position_numbers",
+      "url": "https://gitlab.com/m9s/position_numbers"
+    },
+    {
+      "key": "m9s/health_vara",
+      "package_name": "m9s_health_vara",
+      "url": "https://gitlab.com/m9s/health_vara"
+    },
+    {
+      "key": "m9s/stock_inventory_expected_quantity",
+      "package_name": "m9s_stock_inventory_expected_quantity",
+      "url": "https://gitlab.com/m9s/stock_inventory_expected_quantity"
+    },
+    {
+      "key": "m9s/carrier_api_ups",
+      "package_name": "m9s_carrier_api_ups",
+      "url": "https://gitlab.com/m9s/carrier_api_ups"
+    },
+    {
+      "key": "m9s/stock_package_rate_ups",
+      "package_name": "m9s_stock_package_rate_ups",
+      "url": "https://gitlab.com/m9s/stock_package_rate_ups"
+    },
+    {
+      "key": "m9s/stock_package_rate",
+      "package_name": "m9s_stock_package_rate",
+      "url": "https://gitlab.com/m9s/stock_package_rate"
+    },
+    {
+      "key": "m9s/sale_channel_price_list",
+      "package_name": "m9s_sale_channel_price_list",
+      "url": "https://gitlab.com/m9s/sale_channel_price_list"
+    },
+    {
+      "key": "m9s/account_invoice_report_filestore",
+      "package_name": "m9s_account_invoice_report_filestore",
+      "url": "https://gitlab.com/m9s/account_invoice_report_filestore"
+    },
+    {
+      "key": "m9s/stock_package_shipping_sale_wizard",
+      "package_name": "m9s_stock_package_shipping_sale_wizard",
+      "url": "https://gitlab.com/m9s/stock_package_shipping_sale_wizard"
+    },
+    {
+      "key": "m9s/country_zip",
+      "package_name": "m9s_country_zip",
+      "url": "https://gitlab.com/m9s/country_zip"
+    },
+    {
+      "key": "m9s/purchase_supplier_discount",
+      "package_name": "m9s_purchase_supplier_discount",
+      "url": "https://gitlab.com/m9s/purchase_supplier_discount"
+    },
+    {
+      "key": "m9s/webdav",
+      "package_name": "m9s_webdav",
+      "url": "https://gitlab.com/m9s/webdav"
+    },
+    {
+      "key": "m9s/smtp",
+      "package_name": "m9s_smtp",
+      "url": "https://gitlab.com/m9s/smtp"
+    },
+    {
+      "key": "m9s/translation_override_de",
+      "package_name": "m9s_translation_override_de",
+      "url": "https://gitlab.com/m9s/translation_override_de"
+    },
+    {
+      "key": "m9s/printer_cups",
+      "package_name": "m9s_printer_cups",
+      "url": "https://gitlab.com/m9s/printer_cups"
+    },
+    {
+      "key": "m9s/account_invoice_purchase_supplier",
+      "package_name": "m9s_account_invoice_purchase_supplier",
+      "url": "https://gitlab.com/m9s/account_invoice_purchase_supplier"
+    },
+    {
+      "key": "m9s/purchase_supplier_lead_time",
+      "package_name": "m9s_purchase_supplier_lead_time",
+      "url": "https://gitlab.com/m9s/purchase_supplier_lead_time"
+    },
+    {
+      "key": "m9s/stock_package_shipping_gls",
+      "package_name": "m9s_stock_package_shipping_gls",
+      "url": "https://gitlab.com/m9s/stock_package_shipping_gls"
+    },
+    {
+      "key": "m9s/stock_package_shipping_label_filestore",
+      "package_name": "m9s_stock_package_shipping_label_filestore",
+      "url": "https://gitlab.com/m9s/stock_package_shipping_label_filestore"
+    },
+    {
+      "key": "m9s/timesheet_datetime",
+      "package_name": "m9s_timesheet_datetime",
+      "url": "https://gitlab.com/m9s/timesheet_datetime"
+    },
+    {
+      "key": "m9s/project_invoice_pricelist",
+      "package_name": "m9s_project_invoice_pricelist",
+      "url": "https://gitlab.com/m9s/project_invoice_pricelist"
+    },
+    {
+      "key": "m9s/issue_tracker_roundup",
+      "package_name": "m9s_issue_tracker_roundup",
+      "url": "https://gitlab.com/m9s/issue_tracker_roundup"
+    },
+    {
+      "key": "m9s/project_invoice_operation",
+      "package_name": "m9s_project_invoice_operation",
+      "url": "https://gitlab.com/m9s/project_invoice_operation"
+    },
+    {
+      "key": "m9s/sale_delivery_date",
+      "package_name": "m9s_sale_delivery_date",
+      "url": "https://gitlab.com/m9s/sale_delivery_date"
+    },
+    {
+      "key": "m9s/stock_update_planned_date",
+      "package_name": "m9s_stock_update_planned_date",
+      "url": "https://gitlab.com/m9s/stock_update_planned_date"
+    },
+    {
+      "key": "m9s/electronic_mail",
+      "package_name": "m9s_electronic_mail",
+      "url": "https://gitlab.com/m9s/electronic_mail"
+    },
+    {
+      "key": "m9s/account_de_euer_zone",
+      "package_name": "m9s_account_de_euer_zone",
+      "url": "https://gitlab.com/m9s/account_de_euer_zone"
+    },
+    {
+      "key": "m9s/account_tax_rule_zone_eu",
+      "package_name": "m9s_account_tax_rule_zone_eu",
+      "url": "https://gitlab.com/m9s/account_tax_rule_zone_eu"
+    },
+    {
+      "key": "m9s/account_tax_rule_zone",
+      "package_name": "m9s_account_tax_rule_zone",
+      "url": "https://gitlab.com/m9s/account_tax_rule_zone"
+    },
+    {
+      "key": "m9s/party_address_type_strict",
+      "package_name": "m9s_party_address_type_strict",
+      "url": "https://gitlab.com/m9s/party_address_type_strict"
+    },
+    {
+      "key": "m9s/newsletter",
+      "package_name": "m9s_newsletter",
+      "url": "https://gitlab.com/m9s/newsletter"
+    },
+    {
+      "key": "m9s/carrier_weight_volume_combined",
+      "package_name": "m9s_carrier_weight_volume_combined",
+      "url": "https://gitlab.com/m9s/carrier_weight_volume_combined"
+    },
+    {
+      "key": "m9s/nereid_image_transformation",
+      "package_name": "m9s_nereid_image_transformation",
+      "url": "https://gitlab.com/m9s/nereid_image_transformation"
+    },
+    {
+      "key": "m9s/sale_price_with_tax",
+      "package_name": "m9s_sale_price_with_tax",
+      "url": "https://gitlab.com/m9s/sale_price_with_tax"
+    },
+    {
+      "key": "m9s/payment_gateway_paypal",
+      "package_name": "m9s_payment_gateway_paypal",
+      "url": "https://gitlab.com/m9s/payment_gateway_paypal"
+    },
+    {
+      "key": "m9s/account_banking_import_hibiscus",
+      "package_name": "m9s_account_banking_import_hibiscus",
+      "url": "https://gitlab.com/m9s/account_banking_import_hibiscus"
+    },
+    {
+      "key": "m9s/nereid_webshop_elastic_search",
+      "package_name": "m9s_nereid_webshop_elastic_search",
+      "url": "https://gitlab.com/m9s/nereid_webshop_elastic_search"
+    },
+    {
+      "key": "m9s/elastic_search",
+      "package_name": "m9s_elastic_search",
+      "url": "https://gitlab.com/m9s/elastic_search"
+    },
+    {
+      "key": "m9s/sale_stock_only",
+      "package_name": "m9s_sale_stock_only",
+      "url": "https://gitlab.com/m9s/sale_stock_only"
+    },
+    {
+      "key": "m9s/sale_supply_state",
+      "package_name": "m9s_sale_supply_state",
+      "url": "https://gitlab.com/m9s/sale_supply_state"
+    },
+    {
+      "key": "m9s/payment_gateway_stripe",
+      "package_name": "m9s_payment_gateway_stripe",
+      "url": "https://gitlab.com/m9s/payment_gateway_stripe"
+    },
+    {
+      "key": "m9s/shipping",
+      "package_name": "m9s_shipping",
+      "url": "https://gitlab.com/m9s/shipping"
+    },
+    {
+      "key": "m9s/nereid_shipping",
+      "package_name": "m9s_nereid_shipping",
+      "url": "https://gitlab.com/m9s/nereid_shipping"
+    },
+    {
+      "key": "m9s/sale_available_stock",
+      "package_name": "m9s_sale_available_stock",
+      "url": "https://gitlab.com/m9s/sale_available_stock"
+    },
+    {
+      "key": "m9s/product_attribute_strict",
+      "package_name": "m9s_product_attribute_strict",
+      "url": "https://gitlab.com/m9s/product_attribute_strict"
+    },
+    {
+      "key": "m9s/sale_pos_channel",
+      "package_name": "m9s_sale_pos_channel",
+      "url": "https://gitlab.com/m9s/sale_pos_channel"
+    },
+    {
+      "key": "m9s/sale_payment_channel",
+      "package_name": "m9s_sale_payment_channel",
+      "url": "https://gitlab.com/m9s/sale_payment_channel"
+    },
+    {
+      "key": "m9s/sale_channel",
+      "package_name": "m9s_sale_channel",
+      "url": "https://gitlab.com/m9s/sale_channel"
+    },
+    {
+      "key": "m9s/customs_value",
+      "package_name": "m9s_customs_value",
+      "url": "https://gitlab.com/m9s/customs_value"
+    },
+    {
+      "key": "m9s/sale_return",
+      "package_name": "m9s_sale_return",
+      "url": "https://gitlab.com/m9s/sale_return"
+    },
+    {
+      "key": "m9s/sale_payment_gateway",
+      "package_name": "m9s_sale_payment_gateway",
+      "url": "https://gitlab.com/m9s/sale_payment_gateway"
+    },
+    {
+      "key": "m9s/sale_confirmation_email",
+      "package_name": "m9s_sale_confirmation_email",
+      "url": "https://gitlab.com/m9s/sale_confirmation_email"
+    },
+    {
+      "key": "m9s/product_variant",
+      "package_name": "m9s_product_variant",
+      "url": "https://gitlab.com/m9s/product_variant"
+    },
+    {
+      "key": "m9s/nereid_wishlist",
+      "package_name": "m9s_nereid_wishlist",
+      "url": "https://gitlab.com/m9s/nereid_wishlist"
+    },
+    {
+      "key": "m9s/payment_gateway",
+      "package_name": "m9s_payment_gateway",
+      "url": "https://gitlab.com/m9s/payment_gateway"
+    },
+    {
+      "key": "m9s/nereid_webshop",
+      "package_name": "m9s_nereid_webshop",
+      "url": "https://gitlab.com/m9s/nereid_webshop"
+    },
+    {
+      "key": "m9s/nereid_payment_gateway",
+      "package_name": "m9s_nereid_payment_gateway",
+      "url": "https://gitlab.com/m9s/nereid_payment_gateway"
+    },
+    {
+      "key": "m9s/nereid_cms",
+      "package_name": "m9s_nereid_cms",
+      "url": "https://gitlab.com/m9s/nereid_cms"
+    },
+    {
+      "key": "m9s/nereid_checkout",
+      "package_name": "m9s_nereid_checkout",
+      "url": "https://gitlab.com/m9s/nereid_checkout"
+    },
+    {
+      "key": "m9s/nereid_catalog_variants",
+      "package_name": "m9s_nereid_catalog_variants",
+      "url": "https://gitlab.com/m9s/nereid_catalog_variants"
+    },
+    {
+      "key": "m9s/nereid_catalog_tree",
+      "package_name": "m9s_nereid_catalog_tree",
+      "url": "https://gitlab.com/m9s/nereid_catalog_tree"
+    },
+    {
+      "key": "m9s/nereid_catalog",
+      "package_name": "m9s_nereid_catalog",
+      "url": "https://gitlab.com/m9s/nereid_catalog"
+    },
+    {
+      "key": "m9s/nereid_cart_b2c",
+      "package_name": "m9s_nereid_cart_b2c",
+      "url": "https://gitlab.com/m9s/nereid_cart_b2c"
+    },
+    {
+      "key": "m9s/invoice_payment_gateway",
+      "package_name": "m9s_invoice_payment_gateway",
+      "url": "https://gitlab.com/m9s/invoice_payment_gateway"
+    },
+    {
+      "key": "m9s/gift_card",
+      "package_name": "m9s_gift_card",
+      "url": "https://gitlab.com/m9s/gift_card"
+    },
+    {
+      "key": "m9s/email_queue",
+      "package_name": "m9s_email_queue",
+      "url": "https://gitlab.com/m9s/email_queue"
+    },
+    {
+      "key": "m9s/sale_channel_payment_gateway",
+      "package_name": "m9s_sale_channel_payment_gateway",
+      "url": "https://gitlab.com/m9s/sale_channel_payment_gateway"
+    },
+    {
+      "key": "m9s/purchase_discount",
+      "package_name": "m9s_purchase_discount",
+      "url": "https://gitlab.com/m9s/purchase_discount"
+    },
+    {
+      "key": "m9s/account_invoice_discount",
+      "package_name": "m9s_account_invoice_discount",
+      "url": "https://gitlab.com/m9s/account_invoice_discount"
+    },
+    {
+      "key": "m9s/account_de_euer",
+      "package_name": "m9s_account_de_euer",
+      "url": "https://gitlab.com/m9s/account_de_euer"
+    },
+    {
+      "key": "m9s/party_vcarddav",
+      "package_name": "m9s_party_vcarddav",
+      "url": "https://gitlab.com/m9s/party_vcarddav"
+    },
+    {
+      "key": "m9s/calendar",
+      "package_name": "m9s_calendar",
+      "url": "https://gitlab.com/m9s/calendar"
+    },
+    {
+      "key": "m9s/account_de",
+      "package_name": "m9s_account_de",
+      "url": "https://gitlab.com/m9s/account_de"
+    },
+    {
+      "key": "m9s/party_type",
+      "package_name": "m9s_party_type",
+      "url": "https://gitlab.com/m9s/party_type"
+    },
+    {
+      "key": "m9s/account_tax_reverse_charge",
+      "package_name": "m9s_account_tax_reverse_charge",
+      "url": "https://gitlab.com/m9s/account_tax_reverse_charge"
+    },
+    {
+      "key": "m9s/account_tax_recapitulative_statement",
+      "package_name": "m9s_account_tax_recapitulative_statement",
+      "url": "https://gitlab.com/m9s/account_tax_recapitulative_statement"
+    },
+    {
+      "key": "m9s/account_invoice_time_supply",
+      "package_name": "m9s_account_invoice_time_supply",
+      "url": "https://gitlab.com/m9s/account_invoice_time_supply"
+    },
+    {
+      "key": "m9s/account_batch",
+      "package_name": "m9s_account_batch",
+      "url": "https://gitlab.com/m9s/account_batch"
+    },
+    {
+      "key": "m9s/account_banking_import",
+      "package_name": "m9s_account_banking_import",
+      "url": "https://gitlab.com/m9s/account_banking_import"
     }
   ]
 }
