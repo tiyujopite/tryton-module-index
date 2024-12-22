@@ -13,13 +13,13 @@ export default {
   },
   computed: {
     mostStarred() {
-      return [...this.modules].sort((a, b) => b.stars - a.stars).slice(0, 7)
+      return [...this.modules].sort((a, b) => b.stars - a.stars).slice(0, 5)
     },
     random() {
-      return [...this.modules].sort(() => Math.random() - 0.5).slice(0, 7)
+      return [...this.modules].sort(() => Math.random() - 0.5).slice(0, 5)
     },
     lastAdded() {
-      return [...this.modules].sort((a, b) => new Date(b.added_at) - new Date(a.added_at)).slice(0, 7)
+      return [...this.modules].sort((a, b) => new Date(b.added_at) - new Date(a.added_at)).slice(0, 5)
     },
   }
 }
