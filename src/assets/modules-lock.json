@@ -1599,6 +1599,49 @@
       ],
       "updated_at": "2024-03-25",
       "url": "https://foss.heptapod.net/tryton-community/modules/account_es_facturae"
+    },
+    "tryton-community/edocument_es_facturae": {
+      "added_at": "2024-12-22",
+      "author": "tryton-community",
+      "created_at": "2023-12-12",
+      "doc_url": "",
+      "forks": 0,
+      "info_updated_at": "2024-12-22",
+      "license": "gpl-3.0",
+      "name": "edocument_es_facturae",
+      "package_name": "trytoncommunity_edocument_es_facturae",
+      "pypi_available": true,
+      "series": [
+        "6.8"
+      ],
+      "stars": 0,
+      "tags": [
+        "accounting"
+      ],
+      "updated_at": "2024-03-26",
+      "url": "https://foss.heptapod.net/tryton-community/modules/edocument_es_facturae"
+    },
+    "tryton-community/web_shop_woocommerce": {
+      "added_at": "2024-12-22",
+      "author": "tryton-community",
+      "created_at": "2024-07-25",
+      "doc_url": "",
+      "forks": 0,
+      "info_updated_at": "2024-12-22",
+      "license": "gpl-3.0",
+      "name": "web_shop_woocommerce",
+      "package_name": "trytoncommunity_web_shop_woocommerce",
+      "pypi_available": true,
+      "series": [
+        "N/A"
+      ],
+      "stars": 0,
+      "tags": [
+        "sales",
+        "web-shop"
+      ],
+      "updated_at": "2024-12-09",
+      "url": "https://foss.heptapod.net/tryton-community/modules/web_shop_woocommerce"
     }
   }
 }
