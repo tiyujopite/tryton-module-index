@@ -32,6 +32,15 @@ export default {
             <td class="font-bold w-auto border-r p-1.5">URL:</td>
             <td class="pl-2 p-1.5"><a class="hover:underline break-all" :href="module.url" target="_blank">{{ module.url }}</a></td>
           </tr>
+          <tr class="border-b p-1.5 hover:bg-gray-50" v-if="module.pypi_available">
+            <td class="font-bold w-auto border-r p-1.5">PyPI available:</td>
+            <td class="pl-2 p-1.5">
+              <span class="flex gap-1 break-keep" v-if="module.pypi_available">
+                <svg class="h-5 fill-green-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>Yes</title><path d="M23,12L20.56,9.22L20.9,5.54L17.29,4.72L15.4,1.54L12,3L8.6,1.54L6.71,4.72L3.1,5.53L3.44,9.21L1,12L3.44,14.78L3.1,18.47L6.71,19.29L8.6,22.47L12,21L15.4,22.46L17.29,19.28L20.9,18.46L20.56,14.78L23,12M10,17L6,13L7.41,11.59L10,14.17L16.59,7.58L18,9L10,17Z" /></svg>
+                <a class="hover:underline" :href="`https://pypi.org/project/${module.package_name}`" target="_blank">View on PyPI</a>
+              </span>
+            </td>
+          </tr>
           <tr class="border-b p-1.5 hover:bg-gray-50" v-if="module.doc_url">
             <td class="font-bold w-auto border-r p-1.5">Documentation URL:</td>
             <td class="pl-2 p-1.5"><a class="hover:underline break-all" :href="module.doc_url" target="_blank">{{ module.doc_url }}</a></td>
@@ -39,10 +48,6 @@ export default {
           <tr class="border-b p-1.5 hover:bg-gray-50">
             <td class="font-bold w-auto border-r p-1.5">License:</td>
             <td class="pl-2 p-1.5">{{ module.license.toUpperCase() }}</td>
-          </tr>
-          <tr class="border-b p-1.5 hover:bg-gray-50">
-            <td class="font-bold w-auto border-r p-1.5">PyPI available:</td>
-            <td class="pl-2 p-1.5"><input type="checkbox" id="pypi_available" :checked="module.pypi_available" disabled></td>
           </tr>
           <tr class="border-b p-1.5 hover:bg-gray-50">
             <td class="font-bold w-auto border-r p-1.5">Series:</td>
