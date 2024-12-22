@@ -1579,6 +1579,62 @@
       "updated_at": "2024-06-05",
       "url": "https://gitlab.com/m9s/webdav"
     },
+    "nan-tic/account_bank": {
+      "added_at": "2024-12-22",
+      "author": "nan-tic",
+      "created_at": "2019-12-27",
+      "doc_url": "",
+      "forks": 5,
+      "info_updated_at": "2024-12-22",
+      "license": "gpl-3.0",
+      "name": "account_bank",
+      "package_name": "trytonspain_account_bank",
+      "pypi_available": false,
+      "series": [
+        "5.0",
+        "5.2",
+        "5.4",
+        "5.6",
+        "6.0",
+        "6.4",
+        "6.8",
+        "7.2"
+      ],
+      "stars": 2,
+      "tags": [
+        "accounting"
+      ],
+      "updated_at": "2024-12-10",
+      "url": "https://github.com/NaN-tic/trytond-account_bank"
+    },
+    "nan-tic/sale_pos": {
+      "added_at": "2024-12-22",
+      "author": "nan-tic",
+      "created_at": "2019-12-27",
+      "doc_url": "",
+      "forks": 0,
+      "info_updated_at": "2024-12-22",
+      "license": "gpl-3.0",
+      "name": "sale_pos",
+      "package_name": "trytonzz_sale_pos",
+      "pypi_available": false,
+      "series": [
+        "5.0",
+        "5.2",
+        "5.4",
+        "5.6",
+        "6.0",
+        "6.4",
+        "6.8",
+        "7.2"
+      ],
+      "stars": 3,
+      "tags": [
+        "sales"
+      ],
+      "updated_at": "2024-12-19",
+      "url": "https://github.com/NaN-tic/trytond-sale_pos"
+    },
     "tryton-community/account_es_facturae": {
       "added_at": "2024-12-21",
       "author": "tryton-community",
