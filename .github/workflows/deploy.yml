@@ -32,7 +32,9 @@ jobs:
             NEW_KEYS=$(echo "$DIFF" | grep '^+' | grep '"key"' | sed -E 's/.*"key": *"([^"]+)".*/\1/' || true)
             ARGS="$ARGS $NEW_KEYS"
           done
+          ARGS=$(echo "$ARGS" | tr '\n' ' ')
           ARGS=$(echo "$ARGS" | tr -s ' ')
+          ARGS=$(echo "$ARGS" | sed 's/^ //')
           echo $ARGS
           echo "commit_args=$ARGS" >> $GITHUB_OUTPUT
 
