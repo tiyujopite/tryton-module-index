@@ -41,6 +41,7 @@ jobs:
           ARGS_ESCAPED=$(echo "$ARGS" | sed 's/\//XXslashXX/g')
           ARGS_ESCAPED=$(echo "$ARGS_ESCAPED" | sed 's/-/XXmiddleXdashXX/g')
           ARGS_ESCAPED=$(echo "$ARGS_ESCAPED" | sed 's/_/XXdownXdashXX/g')
+          echo $ARGS_ESCAPED
           ARGS_ESCAPED=$(echo "$ARGS_ESCAPED" | sed 's/ /XXspaceXX/g')
           echo $ARGS_ESCAPED
           echo "commit_args=$ARGS_ESCAPED" >> $GITHUB_OUTPUT
