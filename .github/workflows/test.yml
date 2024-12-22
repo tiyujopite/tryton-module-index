@@ -39,7 +39,7 @@ jobs:
           done
           ARGS=$(echo "$ARGS" | tr -s ' ')
           ARGS_ESCAPED=$(echo "$ARGS" | sed 's/[\/&]/\\&/g')
-          echo "commit_args=$ARGS" >> $GITHUB_OUTPUT
+          echo "commit_args=$ARGS_ESCAPED" >> $GITHUB_OUTPUT
 
       - name: Run check
         run: python api check ${{ steps.extract_args.outputs.commit_args }}
