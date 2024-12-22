@@ -170,7 +170,7 @@ def build_module(module):
         # Check if is tryton module.
         default_branch = data['default_branch']
         response = requests.get(
-            f'{api_url}/contents/files/tryton.cfg?ref={default_branch}')
+            f'{api_url}/contents/tryton.cfg?ref={default_branch}')
         response.raise_for_status()
 
         # Branches data
