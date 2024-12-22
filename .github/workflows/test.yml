@@ -38,11 +38,12 @@ jobs:
             ARGS="$ARGS $NEW_KEYS"
           done
           ARGS=$(echo "$ARGS" | tr -s ' ')
-          # reemplazar / por __slash__
           ARGS_ESCAPED=$(echo "$ARGS" | sed 's/\//__slash__/g')
+          ARGS_ESCAPED=$(echo "$ARGS_ESCAPED" | sed 's/-/__middle_dash__/g')
           echo "commit_args=$ARGS_ESCAPED" >> $GITHUB_OUTPUT
 
       - name: Run check
         run: |
           ARGS=$(echo ${{ steps.extract_args.outputs.commit_args }} | sed 's/__slash__/\//g')
+          ARGS=$(echo $ARGS | sed 's/__middle_dash__/-/g')
           python api check $ARGS
