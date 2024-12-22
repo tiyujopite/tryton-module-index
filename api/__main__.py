@@ -25,6 +25,13 @@ MODULES_LOCK_FILE = os.path.join(ROOT_DIR, 'modules-lock.json')
 TYPING_ERROR = '%s must be lowercase and without spaces'
 TYPING_ERROR_DETAIL = TYPING_ERROR + ': %s'
 VCS_TYPES = ['gitlab', 'github']
+CURRENT_VERSION = '7.4'
+FORBIDDEN_NAMES = [
+    'tryton',
+    'trytond',
+    'sao',
+    'proteus',
+]
 
 
 def error(message, start='\n', exit_=True):
@@ -117,8 +124,6 @@ def build_module(module):
     module['license'] = 'N/A'
     module.setdefault('doc_url', '')
 
-    # TODO: Check if is a tryton module.
-
     if vcs_type == 'gitlab':
         # Main data
         safe_path = path.replace('/', '%2F')
@@ -132,6 +137,12 @@ def build_module(module):
         module['updated_at'] = get_ISO_date(data['last_activity_at'])
         if data['license']:
             module['license'] = data['license']['key']
+
+        # Check if is tryton module.
+        default_branch = data['default_branch']
+        response = requests.get(
+            f'{api_url}/repository/files/tryton.cfg?ref={default_branch}')
+        response.raise_for_status()
 
         # Branches data
         branches_url = f'{api_url}/repository/branches'
@@ -155,6 +166,12 @@ def build_module(module):
         module['updated_at'] = get_ISO_date(data['updated_at'])
         if data['license']:
             module['license'] = data['license']['key']
+
+        # Check if is tryton module.
+        default_branch = data['default_branch']
+        response = requests.get(
+            f'{api_url}/contents/files/tryton.cfg?ref={default_branch}')
+        response.raise_for_status()
 
         # Branches data
         branches_url = f'{api_url}/branches'
@@ -186,6 +203,13 @@ def load_modules(module_list=None, build=False):
     tags = read_file('tags')
     vcs_types = read_file('vcs_types')
     modules = read_file('modules')
+
+    # Load forbidden names
+    request = requests.get(
+        f'https://downloads.tryton.org/{CURRENT_VERSION}/modules.txt')
+    request.raise_for_status()
+    forbidden_names = set(request.text.splitlines())
+    forbidden_names |= set(FORBIDDEN_NAMES)
 
     # Check authors
     print(f"Checking {bold('authors')}... ", end='')
@@ -250,6 +274,11 @@ def load_modules(module_list=None, build=False):
         author, name = key.split('/')
         module_tags = module.get('tags', [])
         url = module['url']
+
+        # Forbidden names
+        if name in forbidden_names:
+            inline_error(
+                "You can not use a name already used by Tryton project")
 
         # Author
         if author.lower().replace(' ', '') != author:
