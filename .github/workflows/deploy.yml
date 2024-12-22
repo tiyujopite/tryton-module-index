@@ -33,6 +33,7 @@ jobs:
             ARGS="$ARGS $NEW_KEYS"
           done
           ARGS=$(echo "$ARGS" | tr -s ' ')
+          echo $ARGS
           echo "commit_args=$ARGS" >> $GITHUB_OUTPUT
 
       - name: Set up Python
