@@ -1208,25 +1208,6 @@
       "updated_at": "2024-06-05",
       "url": "https://gitlab.com/m9s/sale_channel_price_list"
     },
-    "m9s/sale_confirmation_email": {
-      "added_at": "2024-12-22",
-      "author": "m9s",
-      "created_at": "2015-11-10",
-      "doc_url": "",
-      "forks": 0,
-      "info_updated_at": "2024-12-22",
-      "license": "bsd-3-clause",
-      "name": "sale_confirmation_email",
-      "package_name": "m9s_sale_confirmation_email",
-      "pypi_available": false,
-      "series": [
-        "N/A"
-      ],
-      "stars": 0,
-      "tags": [],
-      "updated_at": "2017-12-26",
-      "url": "https://gitlab.com/m9s/sale_confirmation_email"
-    },
     "m9s/sale_delivery_date": {
       "added_at": "2024-12-22",
       "author": "m9s",
@@ -1329,44 +1310,6 @@
       "tags": [],
       "updated_at": "2024-06-05",
       "url": "https://gitlab.com/m9s/sale_price_with_tax"
-    },
-    "m9s/sale_return": {
-      "added_at": "2024-12-22",
-      "author": "m9s",
-      "created_at": "2015-11-10",
-      "doc_url": "",
-      "forks": 0,
-      "info_updated_at": "2024-12-22",
-      "license": "bsd-3-clause",
-      "name": "sale_return",
-      "package_name": "m9s_sale_return",
-      "pypi_available": false,
-      "series": [
-        "N/A"
-      ],
-      "stars": 0,
-      "tags": [],
-      "updated_at": "2016-12-21",
-      "url": "https://gitlab.com/m9s/sale_return"
-    },
-    "m9s/sale_stock_only": {
-      "added_at": "2024-12-22",
-      "author": "m9s",
-      "created_at": "2016-04-07",
-      "doc_url": "",
-      "forks": 0,
-      "info_updated_at": "2024-12-22",
-      "license": "gpl-3.0",
-      "name": "sale_stock_only",
-      "package_name": "m9s_sale_stock_only",
-      "pypi_available": false,
-      "series": [
-        "N/A"
-      ],
-      "stars": 0,
-      "tags": [],
-      "updated_at": "2017-01-18",
-      "url": "https://gitlab.com/m9s/sale_stock_only"
     },
     "m9s/sale_supply_state": {
       "added_at": "2024-12-22",

@@ -204,11 +204,6 @@
       "url": "https://gitlab.com/m9s/elastic_search"
     },
     {
-      "key": "m9s/sale_stock_only",
-      "package_name": "m9s_sale_stock_only",
-      "url": "https://gitlab.com/m9s/sale_stock_only"
-    },
-    {
       "key": "m9s/sale_supply_state",
       "package_name": "m9s_sale_supply_state",
       "url": "https://gitlab.com/m9s/sale_supply_state"
@@ -259,19 +254,9 @@
       "url": "https://gitlab.com/m9s/customs_value"
     },
     {
-      "key": "m9s/sale_return",
-      "package_name": "m9s_sale_return",
-      "url": "https://gitlab.com/m9s/sale_return"
-    },
-    {
       "key": "m9s/sale_payment_gateway",
       "package_name": "m9s_sale_payment_gateway",
       "url": "https://gitlab.com/m9s/sale_payment_gateway"
-    },
-    {
-      "key": "m9s/sale_confirmation_email",
-      "package_name": "m9s_sale_confirmation_email",
-      "url": "https://gitlab.com/m9s/sale_confirmation_email"
     },
     {
       "key": "m9s/product_variant",
