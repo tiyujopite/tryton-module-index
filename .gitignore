@@ -1,6 +1,6 @@
 node_modules
 dist
-script/__pycache__/
+api/__pycache__/
 TODO.txt
 
 # Editor directories and files
