@@ -37,19 +37,12 @@ jobs:
             NEW_KEYS=$(echo "$DIFF" | grep '^+' | grep '"key"' | sed -E 's/.*"key": *"([^"]+)".*/\1/' || true)
             ARGS="$ARGS $NEW_KEYS"
           done
+          ARGS=$(echo "$ARGS" | tr '\n' ' ')
           ARGS=$(echo "$ARGS" | tr -s ' ')
-          ARGS_ESCAPED=$(echo "$ARGS" | sed 's/\//XXslashXX/g')
-          ARGS_ESCAPED=$(echo "$ARGS_ESCAPED" | sed 's/-/XXmiddleXdashXX/g')
-          ARGS_ESCAPED=$(echo "$ARGS_ESCAPED" | sed 's/_/XXdownXdashXX/g')
-          echo $ARGS_ESCAPED
-          ARGS_ESCAPED=$(echo "$ARGS_ESCAPED" | sed 's/ /XXspaceXX/g')
-          echo $ARGS_ESCAPED
-          echo "commit_args=$ARGS_ESCAPED" >> $GITHUB_OUTPUT
+          ARGS=$(echo "$ARGS" | sed 's/^ //)
+          echo $ARGS
+          echo "commit_args=$ARGS" >> $GITHUB_OUTPUT
 
       - name: Run check
         run: |
-          ARGS=$(echo ${{ steps.extract_args.outputs.commit_args }} | sed 's/XXslashXX/\//g')
-          ARGS=$(echo $ARGS | sed 's/XXmiddleXdashXX/-/g')
-          ARGS=$(echo $ARGS | sed 's/XXdownXdashXX/_/g')
-          ARGS=$(echo $ARGS | sed 's/XXspaceXX/ /g')
-          python api check $ARGS
+          python api check ${{ steps.extract_args.outputs.commit_args }}
