@@ -2,19 +2,14 @@
 
 A grouping place for all third-party modules.
 
-## How to contribute
+## How to contribute (Add modules)
 
-### You can contribute in 2 different modes
-
-#### Submit a request adding the new module(s)
+### Submit a request adding the new module(s)
 
 - Modules are always added to the end of the `src/assets/modules.json` file.
-
--- Required keys: `key`, `package_name`, `url`.
-
--- Optional keys: `tags`, `doc_url`.
-
--- Order always must be: `key`, `package_name`, `url`, `doc_url`, `tags`.
+- - Required keys: `key`, `package_name`, `url`.
+- - Optional keys: `tags`, `doc_url`.
+- - Order always must be: `key`, `package_name`, `url`, `doc_url`, `tags`.
 
 ```diff
 +    {
@@ -45,12 +40,10 @@ For example:
 ```
 
 - Make sure to:
+- - `python api check new_author/my_module new_author/my_module2 ...` has been executed without any errors.
+- - NOT modify `src/assets/modules-lock.json`.
 
--- `python api check new_author/my_module new_author/my_module2 ...` has been executed without any errors.
-
--- NOT modify `src/assets/modules-lock.json`.
-
-#### Send a request improving the web or process
+## How to contribute (Improving the web or process)
 
 ```bash
 # Fist start.
