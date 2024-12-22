@@ -39,7 +39,7 @@ jobs:
           done
           ARGS=$(echo "$ARGS" | tr '\n' ' ')
           ARGS=$(echo "$ARGS" | tr -s ' ')
-          ARGS=$(echo "$ARGS" | sed 's/^ //)
+          ARGS=$(echo "$ARGS" | sed 's/^ //')
           echo $ARGS
           echo "commit_args=$ARGS" >> $GITHUB_OUTPUT
 
