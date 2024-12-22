@@ -1,7 +1,7 @@
 import { createApp } from 'vue'
 import './style.css'
 import App from './App.vue'
-import { createRouter, createWebHistory } from 'vue-router'
+import { createRouter, createWebHashHistory } from 'vue-router'
 import Home from './components/Home.vue'
 import Modules from './components/Modules.vue'
 import Module from './components/Module.vue'
@@ -9,7 +9,7 @@ import Module from './components/Module.vue'
 const app = createApp(App)
 
 const router = createRouter({
-    history: createWebHistory(import.meta.env.BASE_URL),
+    history: createWebHashHistory(),
     routes: [
       {
         path: '/',
