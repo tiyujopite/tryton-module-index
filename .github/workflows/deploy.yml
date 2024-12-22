@@ -53,7 +53,7 @@ jobs:
       - name: Run api build
         if: ${{ steps.extract_args.outputs.commit_args != '' && steps.extract_args.outputs.commit_args != ' ' }}
         run: |
-          python api build
+          python api build ${{ steps.extract_args.outputs.commit_args }}
 
       - name: Commit data
         if: ${{ steps.extract_args.outputs.commit_args != '' && steps.extract_args.outputs.commit_args != ' ' }}
