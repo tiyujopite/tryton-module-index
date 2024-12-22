@@ -392,6 +392,23 @@
       "key": "m9s/account_banking_import",
       "package_name": "m9s_account_banking_import",
       "url": "https://gitlab.com/m9s/account_banking_import"
+    },
+    {
+      "key": "tryton-community/web_shop_woocommerce",
+      "package_name": "trytoncommunity_web_shop_woocommerce",
+      "url": "https://foss.heptapod.net/tryton-community/modules/web_shop_woocommerce",
+      "tags": [
+        "sales",
+        "web-shop"
+      ]
+    },
+    {
+      "key": "tryton-community/edocument_es_facturae",
+      "package_name": "trytoncommunity_edocument_es_facturae",
+      "url": "https://foss.heptapod.net/tryton-community/modules/edocument_es_facturae",
+      "tags": [
+        "accounting"
+      ]
     }
   ]
 }
