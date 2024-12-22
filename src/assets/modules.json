@@ -409,6 +409,22 @@
       "tags": [
         "accounting"
       ]
+    },
+    {
+      "key": "nan-tic/sale_pos",
+      "package_name": "trytonzz_sale_pos",
+      "url": "https://github.com/NaN-tic/trytond-sale_pos",
+      "tags": [
+        "sales"
+      ]
+    },
+    {
+      "key": "nan-tic/account_bank",
+      "package_name": "trytonspain_account_bank",
+      "url": "https://github.com/NaN-tic/trytond-account_bank",
+      "tags": [
+        "accounting"
+      ]
     }
   ]
 }
