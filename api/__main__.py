@@ -69,7 +69,7 @@ def read_file(name, key=None):
         return json.load(f)[key or name]
 
 
-def write_modules(modules, module_list=None):
+def write_modules(modules, module_key_list=None):
     if os.path.exists(MODULES_LOCK_FILE):
         modules_lock = read_file('modules-lock', key='modules')
     else:
@@ -78,7 +78,7 @@ def write_modules(modules, module_list=None):
     today = str(datetime.now().date())
 
     for key_, module in key2module.items():
-        if module_list and key_ not in module_list:
+        if module_key_list and key_ not in module_key_list:
             continue
         if key_ in modules_lock:
             modules_lock[key_].update(module)
@@ -198,7 +198,8 @@ def build_module(module):
     success("OK")
 
 
-def load_modules(module_list=None, build=False):
+def load_modules(module_key_list=None, chunk=None, chunk_size=None,
+                 build=False):
     authors = read_file('authors')
     tags = read_file('tags')
     vcs_types = read_file('vcs_types')
@@ -248,7 +249,7 @@ def load_modules(module_list=None, build=False):
 
     print(bold('-' * 40))
     # Check modules consistency
-    module_keys = set()
+    module_keys = []
     res_modules = []
     for module in modules:
         print(f"Checking {bold(module['key'])}... ", end='')
@@ -295,7 +296,7 @@ def load_modules(module_list=None, build=False):
         # Key
         if key in module_keys:
             inline_error("Duplicate module key")
-        module_keys.add(key)
+        module_keys.append(key)
 
         # Tag
         for tag in module_tags:
@@ -327,11 +328,24 @@ def load_modules(module_list=None, build=False):
 
     print(bold('-' * 40))
     # Check module list
-    for key in module_list:
+    for key in module_key_list or []:
         if key not in module_keys:
             error(f"Module not found {bold(key)}")
+
+    # Check chunk and chunk size
+    if chunk is not None and type(chunk) is not int:
+        chunk = int(chunk)
+    if chunk_size is None:
+        chunk_size = 50
+    if chunk and (len(module_keys) + chunk_size < chunk_size * chunk):
+        error("Invalid chunk")
+    if chunk is not None:
+        from_ = chunk_size * chunk
+        to_ = chunk_size * (chunk + 1)
+        module_key_list = module_keys[from_:to_]
+
     for module in res_modules.copy():
-        if module_list and module['key'] not in module_list:
+        if module_key_list and module['key'] not in module_key_list:
             continue
         try:
             build_module(module)
@@ -345,15 +359,20 @@ def load_modules(module_list=None, build=False):
     return res_modules
 
 
-def build(module_list=None):
-    modules = load_modules(module_list=module_list, build=True)
-    write_modules(modules, module_list=module_list)
+def build(module_key_list=None, chunk=None, chunk_size=None):
+    modules = load_modules(
+        module_key_list=module_key_list,
+        chunk=chunk,
+        chunk_size=chunk_size,
+        build=True,
+        )
+    write_modules(modules, module_key_list=module_key_list)
     print(bold('-' * 40))
     success("-- Build completed --")
 
 
-def check(module_list=None):
-    load_modules(module_list=module_list)
+def check(module_key_list=None):
+    load_modules(module_key_list=module_key_list)
     print(bold('-' * 40))
     success("-- Check completed --")
 
@@ -361,8 +380,13 @@ def check(module_list=None):
 if __name__ == '__main__':
     command = sys.argv[1] if len(sys.argv) > 1 else None
     if command == 'build':
-        build(module_list=sys.argv[2:])
+        build(module_key_list=sys.argv[2:])
     elif command == 'check':
-        check(module_list=sys.argv[2:])
+        check(module_key_list=sys.argv[2:])
+    elif command == 'build_chunk':
+        build(
+            chunk=sys.argv[2],
+            chunk_size=len(sys.argv) > 3 and int(sys.argv[3]) or None
+            )
     else:
         error("Invalid command")
