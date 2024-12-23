@@ -425,6 +425,151 @@
       "tags": [
         "accounting"
       ]
+    },
+    {
+      "key": "tryton-ar/account_ar",
+      "package_name": "trytonar_account_ar",
+      "url": "https://github.com/tryton-ar/account_ar"
+    },
+    {
+      "key": "tryton-ar/account_arba",
+      "package_name": "trytonar_account_arba",
+      "url": "https://github.com/tryton-ar/account_arba"
+    },
+    {
+      "key": "tryton-ar/account_check_ar",
+      "package_name": "trytonar_account_check_ar",
+      "url": "https://github.com/tryton-ar/account_check_ar"
+    },
+    {
+      "key": "tryton-ar/account_inflation_adjustment_ar",
+      "package_name": "trytonar_account_inflation_adjustment_ar",
+      "url": "https://github.com/tryton-ar/account_inflation_adjustment_ar"
+    },
+    {
+      "key": "tryton-ar/account_invoice_ar",
+      "package_name": "trytonar_account_invoice_ar",
+      "url": "https://github.com/tryton-ar/account_invoice_ar"
+    },
+    {
+      "key": "tryton-ar/account_invoice_ar_currency",
+      "package_name": "trytonar_account_invoice_ar_currency",
+      "url": "https://github.com/tryton-ar/account_invoice_ar_currency"
+    },
+    {
+      "key": "tryton-ar/account_invoice_import_ar",
+      "package_name": "trytonar_account_invoice_import_ar",
+      "url": "https://github.com/tryton-ar/account_invoice_import_ar"
+    },
+    {
+      "key": "tryton-ar/account_move_summary",
+      "package_name": "trytonar_account_move_summary",
+      "url": "https://github.com/tryton-ar/account_move_summary"
+    },
+    {
+      "key": "tryton-ar/account_report_ar",
+      "package_name": "trytonar_account_report_ar",
+      "url": "https://github.com/tryton-ar/account_report_ar"
+    },
+    {
+      "key": "tryton-ar/account_retencion_ar",
+      "package_name": "trytonar_account_retencion_ar",
+      "url": "https://github.com/tryton-ar/account_retencion_ar"
+    },
+    {
+      "key": "tryton-ar/account_voucher_ar",
+      "package_name": "trytonar_account_voucher_ar",
+      "url": "https://github.com/tryton-ar/account_voucher_ar"
+    },
+    {
+      "key": "tryton-ar/bank_ar",
+      "package_name": "trytonar_bank_ar",
+      "url": "https://github.com/tryton-ar/bank_ar"
+    },
+    {
+      "key": "tryton-ar/citi_afip",
+      "package_name": "trytonar_citi_afip",
+      "url": "https://github.com/tryton-ar/citi_afip"
+    },
+    {
+      "key": "tryton-ar/contract_ar",
+      "package_name": "trytonar_contract_ar",
+      "url": "https://github.com/tryton-ar/contract_ar"
+    },
+    {
+      "key": "tryton-ar/contract_discount",
+      "package_name": "trytonar_contract_discount",
+      "url": "https://github.com/tryton-ar/contract_discount"
+    },
+    {
+      "key": "tryton-ar/contract_payment_collect",
+      "package_name": "trytonar_contract_payment_collect",
+      "url": "https://github.com/tryton-ar/contract_payment_collect"
+    },
+    {
+      "key": "tryton-ar/currency_ar",
+      "package_name": "trytonar_currency_ar",
+      "url": "https://github.com/tryton-ar/currency_ar"
+    },
+    {
+      "key": "tryton-ar/current_account",
+      "package_name": "trytonar_current_account",
+      "url": "https://github.com/tryton-ar/current_account"
+    },
+    {
+      "key": "tryton-ar/party_ar",
+      "package_name": "trytonar_party_ar",
+      "url": "https://github.com/tryton-ar/party_ar"
+    },
+    {
+      "key": "tryton-ar/payment_collect",
+      "package_name": "trytonar_payment_collect",
+      "url": "https://github.com/tryton-ar/payment_collect"
+    },
+    {
+      "key": "tryton-ar/payment_collect_afip",
+      "package_name": "trytonar_payment_collect_afip",
+      "url": "https://github.com/tryton-ar/payment_collect_afip"
+    },
+    {
+      "key": "tryton-ar/product_price_list_ar",
+      "package_name": "trytonar_product_price_list_ar",
+      "url": "https://github.com/tryton-ar/product_price_list_ar"
+    },
+    {
+      "key": "tryton-ar/recover_invoice_ar",
+      "package_name": "trytonar_recover_invoice_ar",
+      "url": "https://github.com/tryton-ar/recover_invoice_ar"
+    },
+    {
+      "key": "tryton-ar/sale_payment_collect",
+      "package_name": "trytonar_sale_payment_collect",
+      "url": "https://github.com/tryton-ar/sale_payment_collect"
+    },
+    {
+      "key": "tryton-ar/sale_pos_ar",
+      "package_name": "trytonar_sale_pos_ar",
+      "url": "https://github.com/tryton-ar/sale_pos_ar"
+    },
+    {
+      "key": "tryton-ar/sale_printery_budget",
+      "package_name": "trytonar_sale_printery_budget",
+      "url": "https://github.com/tryton-ar/sale_printery_budget"
+    },
+    {
+      "key": "tryton-ar/sale_subscription_payment_collect",
+      "package_name": "trytonar_sale_subscription_payment_collect",
+      "url": "https://github.com/tryton-ar/sale_subscription_payment_collect"
+    },
+    {
+      "key": "tryton-ar/sale_subscription_pos_ar",
+      "package_name": "trytonar_sale_subscription_pos_ar",
+      "url": "https://github.com/tryton-ar/sale_subscription_pos_ar"
+    },
+    {
+      "key": "tryton-ar/subdiario",
+      "package_name": "trytonar_subdiario",
+      "url": "https://github.com/tryton-ar/subdiario"
     }
   ]
 }
