@@ -1,4 +1,4 @@
-# Trytom Module Index
+# Tryton Module Index
 
 A grouping place for all third-party modules.
 
