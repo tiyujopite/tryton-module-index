@@ -49,11 +49,6 @@
       "url": "https://gitlab.com/m9s/sale_channel_price_list"
     },
     {
-      "key": "m9s/account_invoice_report_filestore",
-      "package_name": "m9s_account_invoice_report_filestore",
-      "url": "https://gitlab.com/m9s/account_invoice_report_filestore"
-    },
-    {
       "key": "m9s/stock_package_shipping_sale_wizard",
       "package_name": "m9s_stock_package_shipping_sale_wizard",
       "url": "https://gitlab.com/m9s/stock_package_shipping_sale_wizard"
@@ -104,11 +99,6 @@
       "url": "https://gitlab.com/m9s/stock_package_shipping_gls"
     },
     {
-      "key": "m9s/stock_package_shipping_label_filestore",
-      "package_name": "m9s_stock_package_shipping_label_filestore",
-      "url": "https://gitlab.com/m9s/stock_package_shipping_label_filestore"
-    },
-    {
       "key": "m9s/timesheet_datetime",
       "package_name": "m9s_timesheet_datetime",
       "url": "https://gitlab.com/m9s/timesheet_datetime"
@@ -142,11 +132,6 @@
       "key": "m9s/electronic_mail",
       "package_name": "m9s_electronic_mail",
       "url": "https://gitlab.com/m9s/electronic_mail"
-    },
-    {
-      "key": "m9s/account_de_euer_zone",
-      "package_name": "m9s_account_de_euer_zone",
-      "url": "https://gitlab.com/m9s/account_de_euer_zone"
     },
     {
       "key": "m9s/account_tax_rule_zone_eu",
@@ -212,16 +197,6 @@
       "key": "m9s/payment_gateway_stripe",
       "package_name": "m9s_payment_gateway_stripe",
       "url": "https://gitlab.com/m9s/payment_gateway_stripe"
-    },
-    {
-      "key": "m9s/shipping",
-      "package_name": "m9s_shipping",
-      "url": "https://gitlab.com/m9s/shipping"
-    },
-    {
-      "key": "m9s/nereid_shipping",
-      "package_name": "m9s_nereid_shipping",
-      "url": "https://gitlab.com/m9s/nereid_shipping"
     },
     {
       "key": "m9s/sale_available_stock",
@@ -324,11 +299,6 @@
       "url": "https://gitlab.com/m9s/gift_card"
     },
     {
-      "key": "m9s/email_queue",
-      "package_name": "m9s_email_queue",
-      "url": "https://gitlab.com/m9s/email_queue"
-    },
-    {
       "key": "m9s/sale_channel_payment_gateway",
       "package_name": "m9s_sale_channel_payment_gateway",
       "url": "https://gitlab.com/m9s/sale_channel_payment_gateway"
@@ -342,11 +312,6 @@
       "key": "m9s/account_invoice_discount",
       "package_name": "m9s_account_invoice_discount",
       "url": "https://gitlab.com/m9s/account_invoice_discount"
-    },
-    {
-      "key": "m9s/account_de_euer",
-      "package_name": "m9s_account_de_euer",
-      "url": "https://gitlab.com/m9s/account_de_euer"
     },
     {
       "key": "m9s/party_vcarddav",
@@ -490,21 +455,6 @@
       "key": "tryton-ar/citi_afip",
       "package_name": "trytonar_citi_afip",
       "url": "https://github.com/tryton-ar/citi_afip"
-    },
-    {
-      "key": "tryton-ar/contract_ar",
-      "package_name": "trytonar_contract_ar",
-      "url": "https://github.com/tryton-ar/contract_ar"
-    },
-    {
-      "key": "tryton-ar/contract_discount",
-      "package_name": "trytonar_contract_discount",
-      "url": "https://github.com/tryton-ar/contract_discount"
-    },
-    {
-      "key": "tryton-ar/contract_payment_collect",
-      "package_name": "trytonar_contract_payment_collect",
-      "url": "https://github.com/tryton-ar/contract_payment_collect"
     },
     {
       "key": "tryton-ar/currency_ar",
