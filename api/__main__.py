@@ -155,9 +155,14 @@ def build_module(module):
                 module['series'].append(serie)
 
     elif vcs_type == 'github':
+        headers = {}
+        if os.environ.get('GH_TOKEN'):
+            headers = {
+                'Authorization': f'Bearer {os.environ.get('GH_TOKEN')}',
+                }
         # Main data
         api_url = f'{scheme}://api.{netloc}/repos/{path}'
-        response = requests.get(api_url)
+        response = requests.get(api_url, headers=headers)
         response.raise_for_status()
         data = response.json()
         module['stars'] = data['stargazers_count']
@@ -170,12 +175,13 @@ def build_module(module):
         # Check if is tryton module.
         default_branch = data['default_branch']
         response = requests.get(
-            f'{api_url}/contents/tryton.cfg?ref={default_branch}')
+            f'{api_url}/contents/tryton.cfg?ref={default_branch}',
+            headers=headers)
         response.raise_for_status()
 
         # Branches data
         branches_url = f'{api_url}/branches'
-        response = requests.get(branches_url)
+        response = requests.get(branches_url, headers=headers)
         response.raise_for_status()
         branches = response.json()
         for branch in branches:
