@@ -520,6 +520,2776 @@
       "key": "tryton-ar/subdiario",
       "package_name": "trytonar_subdiario",
       "url": "https://github.com/tryton-ar/subdiario"
+    },
+    {
+      "key": "nan-tic/account_ad",
+      "package_name": "nantic_account_ad",
+      "url": "https://github.com/NaN-tic/trytond-account_ad"
+    },
+    {
+      "key": "nan-tic/account_asset_es",
+      "package_name": "trytond-account_asset_es",
+      "url": "https://github.com/NaN-tic/trytond-account_asset_es"
+    },
+    {
+      "key": "nan-tic/account_asset_percentatge",
+      "package_name": "nantic_account_asset_percentatge",
+      "url": "https://github.com/NaN-tic/trytond-account_asset_percentatge"
+    },
+    {
+      "key": "nan-tic/account_asset_project",
+      "package_name": "nantic_account_asset_project",
+      "url": "https://github.com/NaN-tic/trytond-account_asset_project"
+    },
+    {
+      "key": "nan-tic/account_asset_show_lines",
+      "package_name": "nantic_account_asset_show_lines",
+      "url": "https://github.com/NaN-tic/trytond-account_asset_show_lines"
+    },
+    {
+      "key": "nan-tic/account_bank_statement",
+      "package_name": "trytonspain_account_bank_statement",
+      "url": "https://github.com/NaN-tic/trytond-account_bank_statement"
+    },
+    {
+      "key": "nan-tic/account_bank_statement_account",
+      "package_name": "trytonspain_account_bank_statement_account",
+      "url": "https://github.com/NaN-tic/trytond-account_bank_statement_account"
+    },
+    {
+      "key": "nan-tic/account_bank_statement_counterpart",
+      "package_name": "trytonspain_account_bank_statement_counterpart",
+      "url": "https://github.com/NaN-tic/trytond-account_bank_statement_counterpart"
+    },
+    {
+      "key": "nan-tic/account_bank_statement_es_csb43",
+      "package_name": "trytonspain_account_bank_statement_es_csb43",
+      "url": "https://github.com/NaN-tic/trytond-account_bank_statement_es_csb43"
+    },
+    {
+      "key": "nan-tic/account_bank_statement_payment",
+      "package_name": "trytonspain_account_bank_statement_payment",
+      "url": "https://github.com/NaN-tic/trytond-account_bank_statement_payment"
+    },
+    {
+      "key": "nan-tic/account_bank_statement_paypal",
+      "package_name": "trytonspain_account_bank_statement_paypal",
+      "url": "https://github.com/NaN-tic/trytond-account_bank_statement_paypal"
+    },
+    {
+      "key": "nan-tic/account_bank_statement_rule",
+      "package_name": "nantic_account_bank_statement_rule",
+      "url": "https://github.com/NaN-tic/trytond-account_bank_statement_rule"
+    },
+    {
+      "key": "nan-tic/account_bank_statement_user",
+      "package_name": "nantic_account_bank_statement_user",
+      "url": "https://github.com/NaN-tic/trytond-account_bank_statement_user"
+    },
+    {
+      "key": "nan-tic/account_cashflow",
+      "package_name": "nantic_account_cashflow",
+      "url": "https://github.com/NaN-tic/trytond-account_cashflow"
+    },
+    {
+      "key": "nan-tic/account_code_digits",
+      "package_name": "trytonspain_account_code_digits",
+      "url": "https://github.com/NaN-tic/trytond-account_code_digits"
+    },
+    {
+      "key": "nan-tic/account_dunning_automation",
+      "package_name": "nantic_account_dunning_automation",
+      "url": "https://github.com/NaN-tic/trytond-account_dunning_automation"
+    },
+    {
+      "key": "nan-tic/account_dunning_related_invoice",
+      "package_name": "nantic_account_dunning_related_invoice",
+      "url": "https://github.com/NaN-tic/trytond-account_dunning_related_invoice"
+    },
+    {
+      "key": "nan-tic/account_financial_statement",
+      "package_name": "trytonspain_account_financial_statement",
+      "url": "https://github.com/NaN-tic/trytond-account_financial_statement"
+    },
+    {
+      "key": "nan-tic/account_financial_statement_analytic",
+      "package_name": "nantic_account_financial_statement_analytic",
+      "url": "https://github.com/NaN-tic/trytond-account_financial_statement_analytic"
+    },
+    {
+      "key": "nan-tic/account_financial_statement_es",
+      "package_name": "trytonspain_account_financial_statement_es",
+      "url": "https://github.com/NaN-tic/trytond-account_financial_statement_es"
+    },
+    {
+      "key": "nan-tic/account_import_contaplus",
+      "package_name": "nantic_account_import_contaplus",
+      "url": "https://github.com/NaN-tic/trytond-account_import_contaplus"
+    },
+    {
+      "key": "nan-tic/account_insurance_credit_limit",
+      "package_name": "nantic_account_insurance_credit_limit",
+      "url": "https://github.com/NaN-tic/trytond-account_insurance_credit_limit"
+    },
+    {
+      "key": "nan-tic/account_invoice_3_discounts",
+      "package_name": "nantic_account_invoice_3_discounts",
+      "url": "https://github.com/NaN-tic/trytond-account_invoice_3_discounts"
+    },
+    {
+      "key": "nan-tic/account_invoice_adjust_base",
+      "package_name": "nantic_account_invoice_adjust_base",
+      "url": "https://github.com/NaN-tic/trytond-account_invoice_adjust_base"
+    },
+    {
+      "key": "nan-tic/account_invoice_alternative_reports",
+      "package_name": "nantic_account_invoice_alternative_reports",
+      "url": "https://github.com/NaN-tic/trytond-account_invoice_alternative_reports"
+    },
+    {
+      "key": "nan-tic/account_invoice_company_currency",
+      "package_name": "nantic_account_invoice_company_currency",
+      "url": "https://github.com/NaN-tic/trytond-account_invoice_company_currency"
+    },
+    {
+      "key": "nan-tic/account_invoice_conformity",
+      "package_name": "nantic_account_invoice_conformity",
+      "url": "https://github.com/NaN-tic/trytond-account_invoice_conformity"
+    },
+    {
+      "key": "nan-tic/account_invoice_contact",
+      "package_name": "nantic_account_invoice_contact",
+      "url": "https://github.com/NaN-tic/trytond-account_invoice_contact"
+    },
+    {
+      "key": "nan-tic/account_invoice_credit_note_related_invoice",
+      "package_name": "trytonspain_account_invoice_credit_note_related_invoice",
+      "url": "https://github.com/NaN-tic/trytond-account_invoice_credit_note_related_invoice"
+    },
+    {
+      "key": "nan-tic/account_invoice_customs",
+      "package_name": "trytonspain_account_invoice_customs",
+      "url": "https://github.com/NaN-tic/trytond-account_invoice_customs"
+    },
+    {
+      "key": "nan-tic/account_invoice_discount",
+      "package_name": "trytonspain_account_invoice_discount",
+      "url": "https://github.com/NaN-tic/trytond-account_invoice_discount"
+    },
+    {
+      "key": "nan-tic/account_invoice_discount_global",
+      "package_name": "nantic_account_invoice_discount_global",
+      "url": "https://github.com/NaN-tic/trytond-account_invoice_discount_global"
+    },
+    {
+      "key": "nan-tic/account_invoice_edi",
+      "package_name": "nantic_account_invoice_edi",
+      "url": "https://github.com/NaN-tic/trytond-account_invoice_edi"
+    },
+    {
+      "key": "nan-tic/account_invoice_facturae",
+      "package_name": "nantic_account_invoice_facturae",
+      "url": "https://github.com/NaN-tic/trytond-account_invoice_facturae"
+    },
+    {
+      "key": "nan-tic/account_invoice_facturae_electronet",
+      "package_name": "nantic_account_invoice_facturae_electronet",
+      "url": "https://github.com/NaN-tic/trytond-account_invoice_facturae_electronet"
+    },
+    {
+      "key": "nan-tic/account_invoice_facturae_pimec",
+      "package_name": "nantic_account_invoice_facturae_pimec",
+      "url": "https://github.com/NaN-tic/trytond-account_invoice_facturae_pimec"
+    },
+    {
+      "key": "nan-tic/account_invoice_information_uom",
+      "package_name": "nantic_account_invoice_information_uom",
+      "url": "https://github.com/NaN-tic/trytond-account_invoice_information_uom"
+    },
+    {
+      "key": "nan-tic/account_invoice_intercompany",
+      "package_name": "nantic_account_invoice_intercompany",
+      "url": "https://github.com/NaN-tic/trytond-account_invoice_intercompany"
+    },
+    {
+      "key": "nan-tic/account_invoice_journal_party",
+      "package_name": "nantic_account_invoice_journal_party",
+      "url": "https://github.com/NaN-tic/trytond-account_invoice_journal_party"
+    },
+    {
+      "key": "nan-tic/account_invoice_journal_shop",
+      "package_name": "nantic_account_invoice_journal_shop",
+      "url": "https://github.com/NaN-tic/trytond-account_invoice_journal_shop"
+    },
+    {
+      "key": "nan-tic/account_invoice_jreport",
+      "package_name": "trytonzz_account_invoice_jreport",
+      "url": "https://github.com/NaN-tic/trytond-account_invoice_jreport"
+    },
+    {
+      "key": "nan-tic/account_invoice_jreport_cache",
+      "package_name": "nantic_account_invoice_jreport_cache",
+      "url": "https://github.com/NaN-tic/trytond-account_invoice_jreport_cache"
+    },
+    {
+      "key": "nan-tic/account_invoice_line_description",
+      "package_name": "nantic_account_invoice_line_description",
+      "url": "https://github.com/NaN-tic/trytond-account_invoice_line_description"
+    },
+    {
+      "key": "nan-tic/account_invoice_line_origin",
+      "package_name": "nantic_account_invoice_line_origin",
+      "url": "https://github.com/NaN-tic/trytond-account_invoice_line_origin"
+    },
+    {
+      "key": "nan-tic/account_invoice_line_payment",
+      "package_name": "nantic_account_invoice_line_payment",
+      "url": "https://github.com/NaN-tic/trytond-account_invoice_line_payment"
+    },
+    {
+      "key": "nan-tic/account_invoice_line_search_by_shipment",
+      "package_name": "nantic_account_invoice_line_search_by_shipment",
+      "url": "https://github.com/NaN-tic/trytond-account_invoice_line_search_by_shipment"
+    },
+    {
+      "key": "nan-tic/account_invoice_line_standalone_all",
+      "package_name": "nantic_account_invoice_line_standalone_all",
+      "url": "https://github.com/NaN-tic/trytond-account_invoice_line_standalone_all"
+    },
+    {
+      "key": "nan-tic/account_invoice_maturity_base",
+      "package_name": "trytonspain_account_invoice_maturity_base",
+      "url": "https://github.com/NaN-tic/trytond-account_invoice_maturity_base"
+    },
+    {
+      "key": "nan-tic/account_invoice_maturity_dates",
+      "package_name": "trytonspain_account_invoice_maturity_dates",
+      "url": "https://github.com/NaN-tic/trytond-account_invoice_maturity_dates"
+    },
+    {
+      "key": "nan-tic/account_invoice_merger",
+      "package_name": "trytonzz_account_invoice_merger",
+      "url": "https://github.com/NaN-tic/trytond-account_invoice_merger"
+    },
+    {
+      "key": "nan-tic/account_invoice_multisequence",
+      "package_name": "trytonspain_account_invoice_multisequence",
+      "url": "https://github.com/NaN-tic/trytond-account_invoice_multisequence"
+    },
+    {
+      "key": "nan-tic/account_invoice_order_number",
+      "package_name": "nantic_account_invoice_order_number",
+      "url": "https://github.com/NaN-tic/trytond-account_invoice_order_number"
+    },
+    {
+      "key": "nan-tic/account_invoice_origin_reference",
+      "package_name": "trytonzz_account_invoice_origin_reference",
+      "url": "https://github.com/NaN-tic/trytond-account_invoice_origin_reference"
+    },
+    {
+      "key": "nan-tic/account_invoice_party_currency",
+      "package_name": "nantic_account_invoice_party_currency",
+      "url": "https://github.com/NaN-tic/trytond-account_invoice_party_currency"
+    },
+    {
+      "key": "nan-tic/account_invoice_posted2draft",
+      "package_name": "trytonspain_account_invoice_posted2draft",
+      "url": "https://github.com/NaN-tic/trytond-account_invoice_posted2draft"
+    },
+    {
+      "key": "nan-tic/account_invoice_post_wizard",
+      "package_name": "nantic_account_invoice_post_wizard",
+      "url": "https://github.com/NaN-tic/trytond-account_invoice_post_wizard"
+    },
+    {
+      "key": "nan-tic/account_invoice_prevent_duplicates",
+      "package_name": "trytonspain_account_invoice_prevent_duplicates",
+      "url": "https://github.com/NaN-tic/trytond-account_invoice_prevent_duplicates"
+    },
+    {
+      "key": "nan-tic/account_invoice_price_list",
+      "package_name": "trytonspain_account_invoice_price_list",
+      "url": "https://github.com/NaN-tic/trytond-account_invoice_price_list"
+    },
+    {
+      "key": "nan-tic/account_invoice_purchase_relation",
+      "package_name": "trytonzz_account_invoice_purchase_relation",
+      "url": "https://github.com/NaN-tic/trytond-account_invoice_purchase_relation"
+    },
+    {
+      "key": "nan-tic/account_invoice_reference_required",
+      "package_name": "nantic_account_invoice_reference_required",
+      "url": "https://github.com/NaN-tic/trytond-account_invoice_reference_required"
+    },
+    {
+      "key": "nan-tic/account_invoice_rule",
+      "package_name": "nantic_account_invoice_rule",
+      "url": "https://github.com/NaN-tic/trytond-account_invoice_rule"
+    },
+    {
+      "key": "nan-tic/account_invoice_sale_relation",
+      "package_name": "nantic_account_invoice_sale_relation",
+      "url": "https://github.com/NaN-tic/trytond-account_invoice_sale_relation"
+    },
+    {
+      "key": "nan-tic/account_invoice_search_by_purchase",
+      "package_name": "nantic_account_invoice_search_by_purchase",
+      "url": "https://github.com/NaN-tic/trytond-account_invoice_search_by_purchase"
+    },
+    {
+      "key": "nan-tic/account_invoice_send_address",
+      "package_name": "nantic_account_invoice_send_address",
+      "url": "https://github.com/NaN-tic/trytond-account_invoice_send_address"
+    },
+    {
+      "key": "nan-tic/account_invoice_send_in_paper",
+      "package_name": "nantic_account_invoice_send_in_paper",
+      "url": "https://github.com/NaN-tic/trytond-account_invoice_send_in_paper"
+    },
+    {
+      "key": "nan-tic/account_invoice_shipment",
+      "package_name": "nantic_account_invoice_shipment",
+      "url": "https://github.com/NaN-tic/trytond-account_invoice_shipment"
+    },
+    {
+      "key": "nan-tic/account_invoice_shop",
+      "package_name": "nantic_account_invoice_shop",
+      "url": "https://github.com/NaN-tic/trytond-account_invoice_shop"
+    },
+    {
+      "key": "nan-tic/account_invoice_subchapters",
+      "package_name": "nantic_account_invoice_subchapters",
+      "url": "https://github.com/NaN-tic/trytond-account_invoice_subchapters"
+    },
+    {
+      "key": "nan-tic/account_invoice_taxes_required",
+      "package_name": "trytonspain_account_invoice_taxes_required",
+      "url": "https://github.com/NaN-tic/trytond-account_invoice_taxes_required"
+    },
+    {
+      "key": "nan-tic/account_invoice_total",
+      "package_name": "trytonzz_account_invoice_total",
+      "url": "https://github.com/NaN-tic/trytond-account_invoice_total"
+    },
+    {
+      "key": "nan-tic/account_invoice_type",
+      "package_name": "trytonspain_account_invoice_type",
+      "url": "https://github.com/NaN-tic/trytond-account_invoice_type"
+    },
+    {
+      "key": "nan-tic/account_invoice_validate_identifier",
+      "package_name": "nan_account_invoice_validate_identifier",
+      "url": "https://github.com/NaN-tic/trytond-account_invoice_validate_identifier"
+    },
+    {
+      "key": "nan-tic/account_invoice_visible_payments",
+      "package_name": "trytonspain_account_invoice_visible_payments",
+      "url": "https://github.com/NaN-tic/trytond-account_invoice_visible_payments"
+    },
+    {
+      "key": "nan-tic/account_invoice_warning_move_origin",
+      "package_name": "nan_account_invoice_warning_move_origin",
+      "url": "https://github.com/NaN-tic/trytond-account_invoice_warning_move_origin"
+    },
+    {
+      "key": "nan-tic/account_jasper_reports",
+      "package_name": "trytonspain_account_jasper_reports",
+      "url": "https://github.com/NaN-tic/trytond-account_jasper_reports"
+    },
+    {
+      "key": "nan-tic/account_move_draft",
+      "package_name": "trytonspain_account_move_draft",
+      "url": "https://github.com/NaN-tic/trytond-account_move_draft"
+    },
+    {
+      "key": "nan-tic/account_move_line_related",
+      "package_name": "trytonspain_account_move_line_related",
+      "url": "https://github.com/NaN-tic/trytond-account_move_line_related"
+    },
+    {
+      "key": "nan-tic/account_move_renumber",
+      "package_name": "trytonspain_account_move_renumber",
+      "url": "https://github.com/NaN-tic/trytond-account_move_renumber"
+    },
+    {
+      "key": "nan-tic/account_parent_code",
+      "package_name": "trytonspain_account_parent_code",
+      "url": "https://github.com/NaN-tic/trytond-account_parent_code"
+    },
+    {
+      "key": "nan-tic/account_payment_days",
+      "package_name": "trytonspain_account_payment_days",
+      "url": "https://github.com/NaN-tic/trytond-account_payment_days"
+    },
+    {
+      "key": "nan-tic/account_payment_es",
+      "package_name": "trytonspain_account_payment_es",
+      "url": "https://github.com/NaN-tic/trytond-account_payment_es"
+    },
+    {
+      "key": "nan-tic/account_payment_forecast",
+      "package_name": "trytonspain_account_payment_forecast",
+      "url": "https://github.com/NaN-tic/trytond-account_payment_forecast"
+    },
+    {
+      "key": "nan-tic/account_payment_gateway",
+      "package_name": "trytonzz_account_payment_gateway",
+      "url": "https://github.com/NaN-tic/trytond-account_payment_gateway"
+    },
+    {
+      "key": "nan-tic/account_payment_gateway_invoice",
+      "package_name": "trytonzz_account_payment_gateway_invoice",
+      "url": "https://github.com/NaN-tic/trytond-account_payment_gateway_invoice"
+    },
+    {
+      "key": "nan-tic/account_payment_gateway_paypal",
+      "package_name": "trytonzz_account_payment_gateway_paypal",
+      "url": "https://github.com/NaN-tic/trytond-account_payment_gateway_paypal"
+    },
+    {
+      "key": "nan-tic/account_payment_gateway_redsys",
+      "package_name": "trytonzz_account_payment_gateway_redsys",
+      "url": "https://github.com/NaN-tic/trytond-account_payment_gateway_redsys"
+    },
+    {
+      "key": "nan-tic/account_payment_gateway_sale",
+      "package_name": "trytonzz_account_payment_gateway_sale",
+      "url": "https://github.com/NaN-tic/trytond-account_payment_gateway_sale"
+    },
+    {
+      "key": "nan-tic/account_payment_holidays",
+      "package_name": "nantic_account_payment_holidays",
+      "url": "https://github.com/NaN-tic/trytond-account_payment_holidays"
+    },
+    {
+      "key": "nan-tic/account_payment_processing",
+      "package_name": "nantic_account_payment_processing",
+      "url": "https://github.com/NaN-tic/trytond-account_payment_processing"
+    },
+    {
+      "key": "nan-tic/account_payment_receipt",
+      "package_name": "trytonspain_account_payment_receipt",
+      "url": "https://github.com/NaN-tic/trytond-account_payment_receipt"
+    },
+    {
+      "key": "nan-tic/account_payment_redsys",
+      "package_name": "nantic_account_payment_redsys",
+      "url": "https://github.com/NaN-tic/trytond-account_payment_redsys"
+    },
+    {
+      "key": "nan-tic/account_payment_sepa_es",
+      "package_name": "trytonspain_account_payment_sepa_es",
+      "url": "https://github.com/NaN-tic/trytond-account_payment_sepa_es"
+    },
+    {
+      "key": "nan-tic/account_payment_term_cost",
+      "package_name": "nantic_account_payment_term_cost",
+      "url": "https://github.com/NaN-tic/trytond-account_payment_term_cost"
+    },
+    {
+      "key": "nan-tic/account_payment_type",
+      "package_name": "trytonspain_account_payment_type",
+      "url": "https://github.com/NaN-tic/trytond-account_payment_type"
+    },
+    {
+      "key": "nan-tic/account_payment_type_cost",
+      "package_name": "trytonspain_account_payment_type_cost",
+      "url": "https://github.com/NaN-tic/trytond-account_payment_type_cost"
+    },
+    {
+      "key": "nan-tic/account_payment_wizard",
+      "package_name": "trytonspain_account_payment_wizard",
+      "url": "https://github.com/NaN-tic/trytond-account_payment_wizard"
+    },
+    {
+      "key": "nan-tic/account_product_accounting",
+      "package_name": "nantic_account_product_accounting",
+      "url": "https://github.com/NaN-tic/trytond-account_product_accounting"
+    },
+    {
+      "key": "nan-tic/account_reconcile",
+      "package_name": "trytonspain_account_reconcile",
+      "url": "https://github.com/NaN-tic/trytond-account_reconcile"
+    },
+    {
+      "key": "nan-tic/account_search_with_dot",
+      "package_name": "trytonspain_account_search_with_dot",
+      "url": "https://github.com/NaN-tic/trytond-account_search_with_dot"
+    },
+    {
+      "key": "nan-tic/account_statement_enable_banking",
+      "package_name": "nantic_account_statement_enable_banking",
+      "url": "https://github.com/NaN-tic/trytond-account_statement_enable_banking"
+    },
+    {
+      "key": "nan-tic/account_statement_line_type",
+      "package_name": "nantic_account_statement_line_type",
+      "url": "https://github.com/NaN-tic/trytond-account_statement_line_type"
+    },
+    {
+      "key": "nan-tic/account_stock_continental_location",
+      "package_name": "nantic_account_stock_continental_location",
+      "url": "https://github.com/NaN-tic/trytond-account_stock_continental_location"
+    },
+    {
+      "key": "nan-tic/account_tax_rule_tax_deposit",
+      "package_name": "nantic_account_tax_rule_tax_deposit",
+      "url": "https://github.com/NaN-tic/trytond-account_tax_rule_tax_deposit"
+    },
+    {
+      "key": "nan-tic/account_uk",
+      "package_name": "trytond_account_uk",
+      "url": "https://github.com/NaN-tic/trytond-account_uk"
+    },
+    {
+      "key": "nan-tic/activity",
+      "package_name": "trytonspain_activity",
+      "url": "https://github.com/NaN-tic/trytond-activity"
+    },
+    {
+      "key": "nan-tic/activity_category",
+      "package_name": "nantic_activity_category",
+      "url": "https://github.com/NaN-tic/trytond-activity_category"
+    },
+    {
+      "key": "nan-tic/activity_contact",
+      "package_name": "nantic_activity_contact",
+      "url": "https://github.com/NaN-tic/trytond-activity_contact"
+    },
+    {
+      "key": "nan-tic/aeat_111",
+      "package_name": "nantic_aeat_111",
+      "url": "https://github.com/NaN-tic/trytond-aeat_111"
+    },
+    {
+      "key": "nan-tic/aeat_115",
+      "package_name": "nantic_aeat_115",
+      "url": "https://github.com/NaN-tic/trytond-aeat_115"
+    },
+    {
+      "key": "nan-tic/aeat_303",
+      "package_name": "trytonspain_aeat_303",
+      "url": "https://github.com/NaN-tic/trytond-aeat_303"
+    },
+    {
+      "key": "nan-tic/aeat_347",
+      "package_name": "trytonspain_aeat_347",
+      "url": "https://github.com/NaN-tic/trytond-aeat_347"
+    },
+    {
+      "key": "nan-tic/aeat_349",
+      "package_name": "trytonspain_aeat_349",
+      "url": "https://github.com/NaN-tic/trytond-aeat_349"
+    },
+    {
+      "key": "nan-tic/aeat_non_reusable_plastic_containers",
+      "package_name": "nantic_aeat_non_reusable_plastic_containers",
+      "url": "https://github.com/NaN-tic/trytond-aeat_non_reusable_plastic_containers"
+    },
+    {
+      "key": "nan-tic/aeat_party_validation",
+      "package_name": "nantic_aeat_party_validation",
+      "url": "https://github.com/NaN-tic/trytond-aeat_party_validation"
+    },
+    {
+      "key": "nan-tic/aeat_sii",
+      "package_name": "trytonspain_aeat_sii",
+      "url": "https://github.com/NaN-tic/trytond-aeat_sii"
+    },
+    {
+      "key": "nan-tic/agronomics",
+      "package_name": "nantic_agronomics",
+      "url": "https://github.com/NaN-tic/trytond-agronomics"
+    },
+    {
+      "key": "nan-tic/agronomics_product_bulk",
+      "package_name": "nantic_agronomics_product_bulk",
+      "url": "https://github.com/NaN-tic/trytond-agronomics_product_bulk"
+    },
+    {
+      "key": "nan-tic/analytic_account_move",
+      "package_name": "nantic_analytic_account_move",
+      "url": "https://github.com/NaN-tic/trytond-analytic_account_move"
+    },
+    {
+      "key": "nan-tic/analytic_account_parent",
+      "package_name": "nantic_analytic_account_parent",
+      "url": "https://github.com/NaN-tic/trytond-analytic_account_parent"
+    },
+    {
+      "key": "nan-tic/analytic_account_spread",
+      "package_name": "nantic_analytic_account_spread",
+      "url": "https://github.com/NaN-tic/trytond-analytic_account_spread"
+    },
+    {
+      "key": "nan-tic/analytic_asset",
+      "package_name": "nantic_analytic_asset",
+      "url": "https://github.com/NaN-tic/trytond-analytic_asset"
+    },
+    {
+      "key": "nan-tic/analytic_bank_statement",
+      "package_name": "nantic_analytic_bank_statement",
+      "url": "https://github.com/NaN-tic/trytond-analytic_bank_statement"
+    },
+    {
+      "key": "nan-tic/analytic_bank_statement_rule",
+      "package_name": "nantic_analytic_bank_statement_rule",
+      "url": "https://github.com/NaN-tic/trytond-analytic_bank_statement_rule"
+    },
+    {
+      "key": "nan-tic/analytic_invoice_asset",
+      "package_name": "nantic_analytic_invoice_asset",
+      "url": "https://github.com/NaN-tic/trytond-analytic_invoice_asset"
+    },
+    {
+      "key": "nan-tic/analytic_line_state",
+      "package_name": "nantic_analytic_line_state",
+      "url": "https://github.com/NaN-tic/trytond-analytic_line_state"
+    },
+    {
+      "key": "nan-tic/analytic_location",
+      "package_name": "nantic_analytic_location",
+      "url": "https://github.com/NaN-tic/trytond-analytic_location"
+    },
+    {
+      "key": "nan-tic/analytic_project",
+      "package_name": "nantic_analytic_project",
+      "url": "https://github.com/NaN-tic/trytond-analytic_project"
+    },
+    {
+      "key": "nan-tic/analytic_purchase_warehouse",
+      "package_name": "nantic_analytic_purchase_warehouse",
+      "url": "https://github.com/NaN-tic/trytond-analytic_purchase_warehouse"
+    },
+    {
+      "key": "nan-tic/analytic_sale_warehouse",
+      "package_name": "nantic_analytic_sale_warehouse",
+      "url": "https://github.com/NaN-tic/trytond-analytic_sale_warehouse"
+    },
+    {
+      "key": "nan-tic/analytic_stock",
+      "package_name": "nantic_analytic_stock",
+      "url": "https://github.com/NaN-tic/trytond-analytic_stock"
+    },
+    {
+      "key": "nan-tic/approval",
+      "package_name": "nantic_approval",
+      "url": "https://github.com/NaN-tic/trytond-approval"
+    },
+    {
+      "key": "nan-tic/app_proxy",
+      "package_name": "nantic_app_proxy",
+      "url": "https://github.com/NaN-tic/trytond-app_proxy"
+    },
+    {
+      "key": "nan-tic/asset",
+      "package_name": "nantic_asset",
+      "url": "https://github.com/NaN-tic/trytond-asset"
+    },
+    {
+      "key": "nan-tic/asset_attribute",
+      "package_name": "nantic_asset_attribute",
+      "url": "https://github.com/NaN-tic/trytond-asset_attribute"
+    },
+    {
+      "key": "nan-tic/asset_contract",
+      "package_name": "nantic_asset_contract",
+      "url": "https://github.com/NaN-tic/trytond-asset_contract"
+    },
+    {
+      "key": "nan-tic/asset_invoice",
+      "package_name": "nantic_asset_invoice",
+      "url": "https://github.com/NaN-tic/trytond-asset_invoice"
+    },
+    {
+      "key": "nan-tic/asset_maintenance",
+      "package_name": "nantic_asset_maintenance",
+      "url": "https://github.com/NaN-tic/trytond-asset_maintenance"
+    },
+    {
+      "key": "nan-tic/asset_manager",
+      "package_name": "nantic_asset_manager",
+      "url": "https://github.com/NaN-tic/trytond-asset_manager"
+    },
+    {
+      "key": "nan-tic/asset_owner",
+      "package_name": "nantic_asset_owner",
+      "url": "https://github.com/NaN-tic/trytond-asset_owner"
+    },
+    {
+      "key": "nan-tic/asset_property",
+      "package_name": "nantic_asset_property",
+      "url": "https://github.com/NaN-tic/trytond-asset_property"
+    },
+    {
+      "key": "nan-tic/asset_quality_control_equipment",
+      "package_name": "nantic_asset_quality_control_equipment",
+      "url": "https://github.com/NaN-tic/trytond-asset_quality_control_equipment"
+    },
+    {
+      "key": "nan-tic/asset_relationship",
+      "package_name": "nantic_asset_relationship",
+      "url": "https://github.com/NaN-tic/trytond-asset_relationship"
+    },
+    {
+      "key": "nan-tic/asterisk",
+      "package_name": "nantic_asterisk",
+      "url": "https://github.com/NaN-tic/trytond-asterisk"
+    },
+    {
+      "key": "nan-tic/audit_log",
+      "package_name": "nantic_audit_log",
+      "url": "https://github.com/NaN-tic/trytond-audit_log"
+    },
+    {
+      "key": "nan-tic/audit_trail",
+      "package_name": "nantic_audit_trail",
+      "url": "https://github.com/NaN-tic/trytond-audit_trail"
+    },
+    {
+      "key": "nan-tic/babi",
+      "package_name": "nantic_babi",
+      "url": "https://github.com/NaN-tic/trytond-babi"
+    },
+    {
+      "key": "nan-tic/babi_reports_account",
+      "package_name": "nantic_babi_reports_account",
+      "url": "https://github.com/NaN-tic/trytond-babi_reports_account"
+    },
+    {
+      "key": "nan-tic/babi_reports_account_invoice",
+      "package_name": "nantic_babi_reports_account_invoice",
+      "url": "https://github.com/NaN-tic/trytond-babi_reports_account_invoice"
+    },
+    {
+      "key": "nan-tic/babi_reports_analytic_account",
+      "package_name": "nantic_babi_reports_analytic_account",
+      "url": "https://github.com/NaN-tic/trytond-babi_reports_analytic_account"
+    },
+    {
+      "key": "nan-tic/babi_reports_product",
+      "package_name": "nantic_babi_reports_product",
+      "url": "https://github.com/NaN-tic/trytond-babi_reports_product"
+    },
+    {
+      "key": "nan-tic/babi_reports_purchase",
+      "package_name": "trytonzz_babi_reports_purchase",
+      "url": "https://github.com/NaN-tic/trytond-babi_reports_purchase"
+    },
+    {
+      "key": "nan-tic/babi_reports_sale",
+      "package_name": "trytonzz_babi_reports_sale",
+      "url": "https://github.com/NaN-tic/trytond-babi_reports_sale"
+    },
+    {
+      "key": "nan-tic/babi_reports_sale_opportunity",
+      "package_name": "nantic_babi_reports_sale_opportunity",
+      "url": "https://github.com/NaN-tic/trytond-babi_reports_sale_opportunity"
+    },
+    {
+      "key": "nan-tic/babi_reports_sii",
+      "package_name": "nan_babi_reports_sii",
+      "url": "https://github.com/NaN-tic/trytond-babi_reports_sii"
+    },
+    {
+      "key": "nan-tic/babi_reports_stock",
+      "package_name": "nantic_babi_reports_stock",
+      "url": "https://github.com/NaN-tic/trytond-babi_reports_stock"
+    },
+    {
+      "key": "nan-tic/bank_es",
+      "package_name": "trytonspain_bank_es",
+      "url": "https://github.com/NaN-tic/trytond-bank_es"
+    },
+    {
+      "key": "nan-tic/base_external_mapping",
+      "package_name": "trytonzz_base_external_mapping",
+      "url": "https://github.com/NaN-tic/trytond-base_external_mapping"
+    },
+    {
+      "key": "nan-tic/carrier_api",
+      "package_name": "trytonzz_carrier_api",
+      "url": "https://github.com/NaN-tic/trytond-carrier_api"
+    },
+    {
+      "key": "nan-tic/carrier_code",
+      "package_name": "trytonzz_carrier_code",
+      "url": "https://github.com/NaN-tic/trytond-carrier_code"
+    },
+    {
+      "key": "nan-tic/carrier_file",
+      "package_name": "nantic_carrier_file",
+      "url": "https://github.com/NaN-tic/trytond-carrier_file"
+    },
+    {
+      "key": "nan-tic/carrier_formula",
+      "package_name": "trytonzz_carrier_formula",
+      "url": "https://github.com/NaN-tic/trytond-carrier_formula"
+    },
+    {
+      "key": "nan-tic/carrier_note",
+      "package_name": "trytonzz_carrier_note",
+      "url": "https://github.com/NaN-tic/trytond-carrier_note"
+    },
+    {
+      "key": "nan-tic/carrier_payment_type",
+      "package_name": "trytonzz_carrier_payment_type",
+      "url": "https://github.com/NaN-tic/trytond-carrier_payment_type"
+    },
+    {
+      "key": "nan-tic/carrier_send_shipments",
+      "package_name": "trytonzz_carrier_send_shipments",
+      "url": "https://github.com/NaN-tic/trytond-carrier_send_shipments"
+    },
+    {
+      "key": "nan-tic/carrier_send_shipments_mrw",
+      "package_name": "trytonzz_carrier_send_shipments_mrw",
+      "url": "https://github.com/NaN-tic/trytond-carrier_send_shipments_mrw"
+    },
+    {
+      "key": "nan-tic/carrier_send_shipments_nacex",
+      "package_name": "trytonzz_carrier_send_shipments_nacex",
+      "url": "https://github.com/NaN-tic/trytond-carrier_send_shipments_nacex"
+    },
+    {
+      "key": "nan-tic/carrier_send_shipments_shippypro",
+      "package_name": "nantic_carrier_send_shipments_shippypro",
+      "url": "https://github.com/NaN-tic/trytond-carrier_send_shipments_shippypro"
+    },
+    {
+      "key": "nan-tic/carrier_shipment_note",
+      "package_name": "trytonzz_carrier_shipment_note",
+      "url": "https://github.com/NaN-tic/trytond-carrier_shipment_note"
+    },
+    {
+      "key": "nan-tic/carrier_zip",
+      "package_name": "trytonzz_carrier_zip",
+      "url": "https://github.com/NaN-tic/trytond-carrier_zip"
+    },
+    {
+      "key": "nan-tic/certificate_manager",
+      "package_name": "nantic_certificate_manager",
+      "url": "https://github.com/NaN-tic/trytond-certificate_manager"
+    },
+    {
+      "key": "nan-tic/commission_invoice_date",
+      "package_name": "nantic_commission_invoice_date",
+      "url": "https://github.com/NaN-tic/trytond-commission_invoice_date"
+    },
+    {
+      "key": "nan-tic/commission_invoice_posted2draft",
+      "package_name": "trytonzz_commission_invoice_posted2draft",
+      "url": "https://github.com/NaN-tic/trytond-commission_invoice_posted2draft"
+    },
+    {
+      "key": "nan-tic/commission_manager",
+      "package_name": "nantic_commission_manager",
+      "url": "https://github.com/NaN-tic/trytond-commission_manager"
+    },
+    {
+      "key": "nan-tic/commission_party",
+      "package_name": "nantic_commission_party",
+      "url": "https://github.com/NaN-tic/trytond-commission_party"
+    },
+    {
+      "key": "nan-tic/company_account_sync",
+      "package_name": "nantic_company_account_sync",
+      "url": "https://github.com/NaN-tic/trytond-company_account_sync"
+    },
+    {
+      "key": "nan-tic/company_bank",
+      "package_name": "trytonspain_company_bank",
+      "url": "https://github.com/NaN-tic/trytond-company_bank"
+    },
+    {
+      "key": "nan-tic/company_logo",
+      "package_name": "trytonspain_company_logo",
+      "url": "https://github.com/NaN-tic/trytond-company_logo"
+    },
+    {
+      "key": "nan-tic/company_user",
+      "package_name": "nantic_company_user",
+      "url": "https://github.com/NaN-tic/trytond-company_user"
+    },
+    {
+      "key": "nan-tic/contract",
+      "package_name": "nantic_contract",
+      "url": "https://github.com/NaN-tic/trytond-contract"
+    },
+    {
+      "key": "nan-tic/contract_payment_type",
+      "package_name": "nantic_contract_payment_type",
+      "url": "https://github.com/NaN-tic/trytond-contract_payment_type"
+    },
+    {
+      "key": "nan-tic/csv_import",
+      "package_name": "trytonzz_csv_import",
+      "url": "https://github.com/NaN-tic/trytond-csv_import"
+    },
+    {
+      "key": "nan-tic/dbcopy",
+      "package_name": "trytonzz_dbcopy",
+      "url": "https://github.com/NaN-tic/trytond-dbcopy"
+    },
+    {
+      "key": "nan-tic/discount_formula",
+      "package_name": "nantic_discount_formula",
+      "url": "https://github.com/NaN-tic/trytond-discount_formula"
+    },
+    {
+      "key": "nan-tic/edocument_unedifact",
+      "package_name": "nantic_edocument_unedifact",
+      "url": "https://github.com/NaN-tic/trytond-edocument_unedifact"
+    },
+    {
+      "key": "nan-tic/electronic_mail",
+      "package_name": "nantic_electronic_mail",
+      "url": "https://github.com/NaN-tic/trytond-electronic_mail"
+    },
+    {
+      "key": "nan-tic/electronic_mail_activity",
+      "package_name": "nantic_electronic_mail_activity",
+      "url": "https://github.com/NaN-tic/trytond-electronic_mail_activity"
+    },
+    {
+      "key": "nan-tic/electronic_mail_imap",
+      "package_name": "nantic_electronic_mail_imap",
+      "url": "https://github.com/NaN-tic/trytond-electronic_mail_imap"
+    },
+    {
+      "key": "nan-tic/electronic_mail_model",
+      "package_name": "nantic_electronic_mail_model",
+      "url": "https://github.com/NaN-tic/trytond-electronic_mail_model"
+    },
+    {
+      "key": "nan-tic/electronic_mail_single",
+      "package_name": "trytonzz_electronic_mail_single",
+      "url": "https://github.com/NaN-tic/trytond-electronic_mail_single"
+    },
+    {
+      "key": "nan-tic/electronic_mail_template",
+      "package_name": "nantic_electronic_mail_template",
+      "url": "https://github.com/NaN-tic/trytond-electronic_mail_template"
+    },
+    {
+      "key": "nan-tic/electronic_mail_wizard",
+      "package_name": "nantic_electronic_mail_wizard",
+      "url": "https://github.com/NaN-tic/trytond-electronic_mail_wizard"
+    },
+    {
+      "key": "nan-tic/employee_leave",
+      "package_name": "nantic_employee_leave",
+      "url": "https://github.com/NaN-tic/trytond-employee_leave"
+    },
+    {
+      "key": "nan-tic/employee_vacancy",
+      "package_name": "nantic_employee_vacancy",
+      "url": "https://github.com/NaN-tic/trytond-employee_vacancy"
+    },
+    {
+      "key": "nan-tic/esale",
+      "package_name": "trytonzz_esale",
+      "url": "https://github.com/NaN-tic/trytond-esale"
+    },
+    {
+      "key": "nan-tic/esale_product",
+      "package_name": "trytonzz_esale_product",
+      "url": "https://github.com/NaN-tic/trytond-esale_product"
+    },
+    {
+      "key": "nan-tic/esale_stock",
+      "package_name": "trytonzz_esale_stock",
+      "url": "https://github.com/NaN-tic/trytond-esale_stock"
+    },
+    {
+      "key": "nan-tic/farm",
+      "package_name": "nantic_farm",
+      "url": "https://github.com/NaN-tic/trytond-farm"
+    },
+    {
+      "key": "nan-tic/farm_breeding",
+      "package_name": "nantic_farm_breeding",
+      "url": "https://github.com/NaN-tic/trytond-farm_breeding"
+    },
+    {
+      "key": "nan-tic/farm_feed_production",
+      "package_name": "nantic_farm_feed_production",
+      "url": "https://github.com/NaN-tic/trytond-farm_feed_production"
+    },
+    {
+      "key": "nan-tic/farm_nutrition_program",
+      "package_name": "nantic_farm_nutrition_program",
+      "url": "https://github.com/NaN-tic/trytond-farm_nutrition_program"
+    },
+    {
+      "key": "nan-tic/farm_nutrition_program_supply_request",
+      "package_name": "nantic_farm_nutrition_program_supply_request",
+      "url": "https://github.com/NaN-tic/trytond-farm_nutrition_program_supply_request"
+    },
+    {
+      "key": "nan-tic/farm_prescription",
+      "package_name": "nantic_recipts",
+      "url": "https://github.com/NaN-tic/trytond-farm_prescription"
+    },
+    {
+      "key": "nan-tic/file_format",
+      "package_name": "nantic_file_format",
+      "url": "https://github.com/NaN-tic/trytond-file_format"
+    },
+    {
+      "key": "nan-tic/galatea",
+      "package_name": "trytonzz_galatea",
+      "url": "https://github.com/NaN-tic/trytond-galatea"
+    },
+    {
+      "key": "nan-tic/galatea_blog",
+      "package_name": "trytonzz_galatea_blog",
+      "url": "https://github.com/NaN-tic/trytond-galatea_blog"
+    },
+    {
+      "key": "nan-tic/galatea_cms",
+      "package_name": "trytonzz_galatea_cms",
+      "url": "https://github.com/NaN-tic/trytond-galatea_cms"
+    },
+    {
+      "key": "nan-tic/galatea_esale",
+      "package_name": "trytonzz_galatea_esale",
+      "url": "https://github.com/NaN-tic/trytond-galatea_esale"
+    },
+    {
+      "key": "nan-tic/getmail",
+      "package_name": "trytonzz_getmail",
+      "url": "https://github.com/NaN-tic/trytond-getmail"
+    },
+    {
+      "key": "nan-tic/helpdesk",
+      "package_name": "trytonzz_helpdesk",
+      "url": "https://github.com/NaN-tic/trytond-helpdesk"
+    },
+    {
+      "key": "nan-tic/hide_core_reports",
+      "package_name": "nantic_hide_core_reports",
+      "url": "https://github.com/NaN-tic/trytond-hide_core_reports"
+    },
+    {
+      "key": "nan-tic/html_report",
+      "package_name": "trytonspain_html_report",
+      "url": "https://github.com/NaN-tic/trytond-html_report"
+    },
+    {
+      "key": "nan-tic/imap",
+      "package_name": "nantic_imap",
+      "url": "https://github.com/NaN-tic/trytond-imap"
+    },
+    {
+      "key": "nan-tic/intercompany_create_sales_from_purchase",
+      "package_name": "nantic_intercompany_create_sales_from_purchase",
+      "url": "https://github.com/NaN-tic/trytond-intercompany_create_sales_from_purchase"
+    },
+    {
+      "key": "nan-tic/intern_catalogue",
+      "package_name": "nantic_intern_catalogue",
+      "url": "https://github.com/NaN-tic/trytond-intern_catalogue"
+    },
+    {
+      "key": "nan-tic/ir_export_permission",
+      "package_name": "nantic_ir_export_permission",
+      "url": "https://github.com/NaN-tic/trytond-ir_export_permission"
+    },
+    {
+      "key": "nan-tic/jasper_reports",
+      "package_name": "trytonspain_jasper_reports",
+      "url": "https://github.com/NaN-tic/trytond-jasper_reports"
+    },
+    {
+      "key": "nan-tic/jasper_reports_options",
+      "package_name": "trytonzz_jasper_reports_options",
+      "url": "https://github.com/NaN-tic/trytond-jasper_reports_options"
+    },
+    {
+      "key": "nan-tic/mass_editing",
+      "package_name": "trytonspain_mass_editing",
+      "url": "https://github.com/NaN-tic/trytond-mass_editing"
+    },
+    {
+      "key": "nan-tic/multiple_attachment",
+      "package_name": "trytonzz_multiple_attachment",
+      "url": "https://github.com/NaN-tic/trytond-multiple_attachment"
+    },
+    {
+      "key": "nan-tic/newsletter",
+      "package_name": "trytonzz_newsletter",
+      "url": "https://github.com/NaN-tic/trytond-newsletter"
+    },
+    {
+      "key": "nan-tic/party_address_position",
+      "package_name": "trytonzz_party_address_position",
+      "url": "https://github.com/NaN-tic/trytond-party_address_position"
+    },
+    {
+      "key": "nan-tic/party_alternative_reports",
+      "package_name": "nantic_party_alternative_reports",
+      "url": "https://github.com/NaN-tic/trytond-party_alternative_reports"
+    },
+    {
+      "key": "nan-tic/party_asterisk",
+      "package_name": "nantic_party_asterisk",
+      "url": "https://github.com/NaN-tic/trytond-party_asterisk"
+    },
+    {
+      "key": "nan-tic/party_business_hours",
+      "package_name": "nantic_party_business_hours",
+      "url": "https://github.com/NaN-tic/trytond-party_business_hours"
+    },
+    {
+      "key": "nan-tic/party_camerdata",
+      "package_name": "nantic_party_camerdata",
+      "url": "https://github.com/NaN-tic/trytond-party_camerdata"
+    },
+    {
+      "key": "nan-tic/party_categories",
+      "package_name": "nantic_product_categories",
+      "url": "https://github.com/NaN-tic/trytond-party_categories"
+    },
+    {
+      "key": "nan-tic/party_certification",
+      "package_name": "nantic_party_certification",
+      "url": "https://github.com/NaN-tic/trytond-party_certification"
+    },
+    {
+      "key": "nan-tic/party_cnae",
+      "package_name": "trytonspain_party_cnae",
+      "url": "https://github.com/NaN-tic/trytond-party_cnae"
+    },
+    {
+      "key": "nan-tic/party_comment",
+      "package_name": "trytonspain_party_comment",
+      "url": "https://github.com/NaN-tic/trytond-party_comment"
+    },
+    {
+      "key": "nan-tic/party_communication",
+      "package_name": "trytonzz_party_communication",
+      "url": "https://github.com/NaN-tic/trytond-party_communication"
+    },
+    {
+      "key": "nan-tic/party_company",
+      "package_name": "nantic_party_company",
+      "url": "https://github.com/NaN-tic/trytond-party_company"
+    },
+    {
+      "key": "nan-tic/party_customer",
+      "package_name": "nantic_party_customer",
+      "url": "https://github.com/NaN-tic/trytond-party_customer"
+    },
+    {
+      "key": "nan-tic/party_edi",
+      "package_name": "nantic_party_edi",
+      "url": "https://github.com/NaN-tic/trytond-party_edi"
+    },
+    {
+      "key": "nan-tic/party_iae",
+      "package_name": "trytonspain_party_iae",
+      "url": "https://github.com/NaN-tic/trytond-party_iae"
+    },
+    {
+      "key": "nan-tic/party_identifier",
+      "package_name": "trytonzz_party_identifier",
+      "url": "https://github.com/NaN-tic/trytond-party_identifier"
+    },
+    {
+      "key": "nan-tic/party_lang",
+      "package_name": "trytonzz_party_lang",
+      "url": "https://github.com/NaN-tic/trytond-party_lang"
+    },
+    {
+      "key": "nan-tic/party_manufacturer",
+      "package_name": "nantic_party_manufacturer",
+      "url": "https://github.com/NaN-tic/trytond-party_manufacturer"
+    },
+    {
+      "key": "nan-tic/party_maps",
+      "package_name": "nantic_party_maps",
+      "url": "https://github.com/NaN-tic/trytond-party_maps"
+    },
+    {
+      "key": "nan-tic/party_personal_data_permission",
+      "package_name": "nantic_party_personal_data_permission",
+      "url": "https://github.com/NaN-tic/trytond-party_personal_data_permission"
+    },
+    {
+      "key": "nan-tic/party_search",
+      "package_name": "trytonspain_party_search",
+      "url": "https://github.com/NaN-tic/trytond-party_search"
+    },
+    {
+      "key": "nan-tic/party_social_contact",
+      "package_name": "trytonzz_party_social_contact",
+      "url": "https://github.com/NaN-tic/trytond-party_social_contact"
+    },
+    {
+      "key": "nan-tic/party_supplier",
+      "package_name": "nantic_party_supplier",
+      "url": "https://github.com/NaN-tic/trytond-party_supplier"
+    },
+    {
+      "key": "nan-tic/party_tradename",
+      "package_name": "trytonspain_party_tradename",
+      "url": "https://github.com/NaN-tic/trytond-party_tradename"
+    },
+    {
+      "key": "nan-tic/party_type",
+      "package_name": "trytonspain_party_type",
+      "url": "https://github.com/NaN-tic/trytond-party_type"
+    },
+    {
+      "key": "nan-tic/party_validate",
+      "package_name": "nantic_party_validate",
+      "url": "https://github.com/NaN-tic/trytond-party_validate"
+    },
+    {
+      "key": "nan-tic/party_vat_unique",
+      "package_name": "trytonspain_party_vat_unique",
+      "url": "https://github.com/NaN-tic/trytond-party_vat_unique"
+    },
+    {
+      "key": "nan-tic/party_zip",
+      "package_name": "nantic_party_zip",
+      "url": "https://github.com/NaN-tic/trytond-party_zip"
+    },
+    {
+      "key": "nan-tic/password_expiry",
+      "package_name": "nantic_password_expiry",
+      "url": "https://github.com/NaN-tic/trytond-password_expiry"
+    },
+    {
+      "key": "nan-tic/payroll",
+      "package_name": "nantic_payroll",
+      "url": "https://github.com/NaN-tic/trytond-payroll"
+    },
+    {
+      "key": "nan-tic/printer",
+      "package_name": "nan_printer",
+      "url": "https://github.com/NaN-tic/trytond-printer"
+    },
+    {
+      "key": "nan-tic/production_ancestors",
+      "package_name": "nantic_production_ancestors",
+      "url": "https://github.com/NaN-tic/trytond-production_ancestors"
+    },
+    {
+      "key": "nan-tic/production_bom_orcad_import",
+      "package_name": "nantic_production_bom_orcad_import",
+      "url": "https://github.com/NaN-tic/trytond-production_bom_orcad_import"
+    },
+    {
+      "key": "nan-tic/production_bom_stock_form",
+      "package_name": "nantic_production_bom_stock_form",
+      "url": "https://github.com/NaN-tic/trytond-production_bom_stock_form"
+    },
+    {
+      "key": "nan-tic/production_bom_versions",
+      "package_name": "nantic_production_bom_versions",
+      "url": "https://github.com/NaN-tic/trytond-production_bom_versions"
+    },
+    {
+      "key": "nan-tic/production_calendar_color",
+      "package_name": "nantic_production_calendar_color",
+      "url": "https://github.com/NaN-tic/trytond-production_calendar_color"
+    },
+    {
+      "key": "nan-tic/production_cancel_warning",
+      "package_name": "nantic_production_cancel_warning",
+      "url": "https://github.com/NaN-tic/trytond-production_cancel_warning"
+    },
+    {
+      "key": "nan-tic/production_control",
+      "package_name": "nantic_production_control",
+      "url": "https://github.com/NaN-tic/trytond-production_control"
+    },
+    {
+      "key": "nan-tic/production_cost_analysis",
+      "package_name": "nantic_production_cost_analysis",
+      "url": "https://github.com/NaN-tic/trytond-production_cost_analysis"
+    },
+    {
+      "key": "nan-tic/production_cost_distribution",
+      "package_name": "nantic_production_cost_distribution",
+      "url": "https://github.com/NaN-tic/trytond-production_cost_distribution"
+    },
+    {
+      "key": "nan-tic/production_drawing",
+      "package_name": "nantic_production_drawing",
+      "url": "https://github.com/NaN-tic/trytond-production_drawing"
+    },
+    {
+      "key": "nan-tic/production_editable_tree",
+      "package_name": "nantic_production_editable_tree",
+      "url": "https://github.com/NaN-tic/trytond-production_editable_tree"
+    },
+    {
+      "key": "nan-tic/production_efficiency_percentage",
+      "package_name": "nantic_production_efficiency_percentage",
+      "url": "https://github.com/NaN-tic/trytond-production_efficiency_percentage"
+    },
+    {
+      "key": "nan-tic/production_external_party",
+      "package_name": "nantic_production_external_party",
+      "url": "https://github.com/NaN-tic/trytond-production_external_party"
+    },
+    {
+      "key": "nan-tic/production_line_sequence",
+      "package_name": "trytonzz_production_line_sequence",
+      "url": "https://github.com/NaN-tic/trytond-production_line_sequence"
+    },
+    {
+      "key": "nan-tic/production_lot_cost",
+      "package_name": "nantic_production_lot_cost",
+      "url": "https://github.com/NaN-tic/trytond-production_lot_cost"
+    },
+    {
+      "key": "nan-tic/production_mass_balance_report",
+      "package_name": "nantic_production_mass_balance_report",
+      "url": "https://github.com/NaN-tic/trytond-production_mass_balance_report"
+    },
+    {
+      "key": "nan-tic/production_operation",
+      "package_name": "nantic_production_operation",
+      "url": "https://github.com/NaN-tic/trytond-production_operation"
+    },
+    {
+      "key": "nan-tic/production_operation_tracking",
+      "package_name": "nantic_production_operation_tracking",
+      "url": "https://github.com/NaN-tic/trytond-production_operation_tracking"
+    },
+    {
+      "key": "nan-tic/production_output_location",
+      "package_name": "nantic_production_output_location",
+      "url": "https://github.com/NaN-tic/trytond-production_output_location"
+    },
+    {
+      "key": "nan-tic/production_output_lot",
+      "package_name": "nantic_production_output_lot",
+      "url": "https://github.com/NaN-tic/trytond-production_output_lot"
+    },
+    {
+      "key": "nan-tic/production_package",
+      "package_name": "nantic_production_package",
+      "url": "https://github.com/NaN-tic/trytond-production_package"
+    },
+    {
+      "key": "nan-tic/production_phantom",
+      "package_name": "nantic_production_phantom",
+      "url": "https://github.com/NaN-tic/trytond-production_phantom"
+    },
+    {
+      "key": "nan-tic/production_process",
+      "package_name": "nantic_production_process",
+      "url": "https://github.com/NaN-tic/trytond-production_process"
+    },
+    {
+      "key": "nan-tic/production_quality_control",
+      "package_name": "nantic_production_quality_control",
+      "url": "https://github.com/NaN-tic/trytond-production_quality_control"
+    },
+    {
+      "key": "nan-tic/production_reset",
+      "package_name": "nantic_production_reset",
+      "url": "https://github.com/NaN-tic/trytond-production_reset"
+    },
+    {
+      "key": "nan-tic/production_reverse_bom",
+      "package_name": "nantic_production_reverse_bom",
+      "url": "https://github.com/NaN-tic/trytond-production_reverse_bom"
+    },
+    {
+      "key": "nan-tic/production_route",
+      "package_name": "nantic_production_route",
+      "url": "https://github.com/NaN-tic/trytond-production_route"
+    },
+    {
+      "key": "nan-tic/production_split_lot_expiry",
+      "package_name": "nantic_production_split_lot_expiry",
+      "url": "https://github.com/NaN-tic/trytond-production_split_lot_expiry"
+    },
+    {
+      "key": "nan-tic/production_split_serial_number",
+      "package_name": "nantic_production_split_serial_number",
+      "url": "https://github.com/NaN-tic/trytond-production_split_serial_number"
+    },
+    {
+      "key": "nan-tic/production_split_unexploded",
+      "package_name": "nantic_production_split_unexploded",
+      "url": "https://github.com/NaN-tic/trytond-production_split_unexploded"
+    },
+    {
+      "key": "nan-tic/production_subcontract",
+      "package_name": "nantic_production_subcontract",
+      "url": "https://github.com/NaN-tic/trytond-production_subcontract"
+    },
+    {
+      "key": "nan-tic/production_supply_request",
+      "package_name": "nantic_production_supply_request",
+      "url": "https://github.com/NaN-tic/trytond-production_supply_request"
+    },
+    {
+      "key": "nan-tic/production_traceability_report",
+      "package_name": "nantic_production_traceability_report",
+      "url": "https://github.com/NaN-tic/trytond-production_traceability_report"
+    },
+    {
+      "key": "nan-tic/product_adr",
+      "package_name": "nan_product_adr",
+      "url": "https://github.com/NaN-tic/trytond-product_adr"
+    },
+    {
+      "key": "nan-tic/product_attachments",
+      "package_name": "trytonzz_product_attachments",
+      "url": "https://github.com/NaN-tic/trytond-product_attachments"
+    },
+    {
+      "key": "nan-tic/product_attribute_search",
+      "package_name": "nantic_product_attribute_search",
+      "url": "https://github.com/NaN-tic/trytond-product_attribute_search"
+    },
+    {
+      "key": "nan-tic/product_attribute_strict",
+      "package_name": "nantic_product_attribute_strict",
+      "url": "https://github.com/NaN-tic/trytond-product_attribute_strict"
+    },
+    {
+      "key": "nan-tic/product_barcode",
+      "package_name": "trytonzz_product_barcode",
+      "url": "https://github.com/NaN-tic/trytond-product_barcode"
+    },
+    {
+      "key": "nan-tic/product_brand",
+      "package_name": "nantic_product_brand",
+      "url": "https://github.com/NaN-tic/trytond-product_brand"
+    },
+    {
+      "key": "nan-tic/product_bulk",
+      "package_name": "nan_product_bulk",
+      "url": "https://github.com/NaN-tic/trytond-product_bulk"
+    },
+    {
+      "key": "nan-tic/product_categories",
+      "package_name": "nantic_product_categories",
+      "url": "https://github.com/NaN-tic/trytond-product_categories"
+    },
+    {
+      "key": "nan-tic/product_category",
+      "package_name": "nantic_product_category",
+      "url": "https://github.com/NaN-tic/trytond-product_category"
+    },
+    {
+      "key": "nan-tic/product_category_sequence",
+      "package_name": "nantic_product_category_sequence",
+      "url": "https://github.com/NaN-tic/trytond-product_category_sequence"
+    },
+    {
+      "key": "nan-tic/product_code_unique",
+      "package_name": "nantic_product_code_unique",
+      "url": "https://github.com/NaN-tic/trytond-product_code_unique"
+    },
+    {
+      "key": "nan-tic/product_cost_invisible",
+      "package_name": "nantic_product_cost_invisible",
+      "url": "https://github.com/NaN-tic/trytond-product_cost_invisible"
+    },
+    {
+      "key": "nan-tic/product_cost_plan",
+      "package_name": "nantic_product_cost_plan",
+      "url": "https://github.com/NaN-tic/trytond-product_cost_plan"
+    },
+    {
+      "key": "nan-tic/product_cost_plan_margin",
+      "package_name": "nantic_product_cost_plan_margin",
+      "url": "https://github.com/NaN-tic/trytond-product_cost_plan_margin"
+    },
+    {
+      "key": "nan-tic/product_cost_plan_operation",
+      "package_name": "nantic_product_cost_plan_operation",
+      "url": "https://github.com/NaN-tic/trytond-product_cost_plan_operation"
+    },
+    {
+      "key": "nan-tic/product_cost_plan_process",
+      "package_name": "nantic_product_cost_plan_process",
+      "url": "https://github.com/NaN-tic/trytond-product_cost_plan_process"
+    },
+    {
+      "key": "nan-tic/product_dynamic_configurator",
+      "package_name": "nantic_product_dynamic_configurator",
+      "url": "https://github.com/NaN-tic/trytond-product_dynamic_configurator"
+    },
+    {
+      "key": "nan-tic/product_dynamic_configurator_sale_opportunity",
+      "package_name": "nantic_product_dynamic_configurator_sale_opportunity",
+      "url": "https://github.com/NaN-tic/trytond-product_dynamic_configurator_sale_opportunity"
+    },
+    {
+      "key": "nan-tic/product_esale",
+      "package_name": "trytonzz_product_esale",
+      "url": "https://github.com/NaN-tic/trytond-product_esale"
+    },
+    {
+      "key": "nan-tic/product_esale_categories",
+      "package_name": "nantic_product_esale_categories",
+      "url": "https://github.com/NaN-tic/trytond-product_esale_categories"
+    },
+    {
+      "key": "nan-tic/product_fields_company",
+      "package_name": "nantic_product_fields_company",
+      "url": "https://github.com/NaN-tic/trytond-product_fields_company"
+    },
+    {
+      "key": "nan-tic/product_groups",
+      "package_name": "nantic_product_groups",
+      "url": "https://github.com/NaN-tic/trytond-product_groups"
+    },
+    {
+      "key": "nan-tic/product_images",
+      "package_name": "nantic_product_images",
+      "url": "https://github.com/NaN-tic/trytond-product_images"
+    },
+    {
+      "key": "nan-tic/product_information_uom",
+      "package_name": "nantic_product_information_uom",
+      "url": "https://github.com/NaN-tic/trytond-product_information_uom"
+    },
+    {
+      "key": "nan-tic/product_manufacturer",
+      "package_name": "trytonzz_product_manufacturer",
+      "url": "https://github.com/NaN-tic/trytond-product_manufacturer"
+    },
+    {
+      "key": "nan-tic/product_pack",
+      "package_name": "trytonzz_product_pack",
+      "url": "https://github.com/NaN-tic/trytond-product_pack"
+    },
+    {
+      "key": "nan-tic/product_package",
+      "package_name": "nantic_product_package",
+      "url": "https://github.com/NaN-tic/trytond-product_package"
+    },
+    {
+      "key": "nan-tic/product_price_by_list_price",
+      "package_name": "trytonzz_product_price_by_list_price",
+      "url": "https://github.com/NaN-tic/trytond-product_price_by_list_price"
+    },
+    {
+      "key": "nan-tic/product_price_group",
+      "package_name": "nantic_product_price_group",
+      "url": "https://github.com/NaN-tic/trytond-product_price_group"
+    },
+    {
+      "key": "nan-tic/product_price_list_formula",
+      "package_name": "trytonzz_product_price_list_formula",
+      "url": "https://github.com/NaN-tic/trytond-product_price_list_formula"
+    },
+    {
+      "key": "nan-tic/product_price_list_party",
+      "package_name": "trytonzz_product_price_list_party",
+      "url": "https://github.com/NaN-tic/trytond-product_price_list_party"
+    },
+    {
+      "key": "nan-tic/product_price_list_price_category",
+      "package_name": "nantic_product_price_list_price_category",
+      "url": "https://github.com/NaN-tic/trytond-product_price_list_price_category"
+    },
+    {
+      "key": "nan-tic/product_price_list_table",
+      "package_name": "trytonzz_product_price_list_table",
+      "url": "https://github.com/NaN-tic/trytond-product_price_list_table"
+    },
+    {
+      "key": "nan-tic/product_purchase_history",
+      "package_name": "nantic_product_purchase_history",
+      "url": "https://github.com/NaN-tic/trytond-product_purchase_history"
+    },
+    {
+      "key": "nan-tic/product_purchase_homologation",
+      "package_name": "nantic_product_purchase_homologation",
+      "url": "https://github.com/NaN-tic/trytond-product_purchase_homologation"
+    },
+    {
+      "key": "nan-tic/product_purchase_line_relation",
+      "package_name": "nantic_product_purchase_line_relation",
+      "url": "https://github.com/NaN-tic/trytond-product_purchase_line_relation"
+    },
+    {
+      "key": "nan-tic/product_qty",
+      "package_name": "trytonzz_product_qty",
+      "url": "https://github.com/NaN-tic/trytond-product_qty"
+    },
+    {
+      "key": "nan-tic/product_raw_variant",
+      "package_name": "nantic_product_raw_variant",
+      "url": "https://github.com/NaN-tic/trytond-product_raw_variant"
+    },
+    {
+      "key": "nan-tic/product_restrictions",
+      "package_name": "nantic_product_restrictions",
+      "url": "https://github.com/NaN-tic/trytond-product_restrictions"
+    },
+    {
+      "key": "nan-tic/product_restrictions_alternatives",
+      "package_name": "nantic_product_restrictions_alternatives",
+      "url": "https://github.com/NaN-tic/trytond-product_restrictions_alternatives"
+    },
+    {
+      "key": "nan-tic/product_review",
+      "package_name": "trytonzz_product_review",
+      "url": "https://github.com/NaN-tic/trytond-product_review"
+    },
+    {
+      "key": "nan-tic/product_rohs",
+      "package_name": "nantic_product_rohs",
+      "url": "https://github.com/NaN-tic/trytond-product_rohs"
+    },
+    {
+      "key": "nan-tic/product_sale_line_relation",
+      "package_name": "nantic_product_sale_line_relation",
+      "url": "https://github.com/NaN-tic/trytond-product_sale_line_relation"
+    },
+    {
+      "key": "nan-tic/product_search_code",
+      "package_name": "trytonzz_product_search_code",
+      "url": "https://github.com/NaN-tic/trytond-product_search_code"
+    },
+    {
+      "key": "nan-tic/product_sequence",
+      "package_name": "nan-tic_product_sequence",
+      "url": "https://github.com/NaN-tic/trytond-product_sequence"
+    },
+    {
+      "key": "nan-tic/product_shop",
+      "package_name": "trytonzz_product_shop",
+      "url": "https://github.com/NaN-tic/trytond-product_shop"
+    },
+    {
+      "key": "nan-tic/product_special_price",
+      "package_name": "trytonzz_product_special_price",
+      "url": "https://github.com/NaN-tic/trytond-product_special_price"
+    },
+    {
+      "key": "nan-tic/product_supplier_validation",
+      "package_name": "nantic_product_supplier_validation",
+      "url": "https://github.com/NaN-tic/trytond-product_supplier_validation"
+    },
+    {
+      "key": "nan-tic/product_template_attribute",
+      "package_name": "trytonzz_product_template_attribute",
+      "url": "https://github.com/NaN-tic/trytond-product_template_attribute"
+    },
+    {
+      "key": "nan-tic/product_template_form_quantity",
+      "package_name": "nantic_product_template_form_quantity",
+      "url": "https://github.com/NaN-tic/trytond-product_template_form_quantity"
+    },
+    {
+      "key": "nan-tic/product_validate",
+      "package_name": "nantic_product_validate",
+      "url": "https://github.com/NaN-tic/trytond-product_validate"
+    },
+    {
+      "key": "nan-tic/product_variant",
+      "package_name": "nantic_product_variant",
+      "url": "https://github.com/NaN-tic/trytond-product_variant"
+    },
+    {
+      "key": "nan-tic/product_variant_delete",
+      "package_name": "trytonzz_product_variant_delete",
+      "url": "https://github.com/NaN-tic/trytond-product_variant_delete"
+    },
+    {
+      "key": "nan-tic/product_variant_unique",
+      "package_name": "nantic_product_variant_unique",
+      "url": "https://github.com/NaN-tic/trytond-product_variant_unique"
+    },
+    {
+      "key": "nan-tic/project_activity",
+      "package_name": "nantic_project_activity",
+      "url": "https://github.com/NaN-tic/trytond-project_activity"
+    },
+    {
+      "key": "nan-tic/project_allocation",
+      "package_name": "nantic_project_allocation",
+      "url": "https://github.com/NaN-tic/trytond-project_allocation"
+    },
+    {
+      "key": "nan-tic/project_codereview",
+      "package_name": "nantic_project_codereview",
+      "url": "https://github.com/NaN-tic/trytond-project_codereview"
+    },
+    {
+      "key": "nan-tic/project_component",
+      "package_name": "nantic_project_component",
+      "url": "https://github.com/NaN-tic/trytond-project_component"
+    },
+    {
+      "key": "nan-tic/project_contact",
+      "package_name": "nantic_project_contact",
+      "url": "https://github.com/NaN-tic/trytond-project_contact"
+    },
+    {
+      "key": "nan-tic/project_invoice_expenses",
+      "package_name": "nantic_project_invoice_expenses",
+      "url": "https://github.com/NaN-tic/trytond-project_invoice_expenses"
+    },
+    {
+      "key": "nan-tic/project_invoice_hours",
+      "package_name": "nantic_project_invoice_hours",
+      "url": "https://github.com/NaN-tic/trytond-project_invoice_hours"
+    },
+    {
+      "key": "nan-tic/project_invoice_standalone",
+      "package_name": "zikzakmedia_project_invoice_standalone",
+      "url": "https://github.com/NaN-tic/trytond-project_invoice_standalone"
+    },
+    {
+      "key": "nan-tic/project_menu_tree_remove",
+      "package_name": "nantic_project_menu_tree_remove",
+      "url": "https://github.com/NaN-tic/trytond-project_menu_tree_remove"
+    },
+    {
+      "key": "nan-tic/project_phase",
+      "package_name": "nantic_project_phase",
+      "url": "https://github.com/NaN-tic/trytond-project_phase"
+    },
+    {
+      "key": "nan-tic/project_priority",
+      "package_name": "nantic_project_priority",
+      "url": "https://github.com/NaN-tic/trytond-project_priority"
+    },
+    {
+      "key": "nan-tic/project_role",
+      "package_name": "nantic_project_role",
+      "url": "https://github.com/NaN-tic/trytond-project_role"
+    },
+    {
+      "key": "nan-tic/project_sequence",
+      "package_name": "nantic_project_sequence",
+      "url": "https://github.com/NaN-tic/trytond-project_sequence"
+    },
+    {
+      "key": "nan-tic/project_stock",
+      "package_name": "nantic_project_stock",
+      "url": "https://github.com/NaN-tic/trytond-project_stock"
+    },
+    {
+      "key": "nan-tic/project_task_invoice",
+      "package_name": "nantic_project_task_invoice",
+      "url": "https://github.com/NaN-tic/trytond-project_task_invoice"
+    },
+    {
+      "key": "nan-tic/project_timesheet",
+      "package_name": "zikzakmedia_project_timesheet",
+      "url": "https://github.com/NaN-tic/trytond-project_timesheet"
+    },
+    {
+      "key": "nan-tic/project_tracker",
+      "package_name": "nantic_project_tracker",
+      "url": "https://github.com/NaN-tic/trytond-project_tracker"
+    },
+    {
+      "key": "nan-tic/purchase_approval",
+      "package_name": "nantic_purchase_approval",
+      "url": "https://github.com/NaN-tic/trytond-purchase_approval"
+    },
+    {
+      "key": "nan-tic/purchase_cancel_pending_moves",
+      "package_name": "nantic_purchase_cancel_pending_moves",
+      "url": "https://github.com/NaN-tic/trytond-purchase_cancel_pending_moves"
+    },
+    {
+      "key": "nan-tic/purchase_confirmed2quotation",
+      "package_name": "nantic_purchase_confirmed2quotation",
+      "url": "https://github.com/NaN-tic/trytond-purchase_confirmed2quotation"
+    },
+    {
+      "key": "nan-tic/purchase_contract",
+      "package_name": "nantic_purchase_contract",
+      "url": "https://github.com/NaN-tic/trytond-purchase_contract"
+    },
+    {
+      "key": "nan-tic/purchase_discount",
+      "package_name": "nantic_purchase_discount",
+      "url": "https://github.com/NaN-tic/trytond-purchase_discount"
+    },
+    {
+      "key": "nan-tic/purchase_draft",
+      "package_name": "nantic_purchase_draft",
+      "url": "https://github.com/NaN-tic/trytond-purchase_draft"
+    },
+    {
+      "key": "nan-tic/purchase_edi",
+      "package_name": "nantic_purchase_edi",
+      "url": "https://github.com/NaN-tic/trytond-purchase_edi"
+    },
+    {
+      "key": "nan-tic/purchase_edit",
+      "package_name": "nantic_purchase_edit",
+      "url": "https://github.com/NaN-tic/trytond-purchase_edit"
+    },
+    {
+      "key": "nan-tic/purchase_edit_inline",
+      "package_name": "nantic_purchase_edit_inline",
+      "url": "https://github.com/NaN-tic/trytond-purchase_edit_inline"
+    },
+    {
+      "key": "nan-tic/purchase_edi_response",
+      "package_name": "nantic_purchase_edi_response",
+      "url": "https://github.com/NaN-tic/trytond-purchase_edi_response"
+    },
+    {
+      "key": "nan-tic/purchase_from_shipment",
+      "package_name": "nantic_purchase_from_shipment",
+      "url": "https://github.com/NaN-tic/trytond-purchase_from_shipment"
+    },
+    {
+      "key": "nan-tic/purchase_incoterm",
+      "package_name": "nantic_purchase_incoterm",
+      "url": "https://github.com/NaN-tic/trytond-purchase_incoterm"
+    },
+    {
+      "key": "nan-tic/purchase_information_uom",
+      "package_name": "nantic_purchase_information_uom",
+      "url": "https://github.com/NaN-tic/trytond-purchase_information_uom"
+    },
+    {
+      "key": "nan-tic/purchase_invoice_grouping",
+      "package_name": "nantic_purchase_invoice_grouping",
+      "url": "https://github.com/NaN-tic/trytond-purchase_invoice_grouping"
+    },
+    {
+      "key": "nan-tic/purchase_invoice_grouping_period",
+      "package_name": "nantic_purchase_invoice_grouping_period",
+      "url": "https://github.com/NaN-tic/trytond-purchase_invoice_grouping_period"
+    },
+    {
+      "key": "nan-tic/purchase_invoice_move_price",
+      "package_name": "nantic_purchase_invoice_move_price",
+      "url": "https://github.com/NaN-tic/trytond-purchase_invoice_move_price"
+    },
+    {
+      "key": "nan-tic/purchase_jreport",
+      "package_name": "nantic_purchase_jreport",
+      "url": "https://github.com/NaN-tic/trytond-purchase_jreport"
+    },
+    {
+      "key": "nan-tic/purchase_line_free_of_charge",
+      "package_name": "nantic_purchase_line_free_of_charge",
+      "url": "https://github.com/NaN-tic/trytond-purchase_line_free_of_charge"
+    },
+    {
+      "key": "nan-tic/purchase_lot_cost",
+      "package_name": "nantic_purchase_lot_cost",
+      "url": "https://github.com/NaN-tic/trytond-purchase_lot_cost"
+    },
+    {
+      "key": "nan-tic/purchase_lot_expiry",
+      "package_name": "nantic_purchase_lot_expiry",
+      "url": "https://github.com/NaN-tic/trytond-purchase_lot_expiry"
+    },
+    {
+      "key": "nan-tic/purchase_party",
+      "package_name": "trytonzz_purchase_party",
+      "url": "https://github.com/NaN-tic/trytond-purchase_party"
+    },
+    {
+      "key": "nan-tic/purchase_payment_type",
+      "package_name": "trytonspain_purchase_payment_type",
+      "url": "https://github.com/NaN-tic/trytond-purchase_payment_type"
+    },
+    {
+      "key": "nan-tic/purchase_product_package",
+      "package_name": "nantic_purchase_product_package",
+      "url": "https://github.com/NaN-tic/trytond-purchase_product_package"
+    },
+    {
+      "key": "nan-tic/purchase_product_supplier",
+      "package_name": "nantic_purchase_product_supplier",
+      "url": "https://github.com/NaN-tic/trytond-purchase_product_supplier"
+    },
+    {
+      "key": "nan-tic/purchase_request_categories",
+      "package_name": "nantic_purchase_request_categories",
+      "url": "https://github.com/NaN-tic/trytond-purchase_request_categories"
+    },
+    {
+      "key": "nan-tic/purchase_request_pending",
+      "package_name": "nantic_purchase_request_pending",
+      "url": "https://github.com/NaN-tic/trytond-purchase_request_pending"
+    },
+    {
+      "key": "nan-tic/purchase_revoke",
+      "package_name": "nantic_purchase_revoke",
+      "url": "https://github.com/NaN-tic/trytond-purchase_revoke"
+    },
+    {
+      "key": "nan-tic/purchase_separate_credit_invoice",
+      "package_name": "nantic_purchase_separate_credit_invoice",
+      "url": "https://github.com/NaN-tic/trytond-purchase_separate_credit_invoice"
+    },
+    {
+      "key": "nan-tic/purchase_stock_account_move",
+      "package_name": "nantic_purchase_stock_account_move",
+      "url": "https://github.com/NaN-tic/trytond-purchase_stock_account_move"
+    },
+    {
+      "key": "nan-tic/purchase_supplier_discount",
+      "package_name": "nantic_purchase_supplier_discount",
+      "url": "https://github.com/NaN-tic/trytond-purchase_supplier_discount"
+    },
+    {
+      "key": "nan-tic/purchase_supplier_price_period",
+      "package_name": "nantic_purchase_supplier_price_period",
+      "url": "https://github.com/NaN-tic/trytond-purchase_supplier_price_period"
+    },
+    {
+      "key": "nan-tic/purchase_total",
+      "package_name": "trytonzz_purchase_total",
+      "url": "https://github.com/NaN-tic/trytond-purchase_total"
+    },
+    {
+      "key": "nan-tic/pyme-zz",
+      "package_name": "trytonzz_pyme",
+      "url": "https://github.com/NaN-tic/trytond-pyme-zz"
+    },
+    {
+      "key": "nan-tic/quality_control",
+      "package_name": "nantic_quality_control",
+      "url": "https://github.com/NaN-tic/trytond-quality_control"
+    },
+    {
+      "key": "nan-tic/quality_control_formula",
+      "package_name": "nantinc_quality_control_formula",
+      "url": "https://github.com/NaN-tic/trytond-quality_control_formula"
+    },
+    {
+      "key": "nan-tic/quality_control_sample",
+      "package_name": "nantic_quality_control_sample",
+      "url": "https://github.com/NaN-tic/trytond-quality_control_sample"
+    },
+    {
+      "key": "nan-tic/quality_control_stress_test",
+      "package_name": "nantic_quality_control_stress_test",
+      "url": "https://github.com/NaN-tic/trytond-quality_control_stress_test"
+    },
+    {
+      "key": "nan-tic/quiz",
+      "package_name": "nantic_quiz",
+      "url": "https://github.com/NaN-tic/trytond-quiz"
+    },
+    {
+      "key": "nan-tic/sale_3_discounts",
+      "package_name": "nantic_sale_3_discounts",
+      "url": "https://github.com/NaN-tic/trytond-sale_3_discounts"
+    },
+    {
+      "key": "nan-tic/sale_add_products_wizard",
+      "package_name": "nantic_sale_add_products_wizard",
+      "url": "https://github.com/NaN-tic/trytond-sale_add_products_wizard"
+    },
+    {
+      "key": "nan-tic/sale_advance_payment_es",
+      "package_name": "nantic_sale_advance_payment_es",
+      "url": "https://github.com/NaN-tic/trytond-sale_advance_payment_es"
+    },
+    {
+      "key": "nan-tic/sale_cancel_pending_moves",
+      "package_name": "nantic_sale_cancel_pending_moves",
+      "url": "https://github.com/NaN-tic/trytond-sale_cancel_pending_moves"
+    },
+    {
+      "key": "nan-tic/sale_cancel_reason",
+      "package_name": "nantic_sale_cancel_reason",
+      "url": "https://github.com/NaN-tic/trytond-sale_cancel_reason"
+    },
+    {
+      "key": "nan-tic/sale_carrier",
+      "package_name": "trytonspain_sale_carrier",
+      "url": "https://github.com/NaN-tic/trytond-sale_carrier"
+    },
+    {
+      "key": "nan-tic/sale_change_quantity",
+      "package_name": "nantic_sale_change_quantity",
+      "url": "https://github.com/NaN-tic/trytond-sale_change_quantity"
+    },
+    {
+      "key": "nan-tic/sale_confirmed2quotation",
+      "package_name": "trytonzz_sale_confirmed2quotation",
+      "url": "https://github.com/NaN-tic/trytond-sale_confirmed2quotation"
+    },
+    {
+      "key": "nan-tic/sale_contact",
+      "package_name": "nantic_sale_contact",
+      "url": "https://github.com/NaN-tic/trytond-sale_contact"
+    },
+    {
+      "key": "nan-tic/sale_cost_plan",
+      "package_name": "nantic_sale_cost_plan",
+      "url": "https://github.com/NaN-tic/trytond-sale_cost_plan"
+    },
+    {
+      "key": "nan-tic/sale_credit_limit_total",
+      "package_name": "nantic_sale_credit_limit_total",
+      "url": "https://github.com/NaN-tic/trytond-sale_credit_limit_total"
+    },
+    {
+      "key": "nan-tic/sale_credit_limit_validation",
+      "package_name": "nantic_sale_credit_limit_validation",
+      "url": "https://github.com/NaN-tic/trytond-sale_credit_limit_validation"
+    },
+    {
+      "key": "nan-tic/sale_customer_product_restrict",
+      "package_name": "nantic_sale_customer_product_restrict",
+      "url": "https://github.com/NaN-tic/trytond-sale_customer_product_restrict"
+    },
+    {
+      "key": "nan-tic/sale_customer_reference",
+      "package_name": "trytonzz_sale_customer_reference",
+      "url": "https://github.com/NaN-tic/trytond-sale_customer_reference"
+    },
+    {
+      "key": "nan-tic/sale_data",
+      "package_name": "trytonzz_sale_data",
+      "url": "https://github.com/NaN-tic/trytond-sale_data"
+    },
+    {
+      "key": "nan-tic/sale_delivery_date",
+      "package_name": "nantic_sale_delivery_date",
+      "url": "https://github.com/NaN-tic/trytond-sale_delivery_date"
+    },
+    {
+      "key": "nan-tic/sale_discount_price_list",
+      "package_name": "trytonspain_sale_discount_price_list",
+      "url": "https://github.com/NaN-tic/trytond-sale_discount_price_list"
+    },
+    {
+      "key": "nan-tic/sale_draft",
+      "package_name": "nantic_sale_draft",
+      "url": "https://github.com/NaN-tic/trytond-sale_draft"
+    },
+    {
+      "key": "nan-tic/sale_edit_inline",
+      "package_name": "nantic_sale_edit_inline",
+      "url": "https://github.com/NaN-tic/trytond-sale_edit_inline"
+    },
+    {
+      "key": "nan-tic/sale_edi_ediversa",
+      "package_name": "nantic_sale_edi_ediversa",
+      "url": "https://github.com/NaN-tic/trytond-sale_edi_ediversa"
+    },
+    {
+      "key": "nan-tic/sale_edi_electronet",
+      "package_name": "nantic_sale_edi",
+      "url": "https://github.com/NaN-tic/trytond-sale_edi_electronet"
+    },
+    {
+      "key": "nan-tic/sale_external_price",
+      "package_name": "trytonzz_sale_external_price",
+      "url": "https://github.com/NaN-tic/trytond-sale_external_price"
+    },
+    {
+      "key": "nan-tic/sale_farm",
+      "package_name": "nantic_sale_farm",
+      "url": "https://github.com/NaN-tic/trytond-sale_farm"
+    },
+    {
+      "key": "nan-tic/sale_incoterm",
+      "package_name": "nantic_sale_incoterm",
+      "url": "https://github.com/NaN-tic/trytond-sale_incoterm"
+    },
+    {
+      "key": "nan-tic/sale_invoice_complete",
+      "package_name": "nantic_sale_invoice_complete",
+      "url": "https://github.com/NaN-tic/trytond-sale_invoice_complete"
+    },
+    {
+      "key": "nan-tic/sale_invoice_complete_line_grouping",
+      "package_name": "nantic_sale_invoice_complete_line_grouping",
+      "url": "https://github.com/NaN-tic/trytond-sale_invoice_complete_line_grouping"
+    },
+    {
+      "key": "nan-tic/sale_invoice_grouping_by_address",
+      "package_name": "trytonzz_sale_invoice_grouping_by_address",
+      "url": "https://github.com/NaN-tic/trytond-sale_invoice_grouping_by_address"
+    },
+    {
+      "key": "nan-tic/sale_invoice_grouping_period",
+      "package_name": "nantic_sale_invoice_grouping_period",
+      "url": "https://github.com/NaN-tic/trytond-sale_invoice_grouping_period"
+    },
+    {
+      "key": "nan-tic/sale_invoice_grouping_shipment_party",
+      "package_name": "nantic_sale_invoice_grouping_shipment_party",
+      "url": "https://github.com/NaN-tic/trytond-sale_invoice_grouping_shipment_party"
+    },
+    {
+      "key": "nan-tic/sale_invoice_line_standalone",
+      "package_name": "trytonspain_sale_invoice_line_standalone",
+      "url": "https://github.com/NaN-tic/trytond-sale_invoice_line_standalone"
+    },
+    {
+      "key": "nan-tic/sale_issue",
+      "package_name": "nantic_sale_issue",
+      "url": "https://github.com/NaN-tic/trytond-sale_issue"
+    },
+    {
+      "key": "nan-tic/sale_jreport",
+      "package_name": "trytonzz_sale_jreport",
+      "url": "https://github.com/NaN-tic/trytond-sale_jreport"
+    },
+    {
+      "key": "nan-tic/sale_kit",
+      "package_name": "trytonspain_sale_kit",
+      "url": "https://github.com/NaN-tic/trytond-sale_kit"
+    },
+    {
+      "key": "nan-tic/sale_line_address",
+      "package_name": "nantic_sale_line_address",
+      "url": "https://github.com/NaN-tic/trytond-sale_line_address"
+    },
+    {
+      "key": "nan-tic/sale_line_invoice_comment",
+      "package_name": "nantic_sale_line_invoice_comment",
+      "url": "https://github.com/NaN-tic/trytond-sale_line_invoice_comment"
+    },
+    {
+      "key": "nan-tic/sale_line_product_available",
+      "package_name": "nantic_sale_line_product_available",
+      "url": "https://github.com/NaN-tic/trytond-sale_line_product_available"
+    },
+    {
+      "key": "nan-tic/sale_line_standalone",
+      "package_name": "trytonzz_sale_line_standalone",
+      "url": "https://github.com/NaN-tic/trytond-sale_line_standalone"
+    },
+    {
+      "key": "nan-tic/sale_lot",
+      "package_name": "nantic_sale_lot",
+      "url": "https://github.com/NaN-tic/trytond-sale_lot"
+    },
+    {
+      "key": "nan-tic/sale_margin",
+      "package_name": "trytonzz_sale_margin",
+      "url": "https://github.com/NaN-tic/trytond-sale_margin"
+    },
+    {
+      "key": "nan-tic/sale_minimum",
+      "package_name": "nantic_sale_minimum",
+      "url": "https://github.com/NaN-tic/trytond-sale_minimum"
+    },
+    {
+      "key": "nan-tic/sale_opportunity_activity",
+      "package_name": "trytonspain_sale_opportunity_activity",
+      "url": "https://github.com/NaN-tic/trytond-sale_opportunity_activity"
+    },
+    {
+      "key": "nan-tic/sale_opportunity_campaign",
+      "package_name": "trytonspain_sale_opportunity_campaign",
+      "url": "https://github.com/NaN-tic/trytond-sale_opportunity_campaign"
+    },
+    {
+      "key": "nan-tic/sale_opportunity_category",
+      "package_name": "trytonspain_sale_opportunity_category",
+      "url": "https://github.com/NaN-tic/trytond-sale_opportunity_category"
+    },
+    {
+      "key": "nan-tic/sale_opportunity_competitor",
+      "package_name": "nantic_sale_opportunity_competitor",
+      "url": "https://github.com/NaN-tic/trytond-sale_opportunity_competitor"
+    },
+    {
+      "key": "nan-tic/sale_opportunity_contact",
+      "package_name": "nantic_sale_opportunity_contact",
+      "url": "https://github.com/NaN-tic/trytond-sale_opportunity_contact"
+    },
+    {
+      "key": "nan-tic/sale_opportunity_priority",
+      "package_name": "nantic_sale_opportunity_priority",
+      "url": "https://github.com/NaN-tic/trytond-sale_opportunity_priority"
+    },
+    {
+      "key": "nan-tic/sale_payment_type",
+      "package_name": "trytonspain_sale_payment_type",
+      "url": "https://github.com/NaN-tic/trytond-sale_payment_type"
+    },
+    {
+      "key": "nan-tic/sale_payment_type_cost",
+      "package_name": "trytonspain_sale_payment_type_cost",
+      "url": "https://github.com/NaN-tic/trytond-sale_payment_type_cost"
+    },
+    {
+      "key": "nan-tic/sale_pos_template_extra_products",
+      "package_name": "nantic_sale_pos_template_extra_products",
+      "url": "https://github.com/NaN-tic/trytond-sale_pos_template_extra_products"
+    },
+    {
+      "key": "nan-tic/sale_pos_template_quantities",
+      "package_name": "nantic_sale_pos_template_quantities",
+      "url": "https://github.com/NaN-tic/trytond-sale_pos_template_quantities"
+    },
+    {
+      "key": "nan-tic/sale_price_list_change_party",
+      "package_name": "trytonzz_sale_price_list_change_party",
+      "url": "https://github.com/NaN-tic/trytond-sale_price_list_change_party"
+    },
+    {
+      "key": "nan-tic/sale_price_list_currency",
+      "package_name": "nantic_sale_price_list_currency",
+      "url": "https://github.com/NaN-tic/trytond-sale_price_list_currency"
+    },
+    {
+      "key": "nan-tic/sale_price_list_recompute_price",
+      "package_name": "nantic_sale_price_list_recompute_price",
+      "url": "https://github.com/NaN-tic/trytond-sale_price_list_recompute_price"
+    },
+    {
+      "key": "nan-tic/sale_processing2confirmed",
+      "package_name": "nantic_sale_processing2confirmed",
+      "url": "https://github.com/NaN-tic/trytond-sale_processing2confirmed"
+    },
+    {
+      "key": "nan-tic/sale_product_package",
+      "package_name": "nantic_sale_product_package",
+      "url": "https://github.com/NaN-tic/trytond-sale_product_package"
+    },
+    {
+      "key": "nan-tic/sale_product_raw",
+      "package_name": "nantic_sale_product_raw",
+      "url": "https://github.com/NaN-tic/trytond-sale_product_raw"
+    },
+    {
+      "key": "nan-tic/sale_recompute_price",
+      "package_name": "nantic_sale_recompute_price",
+      "url": "https://github.com/NaN-tic/trytond-sale_recompute_price"
+    },
+    {
+      "key": "nan-tic/sale_remaining_stock",
+      "package_name": "nan_sale_remaining_stock",
+      "url": "https://github.com/NaN-tic/trytond-sale_remaining_stock"
+    },
+    {
+      "key": "nan-tic/sale_revoke",
+      "package_name": "nantic_sale_revoke",
+      "url": "https://github.com/NaN-tic/trytond-sale_revoke"
+    },
+    {
+      "key": "nan-tic/sale_rule",
+      "package_name": "trytonzz_sale_rule",
+      "url": "https://github.com/NaN-tic/trytond-sale_rule"
+    },
+    {
+      "key": "nan-tic/sale_salesman",
+      "package_name": "trytonzz_sale_salesman",
+      "url": "https://github.com/NaN-tic/trytond-sale_salesman"
+    },
+    {
+      "key": "nan-tic/sale_salesman_party",
+      "package_name": "nantic_sale_salesman_party",
+      "url": "https://github.com/NaN-tic/trytond-sale_salesman_party"
+    },
+    {
+      "key": "nan-tic/sale_shipment_comment",
+      "package_name": "trytonzz_sale_shipment_comment",
+      "url": "https://github.com/NaN-tic/trytond-sale_shipment_comment"
+    },
+    {
+      "key": "nan-tic/sale_shipment_dua",
+      "package_name": "nantic_sale_shipment_dua",
+      "url": "https://github.com/NaN-tic/trytond-sale_shipment_dua"
+    },
+    {
+      "key": "nan-tic/sale_shipment_returns",
+      "package_name": "trytonzz_sale_shipment_returns",
+      "url": "https://github.com/NaN-tic/trytond-sale_shipment_returns"
+    },
+    {
+      "key": "nan-tic/sale_shop",
+      "package_name": "trytonzz_sale_shop",
+      "url": "https://github.com/NaN-tic/trytond-sale_shop"
+    },
+    {
+      "key": "nan-tic/sale_shop_trade_info",
+      "package_name": "nantic_sale_shop_trade_info",
+      "url": "https://github.com/NaN-tic/trytond-sale_shop_trade_info"
+    },
+    {
+      "key": "nan-tic/sale_subchapters",
+      "package_name": "nantic_sale_subchapters",
+      "url": "https://github.com/NaN-tic/trytond-sale_subchapters"
+    },
+    {
+      "key": "nan-tic/sale_supply_drop_shipment_manual",
+      "package_name": "nantic_sale_supply_drop_shipment_manual",
+      "url": "https://github.com/NaN-tic/trytond-sale_supply_drop_shipment_manual"
+    },
+    {
+      "key": "nan-tic/sale_total",
+      "package_name": "trytonzz_sale_total",
+      "url": "https://github.com/NaN-tic/trytond-sale_total"
+    },
+    {
+      "key": "nan-tic/sale_typified_description",
+      "package_name": "nantic_sale_typified_description",
+      "url": "https://github.com/NaN-tic/trytond-sale_typified_description"
+    },
+    {
+      "key": "nan-tic/sale_wishlist",
+      "package_name": "trytonzz_sale_wishlist",
+      "url": "https://github.com/NaN-tic/trytond-sale_wishlist"
+    },
+    {
+      "key": "nan-tic/sale_w_tax",
+      "package_name": "trytonzz_sale_w_tax",
+      "url": "https://github.com/NaN-tic/trytond-sale_w_tax"
+    },
+    {
+      "key": "nan-tic/searching",
+      "package_name": "trytonzz_searching",
+      "url": "https://github.com/NaN-tic/trytond-searching"
+    },
+    {
+      "key": "nan-tic/shine",
+      "package_name": "nan_shine",
+      "url": "https://github.com/NaN-tic/trytond-shine"
+    },
+    {
+      "key": "nan-tic/shipment_invoice_line_service",
+      "package_name": "nantic_shipment_invoice_line_service",
+      "url": "https://github.com/NaN-tic/trytond-shipment_invoice_line_service"
+    },
+    {
+      "key": "nan-tic/shipment_production_assign",
+      "package_name": "nantic_shipment_production_assign",
+      "url": "https://github.com/NaN-tic/trytond-shipment_production_assign"
+    },
+    {
+      "key": "nan-tic/smtp",
+      "package_name": "trytonspain_smtp",
+      "url": "https://github.com/NaN-tic/trytond-smtp"
+    },
+    {
+      "key": "nan-tic/stock_assign_group_buttons",
+      "package_name": "nantic_stock_assign_group_buttons",
+      "url": "https://github.com/NaN-tic/trytond-stock_assign_group_buttons"
+    },
+    {
+      "key": "nan-tic/stock_buttons",
+      "package_name": "trytonspain_stock_buttons",
+      "url": "https://github.com/NaN-tic/trytond-stock_buttons"
+    },
+    {
+      "key": "nan-tic/stock_calculation",
+      "package_name": "nantic_stock_calculation",
+      "url": "https://github.com/NaN-tic/trytond-stock_calculation"
+    },
+    {
+      "key": "nan-tic/stock_catalogue",
+      "package_name": "nantic_stock_catalogue",
+      "url": "https://github.com/NaN-tic/trytond-stock_catalogue"
+    },
+    {
+      "key": "nan-tic/stock_comment",
+      "package_name": "trytonzz_stock_comment",
+      "url": "https://github.com/NaN-tic/trytond-stock_comment"
+    },
+    {
+      "key": "nan-tic/stock_delivery",
+      "package_name": "trytonzz_stock_delivery",
+      "url": "https://github.com/NaN-tic/trytond-stock_delivery"
+    },
+    {
+      "key": "nan-tic/stock_delivery_note_jreport",
+      "package_name": "trytonzz_stock_delivery_note_jreport",
+      "url": "https://github.com/NaN-tic/trytond-stock_delivery_note_jreport"
+    },
+    {
+      "key": "nan-tic/stock_delivery_note_valued_jreport",
+      "package_name": "trytonzz_stock_delivery_note_valued_jreport",
+      "url": "https://github.com/NaN-tic/trytond-stock_delivery_note_valued_jreport"
+    },
+    {
+      "key": "nan-tic/stock_distribution_in",
+      "package_name": "nantic_stock_distribution_in",
+      "url": "https://github.com/NaN-tic/trytond-stock_distribution_in"
+    },
+    {
+      "key": "nan-tic/stock_external",
+      "package_name": "nantic_stock_external",
+      "url": "https://github.com/NaN-tic/trytond-stock_external"
+    },
+    {
+      "key": "nan-tic/stock_external_party",
+      "package_name": "nantic_stock_external_party",
+      "url": "https://github.com/NaN-tic/trytond-stock_external_party"
+    },
+    {
+      "key": "nan-tic/stock_external_reception",
+      "package_name": "nantic_stock_external_reception",
+      "url": "https://github.com/NaN-tic/trytond-stock_external_reception"
+    },
+    {
+      "key": "nan-tic/stock_external_reception_lot",
+      "package_name": "nantic_stock_external_reception_lot",
+      "url": "https://github.com/NaN-tic/trytond-stock_external_reception_lot"
+    },
+    {
+      "key": "nan-tic/stock_inventory_confirmed",
+      "package_name": "nantic_stock_inventory_confirmed",
+      "url": "https://github.com/NaN-tic/trytond-stock_inventory_confirmed"
+    },
+    {
+      "key": "nan-tic/stock_inventory_jreport",
+      "package_name": "nantic_stock_inventory_jreport",
+      "url": "https://github.com/NaN-tic/trytond-stock_inventory_jreport"
+    },
+    {
+      "key": "nan-tic/stock_inventory_lines_relate",
+      "package_name": "nantic_stock_inventory_lines_relate",
+      "url": "https://github.com/NaN-tic/trytond-stock_inventory_lines_relate"
+    },
+    {
+      "key": "nan-tic/stock_inventory_product_category",
+      "package_name": "nantic_stock_inventory_product_category",
+      "url": "https://github.com/NaN-tic/trytond-stock_inventory_product_category"
+    },
+    {
+      "key": "nan-tic/stock_inventory_reference",
+      "package_name": "trytonzz_stock_inventory_reference",
+      "url": "https://github.com/NaN-tic/trytond-stock_inventory_reference"
+    },
+    {
+      "key": "nan-tic/stock_kit",
+      "package_name": "trytonspain_stock_kit",
+      "url": "https://github.com/NaN-tic/trytond-stock_kit"
+    },
+    {
+      "key": "nan-tic/stock_location_company",
+      "package_name": "nantic_stock_location_company",
+      "url": "https://github.com/NaN-tic/trytond-stock_location_company"
+    },
+    {
+      "key": "nan-tic/stock_location_group",
+      "package_name": "nantic_stock_location_group",
+      "url": "https://github.com/NaN-tic/trytond-stock_location_group"
+    },
+    {
+      "key": "nan-tic/stock_location_only_child",
+      "package_name": "nantic_stock_location_only_child",
+      "url": "https://github.com/NaN-tic/trytond-stock_location_only_child"
+    },
+    {
+      "key": "nan-tic/stock_lot_attribute",
+      "package_name": "nantic_stock_lot_attribute",
+      "url": "https://github.com/NaN-tic/trytond-stock_lot_attribute"
+    },
+    {
+      "key": "nan-tic/stock_lot_by_location",
+      "package_name": "nan_stock_lot_by_location",
+      "url": "https://github.com/NaN-tic/trytond-stock_lot_by_location"
+    },
+    {
+      "key": "nan-tic/stock_lot_cost",
+      "package_name": "nantic_stock_lot_cost",
+      "url": "https://github.com/NaN-tic/trytond-stock_lot_cost"
+    },
+    {
+      "key": "nan-tic/stock_lot_csv",
+      "package_name": "trytonzz_stock_lot_csv",
+      "url": "https://github.com/NaN-tic/trytond-stock_lot_csv"
+    },
+    {
+      "key": "nan-tic/stock_lot_date",
+      "package_name": "trytonzz_stock_lot_date",
+      "url": "https://github.com/NaN-tic/trytond-stock_lot_date"
+    },
+    {
+      "key": "nan-tic/stock_lot_deactivatable",
+      "package_name": "nantic_stock_lot_deactivatable",
+      "url": "https://github.com/NaN-tic/trytond-stock_lot_deactivatable"
+    },
+    {
+      "key": "nan-tic/stock_lot_fifo",
+      "package_name": "nantic_stock_lot_fifo",
+      "url": "https://github.com/NaN-tic/trytond-stock_lot_fifo"
+    },
+    {
+      "key": "nan-tic/stock_lot_jreport",
+      "package_name": "nantic_stock_lot_jreport",
+      "url": "https://github.com/NaN-tic/trytond-stock_lot_jreport"
+    },
+    {
+      "key": "nan-tic/stock_lot_quantity",
+      "package_name": "nantic_stock_lot_quantity",
+      "url": "https://github.com/NaN-tic/trytond-stock_lot_quantity"
+    },
+    {
+      "key": "nan-tic/stock_lot_quantity_location",
+      "package_name": "trytonzz_stock_lot_quantity_location",
+      "url": "https://github.com/NaN-tic/trytond-stock_lot_quantity_location"
+    },
+    {
+      "key": "nan-tic/stock_lot_sequence",
+      "package_name": "nantic_stock_lot_sequence",
+      "url": "https://github.com/NaN-tic/trytond-stock_lot_sequence"
+    },
+    {
+      "key": "nan-tic/stock_lot_supplier_ref",
+      "package_name": "nantic_stock_lot_supplier_ref",
+      "url": "https://github.com/NaN-tic/trytond-stock_lot_supplier_ref"
+    },
+    {
+      "key": "nan-tic/stock_move",
+      "package_name": "nantic_stock_move",
+      "url": "https://github.com/NaN-tic/trytond-stock_move"
+    },
+    {
+      "key": "nan-tic/stock_move_description",
+      "package_name": "nantic_stock_move_description",
+      "url": "https://github.com/NaN-tic/trytond-stock_move_description"
+    },
+    {
+      "key": "nan-tic/stock_move_jreport",
+      "package_name": "nantic_stock_move_jreport",
+      "url": "https://github.com/NaN-tic/trytond-stock_move_jreport"
+    },
+    {
+      "key": "nan-tic/stock_move_label",
+      "package_name": "nantic_stock_move_label",
+      "url": "https://github.com/NaN-tic/trytond-stock_move_label"
+    },
+    {
+      "key": "nan-tic/stock_move_location_report",
+      "package_name": "nantic_stock_move_location_report",
+      "url": "https://github.com/NaN-tic/trytond-stock_move_location_report"
+    },
+    {
+      "key": "nan-tic/stock_move_relation",
+      "package_name": "nantic_stock_move_relation",
+      "url": "https://github.com/NaN-tic/trytond-stock_move_relation"
+    },
+    {
+      "key": "nan-tic/stock_move_sequence",
+      "package_name": "trytonspain_stock_move_sequence",
+      "url": "https://github.com/NaN-tic/trytond-stock_move_sequence"
+    },
+    {
+      "key": "nan-tic/stock_move_warehouse",
+      "package_name": "trytonzz_stock_move_warehouse",
+      "url": "https://github.com/NaN-tic/trytond-stock_move_warehouse"
+    },
+    {
+      "key": "nan-tic/stock_origin",
+      "package_name": "trytonzz_stock_origin",
+      "url": "https://github.com/NaN-tic/trytond-stock_origin"
+    },
+    {
+      "key": "nan-tic/stock_origin_sale",
+      "package_name": "trytonzz_stock_origin_sale",
+      "url": "https://github.com/NaN-tic/trytond-stock_origin_sale"
+    },
+    {
+      "key": "nan-tic/stock_partial_shipment_out",
+      "package_name": "%s_%s % (PREFIX, MODULE)",
+      "url": "https://github.com/NaN-tic/trytond-stock_partial_shipment_out"
+    },
+    {
+      "key": "nan-tic/stock_prevent_exceding_quantities",
+      "package_name": "nantic_stock_prevent_exceding_quantities",
+      "url": "https://github.com/NaN-tic/trytond-stock_prevent_exceding_quantities"
+    },
+    {
+      "key": "nan-tic/stock_product_location_package",
+      "package_name": "trytonzz_stock_product_location_package",
+      "url": "https://github.com/NaN-tic/trytond-stock_product_location_package"
+    },
+    {
+      "key": "nan-tic/stock_relation",
+      "package_name": "trytonzz_stock_relation",
+      "url": "https://github.com/NaN-tic/trytond-stock_relation"
+    },
+    {
+      "key": "nan-tic/stock_reschedule",
+      "package_name": "nantic_stock_reschedule",
+      "url": "https://github.com/NaN-tic/trytond-stock_reschedule"
+    },
+    {
+      "key": "nan-tic/stock_scanner",
+      "package_name": "nantic_stock_scanner",
+      "url": "https://github.com/NaN-tic/trytond-stock_scanner"
+    },
+    {
+      "key": "nan-tic/stock_scanner_lot",
+      "package_name": "nantic_stock_scanner_lot",
+      "url": "https://github.com/NaN-tic/trytond-stock_scanner_lot"
+    },
+    {
+      "key": "nan-tic/stock_serial_number",
+      "package_name": "nantic_stock_serial_number",
+      "url": "https://github.com/NaN-tic/trytond-stock_serial_number"
+    },
+    {
+      "key": "nan-tic/stock_shipment_cashondelivery",
+      "package_name": "trytonzz_stock_shipment_cashondelivery",
+      "url": "https://github.com/NaN-tic/trytond-stock_shipment_cashondelivery"
+    },
+    {
+      "key": "nan-tic/stock_shipment_ecommerce",
+      "package_name": "nantic_stock_shipment_ecommerce",
+      "url": "https://github.com/NaN-tic/trytond-stock_shipment_ecommerce"
+    },
+    {
+      "key": "nan-tic/stock_shipment_internal_load_available",
+      "package_name": "nantic_stock_internal_shipment_move",
+      "url": "https://github.com/NaN-tic/trytond-stock_shipment_internal_load_available"
+    },
+    {
+      "key": "nan-tic/stock_shipment_in_edi",
+      "package_name": "nantic_stock_shipment_in_edi",
+      "url": "https://github.com/NaN-tic/trytond-stock_shipment_in_edi"
+    },
+    {
+      "key": "nan-tic/stock_shipment_in_return_childs",
+      "package_name": "nantic_stock_shipment_in_return_childs",
+      "url": "https://github.com/NaN-tic/trytond-stock_shipment_in_return_childs"
+    },
+    {
+      "key": "nan-tic/stock_shipment_out_alternative_reports",
+      "package_name": "nantic_stock_shipment_out_alternative_reports",
+      "url": "https://github.com/NaN-tic/trytond-stock_shipment_out_alternative_reports"
+    },
+    {
+      "key": "nan-tic/stock_shipment_out_edi",
+      "package_name": "nantic_stock_shipment_out_edi",
+      "url": "https://github.com/NaN-tic/trytond-stock_shipment_out_edi"
+    },
+    {
+      "key": "nan-tic/stock_shipment_out_without_wizard",
+      "package_name": "nantic_stock_shipment_out_without_wizard",
+      "url": "https://github.com/NaN-tic/trytond-stock_shipment_out_without_wizard"
+    },
+    {
+      "key": "nan-tic/stock_shipment_prevent_cancel",
+      "package_name": "nantic_stock_shipment_prevent_cancel",
+      "url": "https://github.com/NaN-tic/trytond-stock_shipment_prevent_cancel"
+    },
+    {
+      "key": "nan-tic/stock_shipment_return",
+      "package_name": "nantic_stock_shipment_return",
+      "url": "https://github.com/NaN-tic/trytond-stock_shipment_return"
+    },
+    {
+      "key": "nan-tic/stock_shipment_sale_reference",
+      "package_name": "nantic_stock_shipment_sale_reference",
+      "url": "https://github.com/NaN-tic/trytond-stock_shipment_sale_reference"
+    },
+    {
+      "key": "nan-tic/stock_shipment_transportation_order",
+      "package_name": "nantic_stock_shipment_transportation_order",
+      "url": "https://github.com/NaN-tic/trytond-stock_shipment_transportation_order"
+    },
+    {
+      "key": "nan-tic/stock_shipment_weight",
+      "package_name": "trytonzz_stock_shipment_weight",
+      "url": "https://github.com/NaN-tic/trytond-stock_shipment_weight"
+    },
+    {
+      "key": "nan-tic/stock_split_lot_expiry",
+      "package_name": "nantic_stock_split_lot_expiry",
+      "url": "https://github.com/NaN-tic/trytond-stock_split_lot_expiry"
+    },
+    {
+      "key": "nan-tic/stock_supply_minimum",
+      "package_name": "nantic_stock_supply_minimum",
+      "url": "https://github.com/NaN-tic/trytond-stock_supply_minimum"
+    },
+    {
+      "key": "nan-tic/stock_supply_multiple",
+      "package_name": "nantic_stock_supply_multiple",
+      "url": "https://github.com/NaN-tic/trytond-stock_supply_multiple"
+    },
+    {
+      "key": "nan-tic/stock_supply_production_warehouse",
+      "package_name": "nantic_stock_supply_production_warehouse",
+      "url": "https://github.com/NaN-tic/trytond-stock_supply_production_warehouse"
+    },
+    {
+      "key": "nan-tic/stock_supply_request",
+      "package_name": "nantic_stock_supply_request",
+      "url": "https://github.com/NaN-tic/trytond-stock_supply_request"
+    },
+    {
+      "key": "nan-tic/stock_supply_supplier_description",
+      "package_name": "trytonzz_stock_supply_supplier_description",
+      "url": "https://github.com/NaN-tic/trytond-stock_supply_supplier_description"
+    },
+    {
+      "key": "nan-tic/stock_traceability_report",
+      "package_name": "nantic_stock_traceability_report",
+      "url": "https://github.com/NaN-tic/trytond-stock_traceability_report"
+    },
+    {
+      "key": "nan-tic/stock_update_planned_date",
+      "package_name": "trytonzz_stock_update_planned_date",
+      "url": "https://github.com/NaN-tic/trytond-stock_update_planned_date"
+    },
+    {
+      "key": "nan-tic/stock_user",
+      "package_name": "trytonzz_stock_user",
+      "url": "https://github.com/NaN-tic/trytond-stock_user"
+    },
+    {
+      "key": "nan-tic/stock_valued",
+      "package_name": "trytonspain_stock_valued",
+      "url": "https://github.com/NaN-tic/trytond-stock_valued"
+    },
+    {
+      "key": "nan-tic/stock_valued_delivery_cost",
+      "package_name": "trytonspain_stock_valued_delivery_cost",
+      "url": "https://github.com/NaN-tic/trytond-stock_valued_delivery_cost"
+    },
+    {
+      "key": "nan-tic/timetracker",
+      "package_name": "nantic_timetracker",
+      "url": "https://github.com/NaN-tic/trytond-timetracker"
+    },
+    {
+      "key": "nan-tic/view_configurator",
+      "package_name": "nantic_view_configurator",
+      "url": "https://github.com/NaN-tic/trytond-view_configurator"
+    },
+    {
+      "key": "nan-tic/voyager",
+      "package_name": "nantic_voyager",
+      "url": "https://github.com/NaN-tic/trytond-voyager"
+    },
+    {
+      "key": "nan-tic/whooshsearch",
+      "package_name": "trytonzz_whooshsearch",
+      "url": "https://github.com/NaN-tic/trytond-whooshsearch"
+    },
+    {
+      "key": "nan-tic/working_shift",
+      "package_name": "nantic_working_shift",
+      "url": "https://github.com/NaN-tic/trytond-working_shift"
+    },
+    {
+      "key": "nan-tic/working_shift_contract",
+      "package_name": "nantic_working_shift_contract",
+      "url": "https://github.com/NaN-tic/trytond-working_shift_contract"
+    },
+    {
+      "key": "nan-tic/working_shift_interventions",
+      "package_name": "nantic_working_shift_interventions",
+      "url": "https://github.com/NaN-tic/trytond-working_shift_interventions"
+    },
+    {
+      "key": "nan-tic/yeastar_api",
+      "package_name": "nantic_yeastar_api",
+      "url": "https://github.com/NaN-tic/trytond-yeastar_api"
     }
   ]
 }
