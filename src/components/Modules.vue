@@ -170,6 +170,7 @@ export default {
       </div>
     </div>
     <div class="grid grid-cols-12 w-full max-w-6xl mx-auto gap-2 border border-gray-200 p-2 rounded-lg">
+      <h4 class="col-span-12 pl-1 text-lg font-bold">Modules listed: {{ modules.length }}</h4>
       <template v-for="m in modules" :key="`${m.author}/${m.name}`">
         <Card
         class="col-span-12 sm:col-span-6 md:col-span-4"
