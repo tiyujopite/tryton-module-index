@@ -11501,6 +11501,26 @@
       "updated_at": "2024-08-21",
       "url": "https://github.com/NaN-tic/trytond-sale_wishlist"
     },
+    "nan-tic/scrap": {
+      "added_at": "2025-01-11",
+      "author": "nan-tic",
+      "created_at": "2024-12-08",
+      "doc_url": "",
+      "forks": 0,
+      "info_updated_at": "2025-01-11",
+      "license": "gpl-3.0",
+      "name": "scrap",
+      "package_name": "nantic_trytond-scrap",
+      "pypi_available": false,
+      "series": [
+        "6.8",
+        "7.2"
+      ],
+      "stars": 0,
+      "tags": [],
+      "updated_at": "2025-01-10",
+      "url": "https://github.com/NaN-tic/trytond-scrap"
+    },
     "nan-tic/searching": {
       "added_at": "2025-01-10",
       "author": "nan-tic",
