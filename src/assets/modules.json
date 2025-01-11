@@ -3290,6 +3290,11 @@
       "key": "nan-tic/yeastar_api",
       "package_name": "nantic_yeastar_api",
       "url": "https://github.com/NaN-tic/trytond-yeastar_api"
+    },
+    {
+      "key": "nan-tic/scrap",
+      "package_name": "nantic_trytond-scrap",
+      "url": "https://github.com/NaN-tic/trytond-scrap"
     }
   ]
 }
