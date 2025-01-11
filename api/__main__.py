@@ -158,7 +158,7 @@ def build_module(module):
         headers = {}
         if os.environ.get('GH_TOKEN'):
             headers = {
-                'Authorization': f'Bearer {os.environ.get('GH_TOKEN')}',
+                'Authorization': f'Bearer {os.environ.get("GH_TOKEN")}',
                 }
         # Main data
         api_url = f'{scheme}://api.{netloc}/repos/{path}'
