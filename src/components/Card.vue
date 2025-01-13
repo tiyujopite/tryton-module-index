@@ -17,8 +17,8 @@ export default {
 </script>
 
 <template>
-  <div class="w-full block rounded-lg border border-gray-200 p-2 hover:bg-gray-50 hover:cursor-pointer"
-  @click="$router.push(`/module?author=${author}&name=${name}`)">
+  <router-link class="w-full block rounded-lg border border-gray-200 p-2 hover:bg-gray-50 hover:cursor-pointer"
+  :to="`/module?author=${author}&name=${name}`">
     <h5 class="text-lg pl-1 font-bold break-all">{{ name }}</h5>
     <div class="flex mt-1">
       <div class="flex gap-1 rounded-lg border border-gray-200 p-1 pr-1.5 h-8 break-keep bg-white" title="Author">
@@ -49,7 +49,7 @@ export default {
         <span>{{ forks }}</span>
       </div>
     </div>
-  </div>
+  </router-link>
 </template>
 
 <style scoped>
