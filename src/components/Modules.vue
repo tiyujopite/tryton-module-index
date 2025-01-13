@@ -127,6 +127,9 @@ export default {
       this.order = this.$route.query.order.replace('%20', ' ')
     }
     this.loadModules()
+  },
+  mounted() {
+    document.title = 'TMI - Modules'
   }
 }
 </script>

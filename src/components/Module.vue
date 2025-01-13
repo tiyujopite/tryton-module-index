@@ -10,6 +10,9 @@ export default {
   created() {
     const key = `${this.$route.query.author}/${this.$route.query.name}`
     this.module = modules[key]
+  },
+  mounted() {
+    document.title = `TMI - ${this.module.name}`
   }
 }
 </script>

@@ -21,6 +21,9 @@ export default {
     lastAdded() {
       return [...this.modules].sort((a, b) => new Date(b.added_at) - new Date(a.added_at)).slice(0, 5)
     },
+  },
+  mounted() {
+    document.title = 'Tryton Module Index'
   }
 }
 </script>
