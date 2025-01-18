@@ -9,6 +9,7 @@ export default {
   },
   created() {
     const key = `${this.$route.query.author}/${this.$route.query.name}`
+    this.key = key
     this.module = modules[key]
   },
   mounted() {
@@ -93,6 +94,14 @@ export default {
         </tbody>
       </table>
     </div>
+    <a
+      role="button"
+      class="bg-red-500 hover:bg-red-600 text-white font-bold py-2 px-4 rounded-lg w-fit"
+      target="_blank"
+      :href="`https://github.com/tiyujopite/tryton-module-index/issues/new?title=Error%20report%3A%20${key.replace('/', '%2F')}`"
+      >
+      Report an error
+    </a>
   </div>
 </template>
 
