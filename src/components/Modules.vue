@@ -137,39 +137,65 @@ export default {
 <template>
   <div class="m-2">
     <div class="w-full max-w-6xl ml-auto mr-auto rounded-lg flex flex-col gap-2 border border-gray-200 p-2 mb-2">
-      <input type="text" class="h-8 w-full p-1 border border-gray-200 max-w-xl rounded-lg bg-white" placeholder="Search..." v-model="search"/>
-      <div class="flex flex-col gap-2 md:flex-row md:flex-wrap">
+      <div>
+        <label for="search" class="p-1 w-16 inline-block md:w-auto md:inline">Search:</label>
+        <input
+        id="search"
+        name="search"
+        type="text"
+        class="h-8 w-full p-1 border border-gray-200 max-w-xl rounded-lg bg-white"
+        placeholder="Search..."
+        v-model="search"
+        @input="setFilters"/>
+      </div>
+      <div class="flex flex-col gap-2 lg:flex-row lg:flex-wrap">
         <div>
           <label for="author" class="p-1 w-16 inline-block md:w-auto md:inline">Author:</label>
-          <select id="author" name="author" class="filter-select rounded-lg border border-gray-200 p-1 h-8" v-model="author">
+          <select
+          id="author"
+          name="author"
+          class="filter-select rounded-lg border border-gray-200 p-1 h-8"
+          v-model="author"
+          @change="setFilters">
             <option value=""></option>
             <option v-for="author in authors" :key="author">{{ author }}</option>
           </select>
         </div>
         <div>
           <label for="serie" class="p-1 w-16 inline-block md:w-auto md:inline">Serie:</label>
-          <select id="serie" name="serie" class="filter-select rounded-lg border border-gray-200 p-1 h-8" v-model="serie">
+          <select
+          id="serie"
+          name="serie"
+          class="filter-select rounded-lg border border-gray-200 p-1 h-8"
+          v-model="serie"
+          @change="setFilters">
             <option value=""></option>
             <option v-for="serie in ([...series].sort((a, b) => b - a))" :key="serie">{{ serie }}</option>
           </select>
         </div>
         <div>
           <label for="tag" class="p-1 w-16 inline-block md:w-auto md:inline">Tag:</label>
-          <select id="tag" name="tag" class="filter-select rounded-lg border border-gray-200 p-1 h-8" v-model="tag">
+          <select
+          id="tag"
+          name="tag"
+          class="filter-select rounded-lg border border-gray-200 p-1 h-8"
+          v-model="tag"
+          @change="setFilters">
             <option value=""></option>
             <option v-for="tag in tags" :key="tag">{{ tag }}</option>
           </select>
         </div>
         <div>
           <label for="order" class="p-1 w-16 inline-block md:w-auto md:inline">Order:</label>
-          <select id="order" name="order" class="filter-select rounded-lg border border-gray-200 p-1 h-8" v-model="order">
+          <select
+          id="order"
+          name="order"
+          class="filter-select rounded-lg border border-gray-200 p-1 h-8"
+          v-model="order"
+          @change="setFilters">
             <option v-for="order in orders" :key="order">{{ order }}</option>
           </select>
         </div>
-        <button class="button-search rounded-lg fill-white h-8 ml-auto w-full md:w-32"
-          @click="setFilters">
-          <svg class="h-8 mx-auto" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>Search</title><path d="M9.5,3A6.5,6.5 0 0,1 16,9.5C16,11.11 15.41,12.59 14.44,13.73L14.71,14H15.5L20.5,19L19,20.5L14,15.5V14.71L13.73,14.44C12.59,15.41 11.11,16 9.5,16A6.5,6.5 0 0,1 3,9.5A6.5,6.5 0 0,1 9.5,3M9.5,5C7,5 5,7 5,9.5C5,12 7,14 9.5,14C12,14 14,12 14,9.5C14,7 12,5 9.5,5Z" /></svg>
-        </button>
       </div>
     </div>
     <div class="grid grid-cols-12 w-full max-w-6xl mx-auto gap-2 border border-gray-200 p-2 rounded-lg">
