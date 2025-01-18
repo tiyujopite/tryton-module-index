@@ -20,17 +20,17 @@ export default {
 
 <template>
   <div class="w-full max-w-6xl ml-auto mr-auto rounded-lg flex flex-col gap-2 border border-gray-200 p-2 mt-2">
-    <h5 class="text-2xl font-bold mb-2 pl-1 break-all">{{ module.name }}</h5>
+    <h5 translate="no" class="text-2xl font-bold mb-2 pl-1 break-all">{{ module.name }}</h5>
     <div class="w-full rounded-lg border border-gray-200 px-2">
       <table class="table-auto w-full">
         <tbody>
           <tr class="border-b hover:bg-gray-50">
             <td class="font-bold w-auto border-r p-1.5">Author:</td>
-            <td class="pl-2 p-1.5">{{ module.author }}</td>
+            <td translate="no" class="pl-2 p-1.5">{{ module.author }}</td>
           </tr>
           <tr class="border-b p-1.5 hover:bg-gray-50">
             <td class="font-bold w-auto border-r p-1.5">Package name:</td>
-            <td class="pl-2 p-1.5 break-all">{{ module.package_name }}</td>
+            <td translate="no" class="pl-2 p-1.5 break-all">{{ module.package_name }}</td>
           </tr>
           <tr class="border-b p-1.5 hover:bg-gray-50">
             <td class="font-bold w-auto border-r p-1.5">URL:</td>
@@ -62,11 +62,11 @@ export default {
             <td class="pl-2 p-1.5 uppercase">{{ [...module.tags].sort().join(', ') }}</td>
           </tr>
           <tr class="border-b p-1.5 hover:bg-gray-50">
-            <td class="font-bold w-auto border-r p-1.5">Stars:</td>
+            <td translate="no" class="font-bold w-auto border-r p-1.5">Stars:</td>
             <td class="pl-2 p-1.5">{{ module.stars }}</td>
           </tr>
           <tr class="border-b p-1.5 hover:bg-gray-50">
-            <td class="font-bold w-auto border-r p-1.5">Forks:</td>
+            <td translate="no" class="font-bold w-auto border-r p-1.5">Forks:</td>
             <td class="pl-2 p-1.5">{{ module.forks }}</td>
           </tr>
           <tr class="border-b p-1.5 hover:bg-gray-50">

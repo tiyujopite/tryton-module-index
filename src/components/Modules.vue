@@ -158,7 +158,7 @@ export default {
           v-model="author"
           @change="setFilters">
             <option value=""></option>
-            <option v-for="author in authors" :key="author">{{ author }}</option>
+            <option translate="no" v-for="author in authors" :key="author">{{ author }}</option>
           </select>
         </div>
         <div>
@@ -182,7 +182,7 @@ export default {
           v-model="tag"
           @change="setFilters">
             <option value=""></option>
-            <option v-for="tag in tags" :key="tag">{{ tag }}</option>
+            <option translate="no" v-for="tag in tags" :key="tag">{{ tag }}</option>
           </select>
         </div>
         <div>
@@ -193,7 +193,7 @@ export default {
           class="filter-select rounded-lg border border-gray-200 p-1 h-8"
           v-model="order"
           @change="setFilters">
-            <option v-for="order in orders" :key="order">{{ order }}</option>
+            <option translate="no" v-for="order in orders" :key="order">{{ order }}</option>
           </select>
         </div>
       </div>

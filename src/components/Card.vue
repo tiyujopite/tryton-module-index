@@ -19,11 +19,11 @@ export default {
 <template>
   <router-link class="w-full block rounded-lg border border-gray-200 p-2 hover:bg-gray-50 hover:cursor-pointer"
   :to="`/module?author=${author}&name=${name}`">
-    <h5 class="text-lg pl-1 font-bold break-all">{{ name }}</h5>
+    <h5 translate="no" class="text-lg pl-1 font-bold break-all">{{ name }}</h5>
     <div class="flex flex-wrap mt-1 gap-1">
       <div class="flex gap-1 rounded-lg border border-gray-200 p-1 pr-1.5 h-8 break-keep bg-white" title="Author">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>Author</title><path d="M12,4A4,4 0 0,1 16,8A4,4 0 0,1 12,12A4,4 0 0,1 8,8A4,4 0 0,1 12,4M12,14C16.42,14 20,15.79 20,18V20H4V18C4,15.79 7.58,14 12,14Z" /></svg>
-        <span>{{ author }}</span>
+        <span translate="no">{{ author }}</span>
       </div>
       <div class="flex gap-1 text-sm ml-auto">
         <div class="flex gap-1 rounded-lg border border-gray-200 p-1 pr-1.5 bg-white">
@@ -45,7 +45,7 @@ export default {
       </template>
       <template v-for="tag in ([...tags].sort((a, b) => b - a).slice(0, chipLimit).concat(tags.length > chipLimit ? '...' : []))">
         <div class="rounded-lg border border-gray-200 p-1 uppercase italic" title="Tag">
-            <span>{{ tag }}</span>
+            <span translate="no">{{ tag }}</span>
         </div>
       </template>
     </div>
