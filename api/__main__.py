@@ -19,9 +19,9 @@ from urllib.parse import urlparse
 
 import requests
 
-ROOT_DIR = os.path.join(
+ASSETS_DIR = os.path.join(
     os.path.dirname(os.path.dirname(__file__)), 'src', 'assets')
-MODULES_LOCK_FILE = os.path.join(ROOT_DIR, 'modules-lock.json')
+MODULES_LOCK_FILE = os.path.join(ASSETS_DIR, 'modules-lock.json')
 TYPING_ERROR = '%s must be lowercase and without spaces'
 TYPING_ERROR_DETAIL = TYPING_ERROR + ': %s'
 VCS_TYPES = ['gitlab', 'github']
@@ -65,7 +65,7 @@ def get_ISO_date(date_str):
 
 
 def read_file(name, key=None):
-    with open(os.path.join(ROOT_DIR, f'{name}.json'), 'r') as f:
+    with open(os.path.join(ASSETS_DIR, f'{name}.json'), 'r') as f:
         return json.load(f)[key or name]
 
 
@@ -254,6 +254,12 @@ def load_modules(module_key_list=None, chunk=None, chunk_size=None,
     success("OK")
 
     print(bold('-' * 40))
+    # Load descriptions
+    descriptions = set(map(
+            lambda x: x.replace('.md', ''),
+            os.listdir(os.path.join(ASSETS_DIR, 'description'))
+            ))
+
     # Check modules consistency
     module_keys = []
     res_modules = []
@@ -304,6 +310,9 @@ def load_modules(module_key_list=None, chunk=None, chunk_size=None,
             inline_error("Duplicate module key")
         module_keys.append(key)
 
+        # Description
+        descriptions.discard(key.replace('/', '__'))
+
         # Tag
         for tag in module_tags:
             if tag.lower().replace(' ', '') != tag:
@@ -331,6 +340,17 @@ def load_modules(module_key_list=None, chunk=None, chunk_size=None,
 
         res_modules.append(module)
         success("OK")
+
+    print(bold('-' * 40))
+    # Check descriptions
+    print(f"Checking {bold('descriptions')}... ", end='')
+    for description in descriptions:
+        if '.' in description:
+            description_ = description
+        else:
+            description_ = f'{description}.md'
+        error(f"Wrong file description: {description_}")
+    success("OK")
 
     print(bold('-' * 40))
     # Check module list

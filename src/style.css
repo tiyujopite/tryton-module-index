@@ -11,3 +11,8 @@ body {
   min-height: 100dvh;
   grid-template-rows: auto 1fr auto;
 }
+
+/* Fix 'marked' style */
+code {
+  margin-right: .25rem;
+}

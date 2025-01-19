@@ -1,5 +1,7 @@
 <script>
+import { marked } from 'marked'
 import { modules } from '../assets/modules-lock.json'
+
 export default {
   data() {
     return {
@@ -7,10 +9,22 @@ export default {
       module: null,
     }
   },
-  created() {
+  async created() {
     const key = `${this.$route.query.author}/${this.$route.query.name}`
     this.key = key
     this.module = modules[key]
+
+    let fileUrl = null
+    try {
+      fileUrl = await import(`@/assets/description/${this.module.author}__${this.module.name}.md`);
+    } catch (e) {}
+    if (fileUrl) {
+      try {
+        const response = await fetch(fileUrl.default)
+        let description = await response.text()
+        document.getElementById('description').innerHTML = marked.parse(description)
+      } catch (e) {}
+    }
   },
   mounted() {
     document.title = `TMI - ${this.module.name}`
@@ -19,8 +33,9 @@ export default {
 </script>
 
 <template>
-  <div class="w-full max-w-6xl ml-auto mr-auto rounded-lg flex flex-col gap-2 border border-gray-200 p-2 mt-2">
+  <div class="w-full max-w-6xl ml-auto mr-auto rounded-lg flex flex-col gap-2 border border-gray-200 p-2 my-2">
     <h5 translate="no" class="text-2xl font-bold mb-2 pl-1 break-all">{{ module.name }}</h5>
+    <div id="description" class="prose text-black p-2 pt-0 w-full max-w-6xl"></div>
     <div class="w-full rounded-lg border border-gray-200 px-2">
       <table class="table-auto w-full">
         <tbody>

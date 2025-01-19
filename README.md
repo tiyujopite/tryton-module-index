@@ -7,9 +7,9 @@ A grouping place for all third-party modules.
 ### Submit a request adding the new module(s)
 
 - Modules are always added to the end of the `src/assets/modules.json` file.
-- - Required keys: `key`, `package_name`, `url`.
-- - Optional keys: `tags`, `doc_url`.
-- - Order always must be: `key`, `package_name`, `url`, `doc_url`, `tags`.
+  - Required keys: `key`, `package_name`, `url`.
+  - Optional keys: `tags`, `doc_url`.
+  - Order always must be: `key`, `package_name`, `url`, `doc_url`, `tags`.
 
 ```diff
 +    {
@@ -39,14 +39,15 @@ For example:
 +    "self-hosted-vcs.com": "gitlab"
 ```
 
+- You can add module description adding `assets/description/new_author__my_module.md` file:
 - Make sure to:
-- - `python api check new_author/my_module new_author/my_module2 ...` has been executed without any errors.
-- - NOT modify `src/assets/modules-lock.json`.
+  - `python api check new_author/my_module new_author/my_module2 ...` has been executed without any errors.
+  - NOT modify `src/assets/modules-lock.json`.
 
 ## How to contribute (Improving the web or process)
 
 ```bash
-# Fist start.
+# First start.
 git clone <url>
 cd tryton-module-index
 npm i
