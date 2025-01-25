@@ -255,10 +255,8 @@ def load_modules(module_key_list=None, chunk=None, chunk_size=None,
 
     print(bold('-' * 40))
     # Load descriptions
-    descriptions = set(map(
-            lambda x: x.replace('.md', ''),
-            os.listdir(os.path.join(ASSETS_DIR, 'description'))
-            ))
+    descriptions = set(
+        os.listdir(os.path.join(ASSETS_DIR, 'description')))
 
     # Check modules consistency
     module_keys = []
@@ -311,7 +309,14 @@ def load_modules(module_key_list=None, chunk=None, chunk_size=None,
         module_keys.append(key)
 
         # Description
-        descriptions.discard(key.replace('/', '__'))
+        file_name = f'{key.replace("/", "__")}.md'
+        descriptions.discard(file_name)
+        # Create description file if not exists
+        description_path = os.path.join(
+            ASSETS_DIR, 'description', file_name)
+        if not os.path.exists(description_path):
+            with open(description_path, 'w') as f:
+                f.write('')
 
         # Tag
         for tag in module_tags:
@@ -345,11 +350,7 @@ def load_modules(module_key_list=None, chunk=None, chunk_size=None,
     # Check descriptions
     print(f"Checking {bold('descriptions')}... ", end='')
     for description in descriptions:
-        if '.' in description:
-            description_ = description
-        else:
-            description_ = f'{description}.md'
-        error(f"Wrong file description: {description_}")
+        error(f"Wrong file description: {description}")
     success("OK")
 
     print(bold('-' * 40))
