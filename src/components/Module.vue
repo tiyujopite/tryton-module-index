@@ -36,6 +36,14 @@ export default {
   <div class="w-full max-w-6xl ml-auto mr-auto rounded-lg flex flex-col gap-2 border border-gray-200 p-2 my-2">
     <h5 translate="no" class="text-2xl font-bold mb-2 pl-1 break-all">{{ module.name }}</h5>
     <div id="description" class="prose text-black p-2 pt-0 w-full max-w-6xl"></div>
+    <a
+      role="button"
+      class="text-white font-bold py-2 px-4 rounded-lg w-fit edit-button"
+      target="_blank"
+      :href="`https://github.com/tiyujopite/tryton-module-index/edit/main/src/assets/description/${key.replace('/', '__')}.md`"
+      >
+      Edit this description
+    </a>
     <div class="w-full rounded-lg border border-gray-200 px-2">
       <table class="table-auto w-full">
         <tbody>
@@ -121,4 +129,10 @@ export default {
 </template>
 
 <style scoped>
+.edit-button {
+  background-color: var(--bg-color);
+}
+.edit-button:hover {
+  background-color: var(--bg-color-hover);
+}
 </style>
