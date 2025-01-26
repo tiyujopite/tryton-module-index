@@ -137,7 +137,7 @@ export default {
 <template>
   <div class="m-2">
     <div class="w-full max-w-6xl ml-auto mr-auto rounded-lg flex flex-col gap-2 border border-gray-200 p-2 mb-2">
-      <div>
+      <div class="flex items-center">
         <label for="search" class="p-1 w-16 inline-block md:w-auto md:inline">Search:</label>
         <input
         id="search"
@@ -149,48 +149,48 @@ export default {
         @input="setFilters"/>
       </div>
       <div class="flex flex-col gap-2 lg:flex-row lg:flex-wrap">
-        <div>
+         <div class="flex items-center">
           <label for="author" class="p-1 w-16 inline-block md:w-auto md:inline">Author:</label>
           <select
           id="author"
           name="author"
-          class="filter-select rounded-lg border border-gray-200 p-1 h-8"
+          class="rounded-lg border border-gray-200 p-1 h-8"
           v-model="author"
           @change="setFilters">
             <option value=""></option>
             <option translate="no" v-for="author in authors" :key="author">{{ author }}</option>
           </select>
         </div>
-        <div>
+         <div class="flex items-center">
           <label for="serie" class="p-1 w-16 inline-block md:w-auto md:inline">Serie:</label>
           <select
           id="serie"
           name="serie"
-          class="filter-select rounded-lg border border-gray-200 p-1 h-8"
+          class="rounded-lg border border-gray-200 p-1 h-8"
           v-model="serie"
           @change="setFilters">
             <option value=""></option>
             <option v-for="serie in ([...series].sort((a, b) => b - a))" :key="serie">{{ serie }}</option>
           </select>
         </div>
-        <div>
+         <div class="flex items-center">
           <label for="tag" class="p-1 w-16 inline-block md:w-auto md:inline">Tag:</label>
           <select
           id="tag"
           name="tag"
-          class="filter-select rounded-lg border border-gray-200 p-1 h-8"
+          class="rounded-lg border border-gray-200 p-1 h-8"
           v-model="tag"
           @change="setFilters">
             <option value=""></option>
             <option translate="no" v-for="tag in tags" :key="tag">{{ tag }}</option>
           </select>
         </div>
-        <div>
+         <div class="flex items-center">
           <label for="order" class="p-1 w-16 inline-block md:w-auto md:inline">Order:</label>
           <select
           id="order"
           name="order"
-          class="filter-select rounded-lg border border-gray-200 p-1 h-8"
+          class="rounded-lg border border-gray-200 p-1 h-8"
           v-model="order"
           @change="setFilters">
             <option translate="no" v-for="order in orders" :key="order">{{ order }}</option>
