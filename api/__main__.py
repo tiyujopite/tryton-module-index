@@ -44,6 +44,11 @@ def inline_error(message, exit_=True):
     error(message, start='', exit_=exit_)
 
 
+def check_module_error(message, key):
+    error(f"Error in module {bold(key)}", exit_=False)
+    error(message, start='')
+
+
 def success(message):
     print(f'\033[1;32m{message}\033[0m')
 
@@ -103,8 +108,10 @@ def write_modules(modules, module_key_list=None):
         json.dump({'modules': modules_lock}, file, indent=2)
 
 
-def build_module(module):
-    print(f"Building {bold(module['key'])}... ", end='')
+def build_module(module, index, total):
+    if index > 1:
+        print("\033[F\033[K", end="")  # Clear line
+    print(f"Building {bold(module['key'])} ({index}/{total})... ", end='')
 
     url = module['url']
     vcs_types = read_file('vcs_types')
@@ -259,18 +266,17 @@ def load_modules(module_key_list=None, chunk=None, chunk_size=None,
         os.listdir(os.path.join(ASSETS_DIR, 'description')))
 
     # Check modules consistency
+    print(f"Checking {bold('modules')}... ", end='')
     module_keys = []
     res_modules = []
     for module in modules:
-        print(f"Checking {bold(module['key'])}... ", end='')
-
         # Required fields
         if 'key' not in module:
-            inline_error("'key' not found")
+            check_module_error("'key' not found", str(module))
         if 'url' not in module:
-            inline_error("'url' not found")
+            check_module_error("'url' not found", module['key'])
         if 'package_name' not in module:
-            inline_error("'package_name' not found")
+            check_module_error("'package_name' not found", module['key'])
 
         # Check order
         required = ['key', 'package_name', 'url']
@@ -279,7 +285,7 @@ def load_modules(module_key_list=None, chunk=None, chunk_size=None,
         if 'tags' in module:
             required.append('tags')
         if list(module.keys()) != required:
-            inline_error("Invalid module keys order")
+            check_module_error("Invalid module keys order", module['key'])
 
         key = module['key']
         author, name = key.split('/')
@@ -288,24 +294,25 @@ def load_modules(module_key_list=None, chunk=None, chunk_size=None,
 
         # Forbidden names
         if name in forbidden_names:
-            inline_error(
-                "You can not use a name already used by Tryton project")
+            check_module_error(
+                "You can not use a name already used by Tryton project",
+                module['key'])
 
         # Author
         if author.lower().replace(' ', '') != author:
-            inline_error(TYPING_ERROR % 'Author')
+            check_module_error(TYPING_ERROR % 'Author', module['key'])
         if author not in authors:
-            inline_error("Author not found")
+            check_module_error("Author not found", module['key'])
         module['author'] = author
 
         # Name
         if name.lower().replace(' ', '') != name:
-            inline_error(TYPING_ERROR % 'Name')
+            check_module_error(TYPING_ERROR % 'Name', module['key'])
         module['name'] = name
 
         # Key
         if key in module_keys:
-            inline_error("Duplicate module key")
+            check_module_error("Duplicate module key", module['key'])
         module_keys.append(key)
 
         # Description
@@ -321,30 +328,35 @@ def load_modules(module_key_list=None, chunk=None, chunk_size=None,
         # Tag
         for tag in module_tags:
             if tag.lower().replace(' ', '') != tag:
-                inline_error(TYPING_ERROR_DETAIL % ('Tag', tag))
+                check_module_error(
+                    TYPING_ERROR_DETAIL % ('Tag', tag), module['key'])
             if tag not in tags:
-                inline_error(f"Tag not found: {tag}")
+                check_module_error(f"Tag not found: {tag}", module['key'])
         if len(set(module_tags)) != len(module_tags):
-            inline_error("Duplicate tag")
+            check_module_error("Duplicate tag")
         if module_tags != sorted(module_tags):
-            inline_error("Tags must be sorted")
+            check_module_error("Tags must be sorted", module['key'])
 
         # Url
         if not url:
-            inline_error(f"URL not found: {key}")
+            check_module_error(f"URL not found: {key}", module['key'])
         if not url.lower().startswith('https://'):
-            inline_error(f"URL must start with 'https://': {key}")
+            check_module_error(
+                f"URL must start with 'https://': {key}", module['key'])
         if url.lower().startswith('https://www.'):
-            inline_error(f"URL can not contain 'www.': {key}")
+            check_module_error(
+                f"URL can not contain 'www.': {key}", module['key'])
         if url.lower().endswith('.git'):
-            inline_error(f"URL can not end with '.git': {key}")
+            check_module_error(
+                f"URL can not end with '.git': {key}", module['key'])
         url_parsed = urlparse(url)
         netloc = url_parsed.netloc
         if netloc not in vcs_types.keys():
-            inline_error(f"Missing {netloc} in vcs_types.json: {key}")
+            check_module_error(
+                f"Missing {netloc} in vcs_types.json: {key}", module['key'])
 
         res_modules.append(module)
-        success("OK")
+    success("OK")
 
     print(bold('-' * 40))
     # Check descriptions
@@ -370,12 +382,18 @@ def load_modules(module_key_list=None, chunk=None, chunk_size=None,
         from_ = chunk_size * chunk
         to_ = chunk_size * (chunk + 1)
         module_key_list = module_keys[from_:to_]
+        if not module_key_list:
+            module_key_list = ['Nothing to build']
+            success("Nothing to build")
 
+    build_idx = 0
+    build_total = len(module_key_list or module_keys)
     for module in res_modules.copy():
         if module_key_list and module['key'] not in module_key_list:
             continue
+        build_idx += 1
         try:
-            build_module(module)
+            build_module(module, build_idx, build_total)
         except requests.HTTPError:
             if build:
                 res_modules.remove(module)
