@@ -13,21 +13,12 @@ export default {
     const key = `${this.$route.query.author}/${this.$route.query.name}`
     this.key = key
     this.module = modules[key]
-
-    let fileUrl = null
-    try {
-      fileUrl = await import(`@/assets/description/${this.module.author}__${this.module.name}.md`);
-    } catch (e) {}
-    if (fileUrl) {
-      try {
-        const response = await fetch(fileUrl.default)
-        let description = await response.text()
-        document.getElementById('description').innerHTML = marked.parse(description)
-      } catch (e) {}
-    }
   },
   mounted() {
     document.title = `TMI - ${this.module.name}`
+    const description = new TextDecoder().decode(
+      Uint8Array.from(atob(this.module.description), c => c.charCodeAt(0)))
+    document.getElementById('description').innerHTML = marked.parse(description)
   }
 }
 </script>

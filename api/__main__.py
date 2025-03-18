@@ -10,6 +10,7 @@
 # | |  | | (_) | (_| | |_| | |  __/     | || | | | (_| |  __/>  <
 # |_|  |_|\___/ \__,_|\__,_|_|\___|    |___|_| |_|\__,_|\___/_/\_\
 #
+import base64
 import json
 import os
 import sys
@@ -324,6 +325,9 @@ def load_modules(module_key_list=None, chunk=None, chunk_size=None,
         if not os.path.exists(description_path):
             with open(description_path, 'w') as f:
                 f.write('')
+        with open(description_path, 'r') as f:
+            module['description'] = base64.b64encode(
+                f.read().encode()).decode()
 
         # Tag
         for tag in module_tags:
