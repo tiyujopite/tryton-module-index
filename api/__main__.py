@@ -26,7 +26,7 @@ MODULES_LOCK_FILE = os.path.join(ASSETS_DIR, 'modules-lock.json')
 TYPING_ERROR = '%s must be lowercase and without spaces'
 TYPING_ERROR_DETAIL = TYPING_ERROR + ': %s'
 VCS_TYPES = ['gitlab', 'github']
-CURRENT_VERSION = '7.4'
+CURRENT_VERSION = '7.6'
 FORBIDDEN_NAMES = [
     'tryton',
     'trytond',

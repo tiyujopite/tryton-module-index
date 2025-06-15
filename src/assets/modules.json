@@ -3295,6 +3295,46 @@
       "key": "nan-tic/scrap",
       "package_name": "nantic_trytond-scrap",
       "url": "https://github.com/NaN-tic/trytond-scrap"
+    },
+    {
+      "key": "nan-tic/account_invoice_facturae_b2brouter",
+      "package_name": "nantic_account_invoice_facturae_b2brouter",
+      "url": "https://github.com/NaN-tic/trytond-account_invoice_facturae_b2brouter"
+    },
+    {
+      "key": "nan-tic/account_payment_paypal",
+      "package_name": "nantic_account_payment_paypal",
+      "url": "https://github.com/NaN-tic/trytond-account_payment_paypal"
+    },
+    {
+      "key": "nan-tic/discount_base_price",
+      "package_name": "nantic_discount_base_price",
+      "url": "https://github.com/NaN-tic/trytond-discount_base_price"
+    },
+    {
+      "key": "nan-tic/logistics_operator_algevasa",
+      "package_name": "nantic_logistics_operator_algevasa",
+      "url": "https://github.com/NaN-tic/trytond-logistics_operator_algevasa"
+    },
+    {
+      "key": "nan-tic/product_quantity",
+      "package_name": "nantic_product_quantity",
+      "url": "https://github.com/NaN-tic/trytond-product_quantity"
+    },
+    {
+      "key": "nan-tic/purchase_create_shipment",
+      "package_name": "nantic_purchase_create_shipment",
+      "url": "https://github.com/NaN-tic/trytond-purchase_create_shipment"
+    },
+    {
+      "key": "nan-tic/shipment_invoice_report_from_shipment",
+      "package_name": "nantic_shipment_invoice_report_from_shipment",
+      "url": "https://github.com/NaN-tic/trytond-shipment_invoice_report_from_shipment"
+    },
+    {
+      "key": "nan-tic/stock_warehouse_search",
+      "package_name": "nantic_stock_warehouse_search",
+      "url": "https://github.com/NaN-tic/trytond-stock_warehouse_search"
     }
   ]
 }
